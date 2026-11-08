@@ -1,5 +1,6 @@
 
 import os
+import sys
 from typing import TypedDict
 from dotenv import load_dotenv
 from openai import OpenAI
@@ -127,7 +128,10 @@ app = builder.compile()
 
 # 5. Test
 if __name__ == "__main__":
-    question = "What was TSX_Y' revenue in 2022?"
+    question = " ".join(sys.argv[1:])
+
+    if not question:
+        question = "What was TSX_Y' revenue in 2022?"
 
     result = app.invoke({
         "question": question
