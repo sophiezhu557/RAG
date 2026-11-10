@@ -7,13 +7,15 @@ import faiss
 import numpy as np
 from dotenv import load_dotenv
 from openai import OpenAI
-
+from sentence_transformers import SentenceTransformer
 
 load_dotenv()
 
-client = OpenAI(api_key=os.environ["OPENAI_API_KEY"])
+# client = OpenAI(api_key=os.environ["OPENAI_API_KEY"])
 
-DATA_DIR = Path(__file__).resolve().parent / "databases_ilya"
+model = SentenceTransformer("Qwen/Qwen3-Embedding-0.6B")
+
+DATA_DIR = Path(__file__).resolve().parent / "databases_qwen"
 JSON_DIR = DATA_DIR / "chunked_reports"
 FAISS_DIR = DATA_DIR / "vector_dbs"
 
@@ -40,13 +42,10 @@ def load_databases():
 
 # 2. Generate query embedding
 def embed_query(query):
-    response = client.embeddings.create(
-        model="text-embedding-3-large",
-        input=query
-    )
-    return np.array(
-        [response.data[0].embedding],
-        dtype=np.float32
+    return model.encode_query(
+        [query],
+        normalize_embeddings=True,
+        convert_to_numpy=True
     )
 
 
