@@ -54,8 +54,11 @@ def retrieve(
     query,
     company_query_list,
     top_k=5,
-    databases=load_databases()
+    databases=None
     ):
+    if databases is None:
+        databases = load_databases()
+
     query_vector = embed_query(query)
     selected_chunks = {}
 

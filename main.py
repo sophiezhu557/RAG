@@ -31,7 +31,7 @@ class RAGState(TypedDict, total=False):
 # 2. Retrieval Node
 def retrieval_node(state: RAGState):
     query = state["question"]
-
+    
     company_query_list = identify_companies(
         query,
         company_mapping
@@ -60,7 +60,7 @@ def generation_node(state: RAGState):
 
     if not selected_chunks:
         return {
-            "final_answer": "Can't find relevant information."
+            "final_answer": "Company not found in the database."
         }
 
     # Build context from retrieved chunks
@@ -84,15 +84,14 @@ def generation_node(state: RAGState):
                 "role": "system",
                 "content": (
                     "You are a financial report analysis assistant. "
-                    "Answer the user's question using only the "
-                    "provided context from annual reports. "
-                    "Do not invent financial figures. "
-                    "Pay attention to companies, years, "
-                    "currencies and units. "
-                    "If the context is insufficient, say "
-                    "'Can't find relevant information.' "
-                    "Cite the company name and page number "
-                    "for supporting evidence."
+                    "Answer the user's question using only the provided context. "
+                    "Rules:"
+                    "1. Return only the direct answer, as briefly as possible."
+                    "2. Do not provide explanations, citations, or complete sentences."
+                    "3. For numerical answers, preserve the appropriate currency, unit, or percentage."
+                    "4. If the question asks for multiple values, return all requested values with clear labels."
+                    "5. If the answer cannot be found in the context, return 'Not found'."
+                    "6. Do not guess or infer unsupported information."
                 )
             },
             {

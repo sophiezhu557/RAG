@@ -7,7 +7,7 @@ import numpy as np
 from sentence_transformers import SentenceTransformer
 
 DATA_DIR = Path(__file__).resolve().parent
-JSON_DIR = DATA_DIR / "databases_ilya" / "chunked_reports"
+JSON_DIR = DATA_DIR / "databases_qwen" / "chunked_reports"
 FAISS_DIR = DATA_DIR / "databases_qwen" / "vector_dbs"
 FAISS_DIR.mkdir(parents=True, exist_ok=True)
 
@@ -26,6 +26,9 @@ def build_databases():
     for json_path in json_files:
         file_sha1 = json_path.stem
         faiss_path = FAISS_DIR / f"{file_sha1}.faiss"
+
+        if faiss_path.exists():
+            continue
 
         with open(json_path, encoding="utf-8") as f:
             document = json.load(f)

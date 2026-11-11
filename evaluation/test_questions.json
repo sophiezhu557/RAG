@@ -1,0 +1,488 @@
+[
+  {
+    "id": "T01",
+    "company": "Compagnie Financière Tradition",
+    "pdf": "2779336b845a41544348abb7b3e6e5bd2ff893a2.pdf",
+    "page": 6,
+    "type": "financial_table",
+    "question": "What was Compagnie Financière Tradition's reported consolidated revenue in 2022?",
+    "reference": "CHF 947.4 million."
+  },
+  {
+    "id": "T02",
+    "company": "Compagnie Financière Tradition",
+    "pdf": "2779336b845a41544348abb7b3e6e5bd2ff893a2.pdf",
+    "page": 4,
+    "type": "financial_text",
+    "question": "What was Compagnie Financière Tradition's adjusted consolidated revenue in 2022?",
+    "reference": "CHF 1,028.6 million."
+  },
+  {
+    "id": "T03",
+    "company": "Compagnie Financière Tradition",
+    "pdf": "2779336b845a41544348abb7b3e6e5bd2ff893a2.pdf",
+    "page": 9,
+    "type": "financial_table",
+    "question": "What was Compagnie Financière Tradition's year-end closing share price in 2022?",
+    "reference": "CHF 104.5 per share."
+  },
+  {
+    "id": "T04",
+    "company": "Compagnie Financière Tradition",
+    "pdf": "2779336b845a41544348abb7b3e6e5bd2ff893a2.pdf",
+    "page": 9,
+    "type": "financial_table",
+    "question": "What was Compagnie Financière Tradition's market capitalisation at 31 December 2022?",
+    "reference": "CHF 774,842,000."
+  },
+  {
+    "id": "T05",
+    "company": "Compagnie Financière Tradition",
+    "pdf": "2779336b845a41544348abb7b3e6e5bd2ff893a2.pdf",
+    "page": 9,
+    "type": "financial_table",
+    "question": "What was Compagnie Financière Tradition's price earnings ratio (PER 1) at 31 December 2021?",
+    "reference": "12.0."
+  },
+  {
+    "id": "E01",
+    "company": "ENRG Elements Limited",
+    "pdf": "43437bccca01aeae222ec7cc706ba3eaf50be2d7.pdf",
+    "page": 15,
+    "type": "financial_text",
+    "question": "What was ENRG Elements Limited's loss after tax for FY2022?",
+    "reference": "ENRG Elements Limited reported a loss after tax of A$4,542,384 for FY2022."
+  },
+  {
+    "id": "E02",
+    "company": "ENRG Elements Limited",
+    "pdf": "43437bccca01aeae222ec7cc706ba3eaf50be2d7.pdf",
+    "page": 16,
+    "type": "financial_text",
+    "question": "What were ENRG Elements Limited's cash and cash equivalents as at 30 June 2022?",
+    "reference": "A$4,148,992."
+  },
+  {
+    "id": "E03",
+    "company": "ENRG Elements Limited",
+    "pdf": "43437bccca01aeae222ec7cc706ba3eaf50be2d7.pdf",
+    "page": 11,
+    "type": "financial_table",
+    "question": "What was the Takardeit deposit's JORC 2012 Inferred Mineral Resource in contained uranium?",
+    "reference": "10.7 million pounds of contained eU3O8, based on 16.5 million tonnes at a grade of 295 ppm eU3O8."
+  },
+  {
+    "id": "E04",
+    "company": "ENRG Elements Limited",
+    "pdf": "43437bccca01aeae222ec7cc706ba3eaf50be2d7.pdf",
+    "page": 10,
+    "type": "financial_text",
+    "question": "How much did ENRG Elements Limited raise through its June 2022 share placement before costs?",
+    "reference": "A$3.0 million before costs."
+  },
+  {
+    "id": "E05",
+    "company": "ENRG Elements Limited",
+    "pdf": "43437bccca01aeae222ec7cc706ba3eaf50be2d7.pdf",
+    "page": 8,
+    "type": "factual_text",
+    "question": "In which country is ENRG Elements Limited's Agadez Uranium Project located?",
+    "reference": "Niger."
+  },
+  {
+    "id": "H01",
+    "company": "Holley Inc.",
+    "pdf": "194000c9109c6fa628f1fed33b44ae4c2b8365f4.pdf",
+    "page": 7,
+    "type": "factual_text",
+    "question": "What percentage of Holley Inc.'s total sales in 2022 came from its top seven brands?",
+    "reference": "68% of Holley's total sales in 2022."
+  },
+  {
+    "id": "H02",
+    "company": "Holley Inc.",
+    "pdf": "194000c9109c6fa628f1fed33b44ae4c2b8365f4.pdf",
+    "page": 7,
+    "type": "factual_text",
+    "question": "What percentage of Holley Inc.'s 2022 sales did the Holley EFI brand represent?",
+    "reference": "14% of Holley's total sales in 2022."
+  },
+  {
+    "id": "H03",
+    "company": "Holley Inc.",
+    "pdf": "194000c9109c6fa628f1fed33b44ae4c2b8365f4.pdf",
+    "page": 10,
+    "type": "factual_text",
+    "question": "How many full-time employees did Holley Inc. have as of December 31, 2022?",
+    "reference": "1,622 full-time employees."
+  },
+  {
+    "id": "H04",
+    "company": "Holley Inc.",
+    "pdf": "194000c9109c6fa628f1fed33b44ae4c2b8365f4.pdf",
+    "page": 8,
+    "type": "financial_text",
+    "question": "Approximately how much did Holley Inc. spend on marketing and advertising in 2022?",
+    "reference": "Approximately US$11.6 million."
+  },
+  {
+    "id": "H05",
+    "company": "Holley Inc.",
+    "pdf": "194000c9109c6fa628f1fed33b44ae4c2b8365f4.pdf",
+    "page": 8,
+    "type": "factual_text",
+    "question": "How many annual self-funding events did Holley Inc. report hosting?",
+    "reference": "Seven annual self-funding events."
+  },
+  {
+    "id": "Q16",
+    "question": "What was Yellow Pages Limited's total revenue in 2022?",
+    "reference": "CAD 268.3 million",
+    "company": [
+      "Yellow Pages Limited"
+    ],
+    "source_pdf_pages": [
+      8
+    ]
+  },
+  {
+    "id": "Q17",
+    "question": "What was Yellow Pages Limited's digital revenue in 2022?",
+    "reference": "CAD 209.1 million",
+    "company": [
+      "Yellow Pages Limited"
+    ],
+    "source_pdf_pages": [
+      8
+    ]
+  },
+  {
+    "id": "Q18",
+    "question": "What was Yellow Pages Limited's Adjusted EBITDA margin in 2022?",
+    "reference": "36.0%",
+    "company": [
+      "Yellow Pages Limited"
+    ],
+    "source_pdf_pages": [
+      3,
+      8
+    ]
+  },
+  {
+    "id": "Q19",
+    "question": "By what percentage did Yellow Pages Limited's total revenue decline in 2022?",
+    "reference": "6.7%",
+    "company": [
+      "Yellow Pages Limited"
+    ],
+    "source_pdf_pages": [
+      8
+    ]
+  },
+  {
+    "id": "Q20",
+    "question": "How many customers did Yellow Pages Limited have at the end of 2022?",
+    "reference": "92,100",
+    "company": [
+      "Yellow Pages Limited"
+    ],
+    "source_pdf_pages": [
+      8
+    ]
+  },
+  {
+    "id": "Q21",
+    "question": "How many employees did Yellow Pages Limited report at December 31, 2022?",
+    "reference": "629",
+    "company": [
+      "Yellow Pages Limited"
+    ],
+    "source_pdf_pages": [
+      8
+    ]
+  },
+  {
+    "id": "Q22",
+    "question": "How much cash did Yellow Pages Limited hold at the end of 2022?",
+    "reference": "Approximately CAD 43.9 million",
+    "company": [
+      "Yellow Pages Limited"
+    ],
+    "source_pdf_pages": [
+      3
+    ]
+  },
+  {
+    "id": "Q23",
+    "question": "How much did Yellow Pages Limited distribute to shareholders through its 2022 share repurchase under the statutory plan of arrangement?",
+    "reference": "CAD 100 million",
+    "company": [
+      "Yellow Pages Limited"
+    ],
+    "source_pdf_pages": [
+      3
+    ]
+  },
+  {
+    "id": "Q24",
+    "question": "How many common shares did Yellow Pages Limited purchase under its Normal Course Issuer Bid in 2022?",
+    "reference": "871,135",
+    "company": [
+      "Yellow Pages Limited"
+    ],
+    "source_pdf_pages": [
+      3
+    ]
+  },
+  {
+    "id": "Q25",
+    "question": "What were Mercia Asset Management PLC's net assets in 2022?",
+    "reference": "GBP 200.6 million",
+    "company": [
+      "Mercia Asset Management PLC"
+    ],
+    "source_pdf_pages": [
+      3
+    ]
+  },
+  {
+    "id": "Q26",
+    "question": "What was Mercia's net asset value per share in 2022?",
+    "reference": "45.6 pence",
+    "company": [
+      "Mercia Asset Management PLC"
+    ],
+    "source_pdf_pages": [
+      3
+    ]
+  },
+  {
+    "id": "Q27",
+    "question": "What was Mercia's revenue excluding performance fees in 2022?",
+    "reference": "GBP 20.6 million",
+    "company": [
+      "Mercia Asset Management PLC"
+    ],
+    "source_pdf_pages": [
+      3
+    ]
+  },
+  {
+    "id": "Q28",
+    "question": "What was Mercia's adjusted operating profit excluding performance fees in 2022?",
+    "reference": "GBP 8.4 million",
+    "company": [
+      "Mercia Asset Management PLC"
+    ],
+    "source_pdf_pages": [
+      3
+    ]
+  },
+  {
+    "id": "Q29",
+    "question": "What was Mercia's profit before taxation in 2022?",
+    "reference": "GBP 27.4 million",
+    "company": [
+      "Mercia Asset Management PLC"
+    ],
+    "source_pdf_pages": [
+      3
+    ]
+  },
+  {
+    "id": "Q30",
+    "question": "What were Mercia's approximate assets under management in 2022?",
+    "reference": "GBP 959 million",
+    "company": [
+      "Mercia Asset Management PLC"
+    ],
+    "source_pdf_pages": [
+      3
+    ]
+  },
+  {
+    "id": "Q31",
+    "question": "How much cash, including short-term liquidity investments, did Mercia report in 2022?",
+    "reference": "GBP 61.3 million",
+    "company": [
+      "Mercia Asset Management PLC"
+    ],
+    "source_pdf_pages": [
+      3
+    ]
+  },
+  {
+    "id": "Q32",
+    "question": "How much did Mercia receive in total proceeds from the sale of Faradion Ltd?",
+    "reference": "GBP 19.4 million",
+    "company": [
+      "Mercia Asset Management PLC"
+    ],
+    "source_pdf_pages": [
+      3
+    ]
+  },
+  {
+    "id": "Q33",
+    "question": "What was Mercia's proposed final dividend per share for the 2022 financial year?",
+    "reference": "0.5 pence",
+    "company": [
+      "Mercia Asset Management PLC"
+    ],
+    "source_pdf_pages": [
+      3,
+      5
+    ]
+  },
+  {
+    "id": "Q34",
+    "question": "What were CrossFirst Bankshares' total assets at the end of 2022?",
+    "reference": "Approximately USD 6.6 billion",
+    "company": [
+      "CrossFirst Bankshares, Inc."
+    ],
+    "source_pdf_pages": [
+      2
+    ]
+  },
+  {
+    "id": "Q35",
+    "question": "What was CrossFirst's adjusted return on common equity in 2022?",
+    "reference": "11.11%",
+    "company": [
+      "CrossFirst Bankshares, Inc."
+    ],
+    "source_pdf_pages": [
+      2
+    ]
+  },
+  {
+    "id": "Q36",
+    "question": "How much did CrossFirst's loans grow in dollar terms during 2022?",
+    "reference": "USD 1.1 billion",
+    "company": [
+      "CrossFirst Bankshares, Inc."
+    ],
+    "source_pdf_pages": [
+      2
+    ]
+  },
+  {
+    "id": "Q37",
+    "question": "How much did CrossFirst's deposits grow in dollar terms during 2022?",
+    "reference": "USD 968 million",
+    "company": [
+      "CrossFirst Bankshares, Inc."
+    ],
+    "source_pdf_pages": [
+      2
+    ]
+  },
+  {
+    "id": "Q38",
+    "question": "What was CrossFirst's adjusted net income in 2022?",
+    "reference": "USD 68.6 million",
+    "company": [
+      "CrossFirst Bankshares, Inc."
+    ],
+    "source_pdf_pages": [
+      2
+    ]
+  },
+  {
+    "id": "Q39",
+    "question": "What was CrossFirst's adjusted diluted earnings per share in 2022?",
+    "reference": "USD 1.37",
+    "company": [
+      "CrossFirst Bankshares, Inc."
+    ],
+    "source_pdf_pages": [
+      2,
+      3
+    ]
+  },
+  {
+    "id": "Q40",
+    "question": "What was CrossFirst's non-performing assets to total assets ratio at year-end 2022?",
+    "reference": "0.20%",
+    "company": [
+      "CrossFirst Bankshares, Inc."
+    ],
+    "source_pdf_pages": [
+      2
+    ]
+  },
+  {
+    "id": "Q41",
+    "question": "Which bank did CrossFirst acquire in November 2022?",
+    "reference": "Farmers & Stockmens Bank (Central)",
+    "company": [
+      "CrossFirst Bankshares, Inc."
+    ],
+    "source_pdf_pages": [
+      2
+    ]
+  },
+  {
+    "id": "Q42",
+    "question": "Which two US states did CrossFirst enter through its acquisition of Central?",
+    "reference": "Colorado and New Mexico",
+    "company": [
+      "CrossFirst Bankshares, Inc."
+    ],
+    "source_pdf_pages": [
+      3
+    ]
+  },
+  {
+    "id": "Q43",
+    "question": "What were Yellow Pages Limited's and Mercia Asset Management PLC's reported 2022 revenues, in their respective currencies?",
+    "reference": "Yellow Pages: CAD 268.3 million; Mercia: GBP 20.6 million (excluding performance fees)",
+    "company": [
+      "Yellow Pages Limited",
+      "Mercia Asset Management PLC"
+    ],
+    "source_pdf_pages": {
+      "Yellow Pages Limited": [
+        8
+      ],
+      "Mercia Asset Management PLC": [
+        3
+      ]
+    }
+  },
+  {
+    "id": "Q44",
+    "question": "What were Mercia Asset Management PLC's 2022 net assets and CrossFirst Bankshares' 2022 total assets?",
+    "reference": "Mercia: GBP 200.6 million; CrossFirst: approximately USD 6.6 billion",
+    "company": [
+      "Mercia Asset Management PLC",
+      "CrossFirst Bankshares, Inc."
+    ],
+    "source_pdf_pages": {
+      "Mercia Asset Management PLC": [
+        3
+      ],
+      "CrossFirst Bankshares, Inc.": [
+        2
+      ]
+    }
+  },
+  {
+    "id": "Q45",
+    "question": "How did Yellow Pages Limited's 2022 employee headcount compare with Holley Inc.'s full-time employee count at year-end 2022?",
+    "reference": "Yellow Pages: 629; Holley: 1,622",
+    "company": [
+      "Yellow Pages Limited",
+      "Holley Inc."
+    ],
+    "source_pdf_pages": {
+      "Yellow Pages Limited": [
+        8
+      ],
+      "Holley Inc.": [
+        10
+      ]
+    }
+  }
+]

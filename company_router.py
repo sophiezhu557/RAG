@@ -3,14 +3,26 @@ import re
 from pathlib import Path
 from rapidfuzz import fuzz
 
-csv_path = Path(__file__).resolve().parent / "databases_ilya" / "company_name.csv"
+csv_path = Path(__file__).resolve().parent / "company_name.csv"
 
 def normalize(text):
     return re.sub(r"[^a-z0-9]+", " ", str(text).casefold()).strip()
 
 def load_company_mapping():
     with open(csv_path, encoding="utf-8-sig", newline="") as f:
-        return list(csv.DictReader(f))
+        company_mapping = list(csv.DictReader(f))
+
+    valid_sha1 = {
+        path.stem 
+        for path in (Path(__file__).resolve().parent / "PDFs").glob("*.pdf")
+    }
+
+    company_mapping = [
+        row for row in company_mapping
+        if row["sha1"] in valid_sha1
+    ]
+    return company_mapping
+
 
 def identify_companies(query, company_mapping, threshold=80):
     query = f"{normalize(query)}"
@@ -31,6 +43,6 @@ def identify_companies(query, company_mapping, threshold=80):
 
 if __name__ == "__main__":
     companies = load_company_mapping()
-    question = "What was ENRG Elements' revenue in 2022?"
+    # question = "What was ENRG Elements' revenue in 2022?"
 
-    company_query_list = identify_companies(question, companies)
+    # company_query_list = identify_companies(question, companies)
