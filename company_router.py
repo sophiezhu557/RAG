@@ -31,7 +31,10 @@ def identify_companies(query, company_mapping, threshold=80):
     for row in company_mapping:
         company = row["company_name"]
 
-        match_score = fuzz.partial_ratio(normalize(company), query)
+        names = [company] + [alias.strip() for alias in row.get("aliases","").split(";")
+                             if alias.strip()]
+
+        match_score = max(fuzz.partial_ratio(normalize(name), normalize(query)) for name in names)
 
         if match_score >= threshold:
             matchs.append({
