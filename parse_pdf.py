@@ -8,9 +8,10 @@ from docling_core.transforms.chunker.tokenizer.huggingface import HuggingFaceTok
 from transformers import AutoTokenizer
 from docling_core.transforms.chunker.hierarchical_chunker import ChunkingDocSerializer, ChunkingSerializerProvider
 from docling_core.transforms.serializer.markdown import MarkdownTableSerializer, MarkdownParams
+from schemas import DocumentChunk
 
 DATA_DIR = Path(__file__).resolve().parent
-PDF_DIR = DATA_DIR / "PDFs"
+PDF_DIR = DATA_DIR / "test_PDFs"
 OUTPUT_DIR = DATA_DIR / "databases_qwen" / "chunked_reports"
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
@@ -59,15 +60,14 @@ def parse_pdf():
             })
 
             source_types = [item.label.value for item in chunk.meta.doc_items]
-            chunks.append(
-                {
-                    "id": i,
-                    "page": page_numbers[0] if page_numbers else None,
-                    "headings": chunk.meta.headings or [],
-                    "type": "table" if "table" in source_types else "content",
-                    "text": chunker.contextualize(chunk)
-                }
+            stored_chunk = DocumentChunk(
+                id = i,
+                page = page_numbers[0],
+                heading = chunk.meta.headings or [],
+                type = "table" if "table" in source_types else "content",
+                text = chunker.contextualize(chunk),
             )
+            chunks.append(stored_chunk.model_dump())
 
         with open(output_path, "w", encoding="utf-8") as f:
             json.dump({

@@ -7,6 +7,8 @@ from openai import OpenAI
 from langgraph.graph import StateGraph, START, END
 from company_router import load_company_mapping, identify_companies
 from retrival import load_databases, retrieve
+from schemas import RAGResponse
+from prompts import SYSTEM_prompt, build_user_question
 
 
 load_dotenv()
@@ -26,6 +28,8 @@ class RAGState(TypedDict, total=False):
     company_query_list: list[dict]
     selected_chunks: dict
     final_answer: str
+    status: str
+    message: str | None
 
 
 # 2. Retrieval Node
@@ -37,14 +41,14 @@ def retrieval_node(state: RAGState):
         company_mapping
     )
 
-    if company_query_list:
+    if company_query_list: # if companies are found, proceed to retrieve relevant chunks
         selected_chunks = retrieve(
             query=query,
             company_query_list=company_query_list,
             databases=databases,
             top_k=5
         )
-    else:
+    else: # if no companies are found, return an empty dictionary for selected_chunks
         selected_chunks = {}
 
     return {
@@ -58,23 +62,20 @@ def generation_node(state: RAGState):
     question = state["question"]
     selected_chunks = state["selected_chunks"]
 
-    if not selected_chunks:
+    if not state["company_query_list"]:  # Check if company_query_list is empty
         return {
-            "final_answer": "Company not found in the database."
+            "final_answer": None,
+            "status": "CompanyNotFound",
+            "message": "No matching company was identified."
         }
 
-    # Build context from retrieved chunks
-    context_parts = []
+    if not any(selected_chunks.values()):  # Check if all values in selected_chunks are empty
+        return {
+            "final_answer": None,
+            "status": "NoRelevantChunks",
+            "message": "No relevant chunks were found for the identified companies."
+        }
 
-    for company, chunks in selected_chunks.items():
-        for chunk in chunks:
-            context_parts.append(
-                f"Company: {company}\n"
-                f"Page: {chunk['page']}\n"
-                f"Content: {chunk['text']}"
-            )
-
-    context = "\n\n---\n\n".join(context_parts)
 
     # Call DeepSeek
     response = llm.chat.completions.create(
@@ -82,24 +83,11 @@ def generation_node(state: RAGState):
         messages=[
             {
                 "role": "system",
-                "content": (
-                    "You are a financial report analysis assistant. "
-                    "Answer the user's question using only the provided context. "
-                    "Rules:"
-                    "1. Return only the direct answer, as briefly as possible."
-                    "2. Do not provide explanations, citations, or complete sentences."
-                    "3. For numerical answers, preserve the appropriate currency, unit, or percentage."
-                    "4. If the question asks for multiple values, return all requested values with clear labels."
-                    "5. If the answer cannot be found in the context, return 'Not found'."
-                    "6. Do not guess or infer unsupported information."
-                )
+                "content": SYSTEM_prompt
             },
             {
                 "role": "user",
-                "content": (
-                    f"Question:\n{question}\n\n"
-                    f"Context:\n{context}"
-                )
+                "content": build_user_question(question, selected_chunks)
             }
         ],
         temperature=0
@@ -107,12 +95,23 @@ def generation_node(state: RAGState):
 
     final_answer = response.choices[0].message.content
 
+    if not final_answer:
+        # or final_answer.strip().lower() == "not found"
+        return {
+            "final_answer": None,
+            "status": "NoAnswerFound",
+            "message": "The answer could not be found in the provided context."
+        }
+
     return {
-        "final_answer": final_answer
+        "final_answer": final_answer,
+        "status": "Success",
+        "message": None
     }
 
 
 # 4. Build LangGraph
+# ——————————————————————————————————————————————————————————————
 builder = StateGraph(RAGState)
 
 builder.add_node("retrieval", retrieval_node)
@@ -125,22 +124,35 @@ builder.add_edge("generation", END)
 app = builder.compile()
 
 
-# 5. Test
+# ————————————————————————————————————————————————————————————————
+def run_rag(question):
+    result = app.invoke({
+        "question": question
+    })
+
+    return RAGResponse(
+        final_answer=result.get("final_answer"),
+        company_query_list=result.get("company_query_list", []),
+        selected_chunks=result.get("selected_chunks", {}),
+        status=result["status"],
+        message=result.get("message")
+    )
+
+
+#  Test
 if __name__ == "__main__":
     question = " ".join(sys.argv[1:])
 
     if not question:
         question = "What was TSX_Y' revenue in 2022?"
 
-    result = app.invoke({
-        "question": question
-    })
+    result = run_rag(question)
 
     print("\nMatched companies:")
-    print(result["company_query_list"])
+    print(result.company_query_list) # result 是一个 Pydantic Model 对象
 
     print("\nRetrieved chunks:")
-    for company, chunks in result["selected_chunks"].items():
+    for company, chunks in result.selected_chunks.items():
         for chunk in chunks:
             print(
                 f"{company} | Page {chunk['page']} | "
@@ -150,4 +162,4 @@ if __name__ == "__main__":
             print("-" * 50)
 
     print("\nFinal Answer:")
-    print(result["final_answer"])
+    print(result.final_answer)

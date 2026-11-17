@@ -8,6 +8,7 @@ import numpy as np
 from dotenv import load_dotenv
 from openai import OpenAI
 from sentence_transformers import SentenceTransformer
+from schemas import DocumentChunk
 
 load_dotenv()
 
@@ -31,8 +32,15 @@ def load_databases():
             document = json.load(f)
 
         index = faiss.read_index(str(faiss_path))
-        chunks = document["content"]["chunks"]
-
+        # chunks = document["content"]["chunks"]
+        chunks = [DocumentChunk.model_validate(chunk).model_dump() for chunk in document["content"]["chunks"]]
+        
+        if index.ntotal != len(chunks):
+                    raise ValueError(
+                        f"Index mismatch for {file_sha1}: "
+                        f"{index.ntotal} vectors, {len(chunks)} chunks"
+                    )
+        
         databases[file_sha1] = {
             "index": index,
             "chunks": chunks
