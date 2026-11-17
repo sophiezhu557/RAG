@@ -23,6 +23,9 @@ def build_user_question(question, selected_chunks):
 
     context = "\n\n---\n\n".join(context_parts)
 
-    return (f"Question:\n{question}\n\n", f"Context:\n{context}")
+    return (
+        f"Question:\n{question}\n\n" 
+        f"Context:\n{context}"
+        )
 
             

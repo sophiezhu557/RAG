@@ -94,19 +94,19 @@ def generation_node(state: RAGState):
     )
 
     final_answer = response.choices[0].message.content
-
-    if not final_answer:
-        # or final_answer.strip().lower() == "not found"
+    if (final_answer is None 
+        or final_answer.strip().lower() in {"none", "not found", ""}
+        ):
         return {
-            "final_answer": None,
             "status": "NoAnswerFound",
-            "message": "The answer could not be found in the provided context."
+            "message": "Answer not found in retrieved context.",
+            "final_answer": None
         }
 
     return {
-        "final_answer": final_answer,
-        "status": "Success",
-        "message": None
+        "status": "success",
+        "message": None,
+        "final_answer": final_answer
     }
 
 
