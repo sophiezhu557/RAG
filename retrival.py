@@ -8,7 +8,8 @@ import numpy as np
 from dotenv import load_dotenv
 from openai import OpenAI
 from sentence_transformers import SentenceTransformer
-from schemas import DocumentChunk
+from schemas import DocumentChunk, RetrievedChunk
+from query_rewrite import rewrite_query
 
 load_dotenv()
 
@@ -27,14 +28,19 @@ def load_databases():
     for json_path in JSON_DIR.glob("*.json"):
         file_sha1 = json_path.stem
         faiss_path = FAISS_DIR / f"{file_sha1}.faiss"
-
+        
         with open(json_path, encoding="utf-8") as f:
             document = json.load(f)
 
+        if document["metainfo"]["sha1"] != file_sha1:
+                    raise ValueError(f"SHA1 mismatch: {json_path.name}")
+        
         index = faiss.read_index(str(faiss_path))
         # chunks = document["content"]["chunks"]
-        chunks = [DocumentChunk.model_validate(chunk).model_dump() for chunk in document["content"]["chunks"]]
-        
+        chunks = [DocumentChunk.model_validate(chunk) 
+                  for chunk in document["content"]["chunks"]]
+
+        # check
         if index.ntotal != len(chunks):
                     raise ValueError(
                         f"Index mismatch for {file_sha1}: "
@@ -64,8 +70,6 @@ def retrieve(
     top_k=5,
     databases=None
     ):
-    if databases is None:
-        databases = load_databases()
 
     query_vector = embed_query(query)
     selected_chunks = {}
@@ -83,13 +87,16 @@ def retrieve(
         for idx, score in zip(indices[0], scores[0]):
             if idx == -1:
                 continue
-
-            selected_chunks[company_name].append({
-                "page": chunks[int(idx)]["page"],
-                "text": chunks[int(idx)]["text"],
-                "id": chunks[int(idx)]["id"],
-                "score": float(score)
-            })
+            chunk = chunks[int(idx)]
+            selected_chunk = RetrievedChunk(
+                            sha1 = file_sha1,
+                            page = chunk.page,
+                            text = chunk.text,
+                            id = chunk.id,
+                            score = float(score)
+                        )
+            
+            selected_chunks[company_name].append(selected_chunk)
 
     return selected_chunks       
 
@@ -100,25 +107,34 @@ if __name__ == "__main__":
         identify_companies,
     )
 
+    databases = load_databases()
+
     # Load once
     company_mapping = load_company_mapping()
 
     # Test query
-    query = "What was ENRG Elements' revenue in 2022?"
-
-    # Identify company
+    queries = ["What was Compagnie Financière Tradition's reported consolidated revenue in 2022?",
+             "reported consolidated revenue in 2022."]
+    
     company_list = identify_companies(
-        query,
-        company_mapping
-    )
+                queries[0],
+                company_mapping
+            )
+    
+    for query in queries:
+        context = retrieve(
+            query=query,
+            company_query_list=company_list,
+            top_k=5,
+            databases=databases
+        )
 
-    context = retrieve(
-        query=query,
-        company_query_list=company_list,
-        top_k=5,
-        databases=load_databases()
-    )
+        for company_name, chunks in context.items():
+            print(f"Company: {company_name}")
 
-    for chunks in context:
-        print(f"Company: {chunks['company_name']}")
-        print("-" * 50)
+            for chunk in chunks:
+                print(
+                    f"Page: {chunk.page}, "
+                    f"Score: {chunk.score:.4f}"
+                )
+                print(chunk.text[:300])

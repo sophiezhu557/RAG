@@ -1,0 +1,1660 @@
+question_id,user_input,company,page,chunk_id,score,text
+1,What was Compagnie Financière Tradition's reported consolidated revenue in 2022?,Tradition,75,260,0.6168069839477539,"Information on products and services
+A segment analysis of consolidated revenue on continuing operations is shown below:
+| CHF 000 | 2022 | 2021 |
+| - | - | - |
+| Currencies and interest rates | 428,568 | 387,844 |
+| Securities and derivatives | 324,679 | 296,472 |
+| Commodities and other activities | 194,151 | 189,291 |
+| Total | 947,398 | 873,607 |"
+1,What was Compagnie Financière Tradition's reported consolidated revenue in 2022?,Tradition,57,180,0.6102400422096252,"CONSOLIDATED INCOME STATEMENT
+| CHF 000 | Notes | 2022 | 2021 |
+| - | - | - | - |
+| Revenue | 1 | 947,398 | 873,607 |
+| Other net operating income | 2 | 17,592 | 15,236 |
+| Operating income |  | 964,990 | 888,843 |
+| Staff costs |  | -680,012 | -654,142 |
+| Other operating expenses | 3 | -164,181 | -134,797 |
+| Depreciation and amortisation | 7, 8, 26 | -26,569 | -26,704 |
+| Operating expenses |  | -870,762 | -815,643 |
+| Operating profit |  | 94,228 | 73,200 |
+| Financial income | 4 | 13,353 | 3,114 |
+| Financial expense | 4 | -17,104 | -13,893 |
+"
+1,What was Compagnie Financière Tradition's reported consolidated revenue in 2022?,Tradition,74,257,0.5816080570220947,"1. OPERATING SEGMENTS
+| At 31 December 2022 |  |  |  |  |  |
+| - | - | - | - | - | - |
+| Operating profit | 12,042 | 33,448 | 42,742 | -15,032 | 73,200 |
+| Net financial result |  |  |  |  | -10,779 |
+| Share of profit of associates and joint ventures |  |  |  |  | 22,582 |
+| Profit before tax |  |  |  |  | 85,003 |
+Reconciliation of segment revenue to consolidated revenue is as follows:
+| CHF 000 | 2022 | 2021 |
+| - | - | - |
+| Segment revenue | 1,028,826 | 951,426 |
+| Application of the proportionate consolidation method for joint ventures | -81,173 | -77,192 |
+| Recognition of revenue at the delivery date | -59 | -161 |
+| Other | -196 | -466 |
+| Consolidated revenue | 947,398 | 873,607 |"
+1,What was Compagnie Financière Tradition's reported consolidated revenue in 2022?,Tradition,43,131,0.5771781802177429,".REVENUE
+| CHFm | 2022 | 2021 | Variation at current exchange rates | Variation at constant exchange rates |
+| - | - | - | - | - |
+| Currencies and interest rates | 462.0 | 419.2 | +10.2% | +13.2% |
+| Securities and security derivatives | 327.2 | 299.5 | +9.3% | +11.5% |
+| Commodities and other | 205.5 | 198.3 | +3.6% | +3.0% |
+| IDB business | 994.7 | 917.0 | +8.5% | +10.4% |
+| Non-IDB business | 33.9 | 33.8 | +0.3% | +14.6% |
+| Total adjusted revenue | 1,028.6 | 950.8 | +8.2% | +10.6% |
+| Equity accounted joint ventures | -81.2 | -77.2 |  |  |
+| Total reported revenue | 947.4 | 873.6 | +8.4% | +10.5% |"
+1,What was Compagnie Financière Tradition's reported consolidated revenue in 2022?,Tradition,43,132,0.5647854804992676,".REVENUE
+Analysis of consolidated revenue by region:
+| CHFm | 2022 | 2021 | Variation at current exchange rates | Variation at constant exchange rates |
+| - | - | - | - | - |
+| Royaume-Uni | 292.4 | 301.1 | -2.9% | +1.5% |
+| Europe continentale | 142.8 | 117.5 | +21.5% | +28.9% |
+| Europe. Moyen-Orient et Afrique | 435.2 | 418.6 | +3.9% | +9.2% |
+| Amériques | 314.5 | 268.3 | +17.2% | +12.8% |
+| Asie - Pacifique | 278.9 | 263.9 | +5.7% | +10.5% |
+| Total du chiffre d'affaires ajusté | 1,028.6 | 950.8 | +8.2% | +10.6% |
+| Mise en équivalence des coentreprises | -81.2 | -77.2 |  |  |
+"
+2,What was Compagnie Financière Tradition's adjusted consolidated revenue in 2022?,Tradition,4,7,0.6062044501304626,"Chairman's Message
+Against this backdrop, the Group's adjusted consolidated revenue for the full year was up 10.6% at constant exchange rates to CHF 1,028.6m, compared with CHF 950.8m in 2021. After an increase of 7.7% at constant exchange rates in the first half, consolidated adjusted revenue was up 13.8% at constant exchange rates in the second half compared to the same period in 2021.
+Adjusted underlying operating profit was CHF 130.3m against CHF 99.9m in 2021, an increase of 34.0% at constant exchange rates, with an operating margin of 12.7% and 10.5% respectively.
+Consolidated net profit was CHF 97.4m compared with CHF 71.5m in 2021 with a Group share of
+CHF 89.1m against CHF 65.3m in 2021, an increase of 40.3% at constant exchange rates."
+2,What was Compagnie Financière Tradition's adjusted consolidated revenue in 2022?,Tradition,43,131,0.58635413646698,".REVENUE
+| CHFm | 2022 | 2021 | Variation at current exchange rates | Variation at constant exchange rates |
+| - | - | - | - | - |
+| Currencies and interest rates | 462.0 | 419.2 | +10.2% | +13.2% |
+| Securities and security derivatives | 327.2 | 299.5 | +9.3% | +11.5% |
+| Commodities and other | 205.5 | 198.3 | +3.6% | +3.0% |
+| IDB business | 994.7 | 917.0 | +8.5% | +10.4% |
+| Non-IDB business | 33.9 | 33.8 | +0.3% | +14.6% |
+| Total adjusted revenue | 1,028.6 | 950.8 | +8.2% | +10.6% |
+| Equity accounted joint ventures | -81.2 | -77.2 |  |  |
+| Total reported revenue | 947.4 | 873.6 | +8.4% | +10.5% |"
+2,What was Compagnie Financière Tradition's adjusted consolidated revenue in 2022?,Tradition,57,180,0.5656334161758423,"CONSOLIDATED INCOME STATEMENT
+| CHF 000 | Notes | 2022 | 2021 |
+| - | - | - | - |
+| Revenue | 1 | 947,398 | 873,607 |
+| Other net operating income | 2 | 17,592 | 15,236 |
+| Operating income |  | 964,990 | 888,843 |
+| Staff costs |  | -680,012 | -654,142 |
+| Other operating expenses | 3 | -164,181 | -134,797 |
+| Depreciation and amortisation | 7, 8, 26 | -26,569 | -26,704 |
+| Operating expenses |  | -870,762 | -815,643 |
+| Operating profit |  | 94,228 | 73,200 |
+| Financial income | 4 | 13,353 | 3,114 |
+| Financial expense | 4 | -17,104 | -13,893 |
+"
+2,What was Compagnie Financière Tradition's adjusted consolidated revenue in 2022?,Tradition,74,257,0.5599154233932495,"1. OPERATING SEGMENTS
+| At 31 December 2022 |  |  |  |  |  |
+| - | - | - | - | - | - |
+| Operating profit | 12,042 | 33,448 | 42,742 | -15,032 | 73,200 |
+| Net financial result |  |  |  |  | -10,779 |
+| Share of profit of associates and joint ventures |  |  |  |  | 22,582 |
+| Profit before tax |  |  |  |  | 85,003 |
+Reconciliation of segment revenue to consolidated revenue is as follows:
+| CHF 000 | 2022 | 2021 |
+| - | - | - |
+| Segment revenue | 1,028,826 | 951,426 |
+| Application of the proportionate consolidation method for joint ventures | -81,173 | -77,192 |
+| Recognition of revenue at the delivery date | -59 | -161 |
+| Other | -196 | -466 |
+| Consolidated revenue | 947,398 | 873,607 |"
+2,What was Compagnie Financière Tradition's adjusted consolidated revenue in 2022?,Tradition,43,132,0.5571065545082092,".REVENUE
+Analysis of consolidated revenue by region:
+| CHFm | 2022 | 2021 | Variation at current exchange rates | Variation at constant exchange rates |
+| - | - | - | - | - |
+| Royaume-Uni | 292.4 | 301.1 | -2.9% | +1.5% |
+| Europe continentale | 142.8 | 117.5 | +21.5% | +28.9% |
+| Europe. Moyen-Orient et Afrique | 435.2 | 418.6 | +3.9% | +9.2% |
+| Amériques | 314.5 | 268.3 | +17.2% | +12.8% |
+| Asie - Pacifique | 278.9 | 263.9 | +5.7% | +10.5% |
+| Total du chiffre d'affaires ajusté | 1,028.6 | 950.8 | +8.2% | +10.6% |
+| Mise en équivalence des coentreprises | -81.2 | -77.2 |  |  |
+"
+3,What was Compagnie Financière Tradition's year-end closing share price in 2022?,Tradition,9,12,0.6049960851669312,"STOCK MARKET DATA
+| CHF (except the number of shares) | 2022 | 2021 |
+| - | - | - |
+| Number of shares at 31 December | 7,654,385 | 7,624,385 |
+| Market capitalisation at 31 December | 774,842,000 | 781,851,000 |
+| 52-week high | 114.0 | 121.0 |
+| 52-week low | 100.0 | 103.0 |
+| Year-end closing price | 104.5 | 104.5 |
+| Average daily volume in number of shares | 768 | 870 |
+| PER (1) at 31 December | 8.7 | 12.0 |
+| PER (2) at 31 December | 1.9 | 1.9 |
+(1) Price Earnings Ratio
+(2) Price to Book - attributable to Company shareholders
+.
+CONSOLIDATED OPERATING PROFIT PER SHARE
+(CHF)
+12.5
+(2021: 9.8)
+NET PROFIT ATTRIBUTABLE TO SHAREHOLDERS PER SHARE
+(CHF)
+11.8"
+3,What was Compagnie Financière Tradition's year-end closing share price in 2022?,Tradition,9,11,0.5413410663604736,"SHARE PRICE
+Shares began the year at CHF 104.5 and then trended downwards, hitting a closing low of CHF 100.0 on 7 March. They then climbed steadily, reaching a closing high CHF 114.0 on 13 May,"
+3,What was Compagnie Financière Tradition's year-end closing share price in 2022?,Tradition,81,281,0.5052183270454407,"6. EARNINGS PER SHARE
+| CHF 000 | 2022 | 2021 |
+| - | - | - |
+| Net profit attributable to shareholders of the parent | 89,111 | 65,263 |
+| Weighted average number of shares outstanding | 7,530,784 | 7,447,608 |
+| Adjustment for dilutive effect of share options | 46,892 | 95,001 |
+| Weighted average number of shares included for diluted earnings per share | 7,577,676 | 7,542,609 |
+| Earnings per share are as follows: |  |  |
+| CHF | 2022 | 2021 |
+| Basic earnings per share | 11.83 | 8.76 |
+| Diluted earnings per share | 11.76 | 8.65 |"
+3,What was Compagnie Financière Tradition's year-end closing share price in 2022?,Tradition,101,351,0.4998723268508911,"Exercise terms
+*Options exercised in 2022 had a weighted average share price at the exercise date of CHF 105.0 (2021: CHF 112.8).
+Options exercised only entitle holders to delivery of the shares. The cost of share-based payments in 2022 was CHF 1,125,000 (2021: CHF 1,014,000)."
+3,What was Compagnie Financière Tradition's year-end closing share price in 2022?,Tradition,101,349,0.47003695368766785,"Exercise terms
+In 2022, the weighted average fair value of options at the grant date was CHF 19.7 (2021: CHF 17.9). An analysis of the number and weighted average exercise price of employee share options is shown below:"
+4,What was Compagnie Financière Tradition's market capitalisation at 31 December 2022?,Tradition,9,12,0.6844518780708313,"STOCK MARKET DATA
+| CHF (except the number of shares) | 2022 | 2021 |
+| - | - | - |
+| Number of shares at 31 December | 7,654,385 | 7,624,385 |
+| Market capitalisation at 31 December | 774,842,000 | 781,851,000 |
+| 52-week high | 114.0 | 121.0 |
+| 52-week low | 100.0 | 103.0 |
+| Year-end closing price | 104.5 | 104.5 |
+| Average daily volume in number of shares | 768 | 870 |
+| PER (1) at 31 December | 8.7 | 12.0 |
+| PER (2) at 31 December | 1.9 | 1.9 |
+(1) Price Earnings Ratio
+(2) Price to Book - attributable to Company shareholders
+.
+CONSOLIDATED OPERATING PROFIT PER SHARE
+(CHF)
+12.5
+(2021: 9.8)
+NET PROFIT ATTRIBUTABLE TO SHAREHOLDERS PER SHARE
+(CHF)
+11.8"
+4,What was Compagnie Financière Tradition's market capitalisation at 31 December 2022?,Tradition,83,290,0.5960530042648315,"8. INTANGIBLE ASSETS
+|  |  |  |  |  |  |
+| - | - | - | - | - | - |
+| Currency translation | - | -1,093 | -1,880 | 149 | -2,824 |
+| Accumulated amortisation and impairment losses at 31 December | -2,226 | -65,254 | - | -3,224 | -70,704 |
+| Net value at 31 December | 28,569 | 10,409 | - | 3,735 | 42,713 |
+An analysis of goodwill at 31 December 2022 is shown below:"
+4,What was Compagnie Financière Tradition's market capitalisation at 31 December 2022?,Tradition,136,466,0.5131418108940125,"II.1 EQUITY INVESTMENTS
+|  | Capital In thousands | Capital In thousands | Percentage held 1) - 2022 | Percentage held 1) - 2021 | Acquisition cost CHF 000 - 2022 | Acquisition cost CHF 000 - 2021 |
+| - | - | - | - | - | - | - |
+| GROSS TOTAL |  |  |  |  | 172,115 | 172,115 |
+| Impairment allowance |  |  |  |  | -45,664 | -44,388 |
+| NET TOTAL |  |  |  |  | 126,451 | 127,727 |
+1)The percentage of voting rights is equal to the percentage of equity ownership with the exception of C.M. Capital Markets Holding SA, Madrid, in which the percentage of voting rights was 32.4% at 31 December 2022, unchanged from the previous year."
+4,What was Compagnie Financière Tradition's market capitalisation at 31 December 2022?,Tradition,11,14,0.51052325963974,"Simplified Group Structure at 31 December 2022
+<!-- image -->"
+4,What was Compagnie Financière Tradition's market capitalisation at 31 December 2022?,Tradition,45,142,0.5090140700340271,"BALANCE SHEET
+The Group maintained its focus on a sound balance sheet with a strong capital position while keeping a low level of intangible assets and a strong net cash position. Consolidated equity, before deduction of treasury shares of CHF 23.5m, was CHF 466.0m at 31 December 2022, with an increase in adjusted cash to CHF 243.1m, including the Group's share of net cash held by joint ventures, compared with CHF 203.4m in 2021. At 31 December 2022, consolidated equity stood at CHF 442.5m (2021: CHF 429.7m) of which CHF 416.8m was attributable to shareholders of the parent (2021: CHF 407.5m). Total adjusted cash, including financial assets at fair value, net of financial debts, was up to CHF 149.1m at 31 December 2022 against CHF 105,7m at 31 December 2021."
+5,What was Compagnie Financière Tradition's price earnings ratio (PER 1) at 31 December 2021?,Tradition,9,12,0.5653187036514282,"STOCK MARKET DATA
+| CHF (except the number of shares) | 2022 | 2021 |
+| - | - | - |
+| Number of shares at 31 December | 7,654,385 | 7,624,385 |
+| Market capitalisation at 31 December | 774,842,000 | 781,851,000 |
+| 52-week high | 114.0 | 121.0 |
+| 52-week low | 100.0 | 103.0 |
+| Year-end closing price | 104.5 | 104.5 |
+| Average daily volume in number of shares | 768 | 870 |
+| PER (1) at 31 December | 8.7 | 12.0 |
+| PER (2) at 31 December | 1.9 | 1.9 |
+(1) Price Earnings Ratio
+(2) Price to Book - attributable to Company shareholders
+.
+CONSOLIDATED OPERATING PROFIT PER SHARE
+(CHF)
+12.5
+(2021: 9.8)
+NET PROFIT ATTRIBUTABLE TO SHAREHOLDERS PER SHARE
+(CHF)
+11.8"
+5,What was Compagnie Financière Tradition's price earnings ratio (PER 1) at 31 December 2021?,Tradition,45,141,0.5211135745048523,"NET PROFIT
+Consolidated net profit was CHF 97.4m compared with CHF 71.5m in 2021 with a Group share of CHF 89.1m against CHF 65.3m in 2021, an increase of 40.3% at constant exchange rates. Hence, the basic earnings per share increase by 35.0% at current exchange rates to CHF 11.83 from CHF 8.76 in 2021."
+5,What was Compagnie Financière Tradition's price earnings ratio (PER 1) at 31 December 2021?,Tradition,81,281,0.507260262966156,"6. EARNINGS PER SHARE
+| CHF 000 | 2022 | 2021 |
+| - | - | - |
+| Net profit attributable to shareholders of the parent | 89,111 | 65,263 |
+| Weighted average number of shares outstanding | 7,530,784 | 7,447,608 |
+| Adjustment for dilutive effect of share options | 46,892 | 95,001 |
+| Weighted average number of shares included for diluted earnings per share | 7,577,676 | 7,542,609 |
+| Earnings per share are as follows: |  |  |
+| CHF | 2022 | 2021 |
+| Basic earnings per share | 11.83 | 8.76 |
+| Diluted earnings per share | 11.76 | 8.65 |"
+5,What was Compagnie Financière Tradition's price earnings ratio (PER 1) at 31 December 2021?,Tradition,9,13,0.44911253452301025,"STOCK MARKET DATA
+(2021: 8.8)
+*Cash dividend plus a distribution of one treasury share for every 100 shares held
+before stabilising in the second half and ending 2022 at CHF 104.5, with an average daily trading volume of 768 shares.
+DIVIDEND PER SHARE *
+(CHF)
+<!-- image -->
+(2021 : 5.0)
+5.5"
+5,What was Compagnie Financière Tradition's price earnings ratio (PER 1) at 31 December 2021?,Tradition,129,450,0.43809306621551514,"OTHER MATTER
+The financial statements of the Company for the year ended 31 December 2021 were audited by another auditor who expressed an unmodified opinion on those statements on 16 March 2022."
+6,What was ENRG Elements Limited's loss after tax for FY2022?,ENRG ELEMENTS LIMITED,15,68,0.6836832761764526,"6. OPERATING RESULTS
+For the 2022 financial year the Group delivered a loss after tax of $4,542,384 (2021: $1,243,075 loss)."
+6,What was ENRG Elements Limited's loss after tax for FY2022?,ENRG ELEMENTS LIMITED,33,161,0.6191068887710571,"NOTE 2 LOSS BEFORE INCOME TAX (CONT.)
+ABN 73 149 230 811
+ANNUAL REPORT 30 JUNE 2022"
+6,What was ENRG Elements Limited's loss after tax for FY2022?,ENRG ELEMENTS LIMITED,34,166,0.5661059021949768,"NOTES TO THE CONSOLIDATED FINANCIAL STATEMENTS
+FOR THE YEAR ENDED 30 JUNE 2022
+| NOTE | 4 INCOME TAX | 2022 $ | 2021 $ |
+| - | - | - | - |
+| 4.1 | The prima facie tax on loss from ordinary activities before income tax is reconciled to the income tax expense as follows: |  |  |
+|  | Loss before income tax | (7,328,997) | (1,159,207) |
+|  | Prima facie tax payable on loss from ordinary activities before income tax at 30% (2021: 30%) | (2,198,699) | (347,762) |
+|  | Capital-raising costs deductible | (45,650) | (31,145) |
+|  | Non-deductible expenses | 134,333 | 25,175 |
+|  | Share based payments | 176,240 | 29,971 |
+|  | Tax effect of discontinued operations | 835,984 | (25,160) |
+"
+6,What was ENRG Elements Limited's loss after tax for FY2022?,ENRG ELEMENTS LIMITED,32,158,0.5593365430831909,"(b) Other income
+| NOTE | 2 | LOSS BEFORE INCOME TAX | Note | 2022 $ | 2021 $ |
+| - | - | - | - | - | - |
+| Loss before income tax has been determined after including the following expenses: | Loss before income tax has been determined after including the following expenses: | Loss before income tax has been determined after including the following expenses: | Loss before income tax has been determined after including the following expenses: | Loss before income tax has been determined after including the following expenses: | Loss before income tax has been determined after including the following expenses: |
+| 2.1 | Employee benefit expense | Employee benefit expense | Employee benefit expense | Employee benefit expense | Employee benefit expense |
+|  | ⚫ Directors' fees | ⚫ Directors' fees | ⚫ Directors' fees | 426,626 | 255,000 |
+|  | ⚫ Salaries and Wages | ⚫ Salaries and Wages | ⚫ Salaries and Wages | 44,844 | 74,048 |
+|  | ⚫ Superannuation | ⚫ Superannuation | ⚫ Superannuation | 36,456 | 21,375 |
+"
+6,What was ENRG Elements Limited's loss after tax for FY2022?,ENRG ELEMENTS LIMITED,56,281,0.5406110882759094,"NOTES TO THE CONSOLIDATED FINANCIAL STATEMENTS
+| NOTE | 20 LOSS PER SHARE | 2022 $ | 2021 $ |
+| - | - | - | - |
+| 20.1 | Reconciliation of loss to profit or loss |  |  |
+|  | Net loss for the year | (4,542,384) | (1,243,075) |
+|  | Net loss used in the calculation of basic and diluted loss per share | (4,542,384) | (1,243,075) |
+| 20.2 | Reconciliation of loss to profit or loss from continuing operations |  |  |
+|  | Loss for the year from continuing operations | (7,328,997) | (1,159,207) |
+|  | Loss used in the calculation of basic and diluted EPS continuing operations | (7,328,997) | (1,159,207) |
+| 20.3 | Reconciliation of loss to profit or loss from discontinued operations |  |  |
+|  | Profit/(loss) for the year from discontinued operations | 2,846,625 | (91,346) |
+"
+7,What were ENRG Elements Limited's cash and cash equivalents as at 30 June 2022?,ENRG ELEMENTS LIMITED,10,44,0.6655487418174744,"Capital Raisings
+The Company's cash balance as at 30 June 2022 was $4,148,000."
+7,What were ENRG Elements Limited's cash and cash equivalents as at 30 June 2022?,ENRG ELEMENTS LIMITED,16,71,0.6593437790870667,"9. FINANCIAL POSITION
+The net assets of the Group have increased from 30 June 2021 by $4,139,638 to $4,722,209 at 30 June 2022 (2021: $582,571).
+As at 30 June 2022, the Group's cash and cash equivalents increased from 30 June 2021 by $3,595,197 to $4,148,992 at 30 June 2022 (2021: $553,795) and had working capital of $4,045,033 (2021: $499,566), as noted in Note 9.
+The Directors believe the Group is in a satisfactorily stable financial position to continue its current operations."
+7,What were ENRG Elements Limited's cash and cash equivalents as at 30 June 2022?,ENRG ELEMENTS LIMITED,28,142,0.6325156688690186,"CONSOLIDATED STATEMENT OF FINANCIAL POSITION
+AS AT 30 JUNE 2022"
+7,What were ENRG Elements Limited's cash and cash equivalents as at 30 June 2022?,ENRG ELEMENTS LIMITED,52,261,0.5977408289909363,"NOTES TO THE CONSOLIDATED FINANCIAL STATEMENTS
+FOR THE YEAR ENDED 30 JUNE 2022
+| Note | 13 | Investment accounted for using the equity method 30 June 2022 $ | 30 June 2021 $ |
+| - | - | - | - |
+| 13.1 | Non-Current |  |  |
+|  | Investment accounted for using the equity method | 662,401 | - |
+|  |  | 662,401 | - |"
+7,What were ENRG Elements Limited's cash and cash equivalents as at 30 June 2022?,ENRG ELEMENTS LIMITED,30,149,0.5952221155166626,"CONSOLIDATED STATEMENT OF CASH FLOWS
+FOR THE YEAR ENDED 30 JUNE 2022
+|  | Note | 2022 $ | 2021 $ |
+| - | - | - | - |
+| Cash flow from operating activities |  |  |  |
+| Payments to suppliers & employees |  | (1,313,442) | (851,394) |
+| Interest received |  | 216 | 4,120 |
+| Payments for exploration expenditure |  | (1,007,463) | (267,217) |
+| Net cash outflow from operating activities | 5.1.2(a) | (2,320,689) | (1,114,491) |
+| Cash flow from investing activities: |  |  |  |
+| Proceed from disposal of investments net of costs |  | 2,078,255 | - |
+| Cash deemed available for sale on discontinued operation |  | - | (4,743) |
+| Net cash inflow / (outflow) from investing activities |  | 2,078,255 | (4,743) |
+| Cash flow from financing activities: |  |  |  |
+"
+9,How much did ENRG Elements Limited raise through its June 2022 share placement before costs?,ENRG ELEMENTS LIMITED,42,212,0.5846615433692932,"NOTE 7 EQUITY
+| 7.1 | Issued capital | Note | 2022 - No. | 2021 - No. | 2022 - $ | 2021 - $ |
+| - | - | - | - | - | - | - |
+|  | ⚫ Shares Placement @ $0.03 per share |  | 40,000,000 | - | 1,200,000 | - |
+|  | ⚫ Directors' Loan Shares | 7.1.1(a) | 30,000,000 | - | 32,880 | - |
+|  | ⚫ Consideration shares @ $0.035 per share | 7.1.1(b) | 120,000,000 | - | 4,200,000 | - |
+|  | ⚫ Shares Placement @ $0.033 per share |  | 89,393,939 | - | 2,950,000 | - |
+"
+9,How much did ENRG Elements Limited raise through its June 2022 share placement before costs?,ENRG ELEMENTS LIMITED,58,297,0.5688110589981079,"30 June 2022
+In consideration for services provided by corporate advisors the Company issued:
+- 3,121,212 ordinary shares at a deemed issue price of $0.033 per share on 10 June 2022.
+- 1,703,864 ordinary shares at a deemed issue price of $0.031 per share on 26 June 2022."
+9,How much did ENRG Elements Limited raise through its June 2022 share placement before costs?,ENRG ELEMENTS LIMITED,10,43,0.5491095781326294,"Capital Raisings
+On 17 December 2021 the Company raised A$1.2 million (before costs) through a placement of 40 million shares at an issue price of A$0.03 per share. The funds raised were used to fund the Niger Transaction and for working capital.
+ENRG announced the completion of a further successful capital raising for $3.0 million (before costs) on 3 June 2022, to fund the
+exploration and development of the Company's portfolio of assets, in particular the Agadez Project, and for general working capital purposes (Placement). 89,393,939 fully paid ordinary shares were issued at $0.033 per Share pursuant to the Placement. A further 1,515,151 fully paid ordinary shares were subject to shareholder approval which was obtained subsequent to the period, on 28 July 2022 pursuant to ASX Listing Rule 10.11. The Placement was strongly supported by existing shareholders and incoming investors, including domestic and offshore institutional investors with a cornerstone investment from Kevin Bambrough, former President of Sprott Inc and CEO of Sprott Resources Corporation. Funds are being deployed toward exploration of the Agadez Project, Ghazi West Copper-Silver Project and working Capital."
+9,How much did ENRG Elements Limited raise through its June 2022 share placement before costs?,ENRG ELEMENTS LIMITED,10,44,0.5272747278213501,"Capital Raisings
+The Company's cash balance as at 30 June 2022 was $4,148,000."
+9,How much did ENRG Elements Limited raise through its June 2022 share placement before costs?,ENRG ELEMENTS LIMITED,56,286,0.5224028825759888,"20.6.2 Diluted earnings per share
+| NOTE | 21 | SHARE-BASED PAYMENTS | Note | 2022 $ | 2021 $ |
+| - | - | - | - | - | - |
+| Total share-based payments included in statement of financial position as capital raising costs. | Total share-based payments included in statement of financial position as capital raising costs. | Total share-based payments included in statement of financial position as capital raising costs. |  | 743,286 | 99,904 |
+Total share-based payments recognised in reserves is $368,276 (2021: $99,904)
+ENRG
+<!-- image -->"
+10,In which country is ENRG Elements Limited's Agadez Uranium Project located?,ENRG ELEMENTS LIMITED,8,28,0.8129920959472656,"Acquisition of Agadez Project
+On 9 December 2021, the Company announced it had entered into a binding share sale agreement with Endeavour Financial AG (Endeavour) to acquire 100% of Endeavour's uranium project in the Agadez region of Niger (Agadez Project) (Transaction).
+The Agadez Project comprises three (3) granted exploration permits (Permits) (Targets) and one (1) exploration licence application in the highly prospective Tim Mersoi Basin, considered one of the world's major uranium producing areas. The Permits host the same geology that is represented at Orano's Cominak (now shut down), Somair and Imouraren mines and the Madaouela (Goviex) and Dasa (Global Atomic) projects. According to the World Nuclear Association, Niger was the 7th largest producer of uranium in 2021 and has been an exporter of uranium since the early 1970's."
+10,In which country is ENRG Elements Limited's Agadez Uranium Project located?,ENRG ELEMENTS LIMITED,6,19,0.7393215298652649,"Agadez Uranium Project
+With uranium and nuclear power continuing to gain momentum as the world shifts towards a carbon neutral energy system, we are well positioned with Agadez to capitalise on growing demand for nuclear fuels.
+Following the 100% acquisition of Agadez, the Company also acquired the project's historical exploration data from Paladin Energy Limited in March 2022. A review of this previously unannounced historical drilling data confirmed Agadez as prospective for uranium, with identified anomalous uranium grades in prospective geology. This data was used to inform the Company's subsequent exploration program.
+On 30 May 2022, the Company also announced an upgrade to the historic JORC 2004 Inferred Mineral Resource Estimate (MRE) at Takardeit for compliance with JORC 2012 compliant Inferred MRE. The Takardeit Deposit contains a JORC 2012 Inferred MRE of 16.5Mt at a grade of 295ppm eU3O8 for 10.7Mlbs contained eU3O8 (at 150ppm cut-off)."
+10,In which country is ENRG Elements Limited's Agadez Uranium Project located?,ENRG ELEMENTS LIMITED,6,20,0.726527214050293,"Agadez Uranium Project
+In the same month as the MRE update, the Company commenced an initial exploration program following review of the historic exploration data. The program consisted of a drilling program totalling 5,500m, comprising approximately 5,340m of rotary mud drilling and 160 meters of diamond core, plus a detailed logging and surface sampling program. On 1 September 2022, we announced encouraging results from the initial, shallow drill program at the Agadez, with key downhole gamma results including 2m at 2,266ppm eU3O8 from 22.7m, 2m at 1,562ppm eU3O8 from 28.2m and 2m at 1,172ppm eU3O8 from 24.7m. These initial results, that were released post the end of FY22, provide further confirmation that Agadez is highly prospective for uranium, with the Takardeit Deposit remaining open in multiple directions and at depth.
+4 https://apnews.com/article/climate-technology-business-nuclear-power-environment-and-nature-cfb21ab68a9e7005cc08873f2a5a7031"
+10,In which country is ENRG Elements Limited's Agadez Uranium Project located?,ENRG ELEMENTS LIMITED,4,11,0.6950812339782715,"LETTER FROM THE CHAIRMAN
+Japan and India represent just two of the many countries globally that continue to join the rapid momentum driven by the nuclear power renaissance.
+Africa too is now exploring nuclear energy as a climate friendly way to ease power shortfalls, with at least an additional 10 African countries considering nuclear power as of 2018 3 .
+To capitalise on this nuclear shift, since acquiring the Agadez Uranium Project in the highly prospective Tim Mersoi Basin of Niger, we have continued to advance our Project with the drilling program nearing completion, and initial results announced in August 2022, further confirming Agadez as highly prospective for uranium.
+Guiding this exploration is the recently acquired historical exploration data on the Project, which, when combined with the current results from the Company's own exploration, will result in an improved geological understanding of Agadez, enabling us to further refine our exploration strategy for the project.
+Over the coming periods, we will continue exploration at Agadez with the results from the current drilling expected to enable an update to the existing Inferred JORC Resource.
+In Botswana, we have continued to advance the Ghanzi West Copper-Silver Project in the Kalahari Copper Belt, with the commencement of an airborne electromagnetic and gravity survey over the Kara dome assets, with the aim of further identifying areas which are favourable for hosting significant economic mineralisation."
+10,In which country is ENRG Elements Limited's Agadez Uranium Project located?,ENRG ELEMENTS LIMITED,6,16,0.6642698049545288,"Overview
+I would like to thank all of our shareholders for the ongoing support of ENRG Elements (the Company) over the past twelve months. This year has been a critical juncture for the Company with numerous developments including: completion of acquisition of the Agadez Uranium Project (Agadez Project); activities at Agadez that included a review of historical information, upgrade of the previous Inferred Mineral Resource Estimate to JORC 2012, and exploration program consisting of 5,500m drilling, logging, and a surface sampling campaign; commencement of an electromagnetic and gravity survey at the Ghanzi West Copper-Silver Project (Ghanzi West Project); and review of the Horseshoe West Copper-Gold Project (Horseshoe West Project). In addition to our exploration activities, the Company successfully raised A$3.0m in June 2022 via a placement that was supported by new domestic and"
+11,What percentage of Holley Inc.'s total sales in 2022 came from its top seven brands?,Holley Inc.,7,27,0.6965276598930359,"Brands
+We have a strong portfolio of brands covering various product categories. Our portfolio consists of over 70 brands spanning across 30 product categories. Our top seven brands generated 68% of our sales in 2022."
+11,What percentage of Holley Inc.'s total sales in 2022 came from its top seven brands?,Holley Inc.,7,29,0.5469979643821716,"Brands
+- Accel: Currently our sixth largest brand and represented 7% of our sales in 2022. Accel is focused on performance fuel and ignition systems.
+- Flowmaster: Currently our seventh largest brand and represented 6% of our sales in 2022. Flowmaster's main focus is on developing exhaust products.
+We believe the popularity of our brands is the result of consistently delivering high quality, innovative products that resonate with our enthusiast consumers. Our brands have allowed us to build direct, trusted and long-lasting relationships with our consumers and resellers."
+11,What percentage of Holley Inc.'s total sales in 2022 came from its top seven brands?,Holley Inc.,7,28,0.46670347452163696,"Brands
+- Holley EFI: Currently our largest brand and represented 14% of our sales for 2022. Our Holley EFI brand focuses on electronic fuel injection technology and showcases our new product development engine.
+- Holley: Currently our second largest brand and represented 14% of our sales for 2022. The Holley brand resonates with consumers as the majority of automotive enthusiast consumers recognize the Holley brand. Holley offers a variety of products across multiple categories but traces its roots back to carburetors which originally made the brand famous with automotive enthusiasts.
+- MSD: Currently our third leading brand and represented 10% of our sales for 2022. MSD has historically been focused on production of ignition products but today has been more focused on developing electronics for the powertrain category.
+- Simpson: Currently our fourth leading brand and represented 9% of our sales for 2022. Simpson was acquired in 2020 and has focused on motorsport safety products including helmets, head and neck restraints, seat belts and fire suits.
+- Powerteq: Currently our fifth leading brand and represented 8% of our sales for 2022. Powerteq is focused on exhaust, intakes, drivetrain and engine tuning products and accessories."
+11,What percentage of Holley Inc.'s total sales in 2022 came from its top seven brands?,Holley Inc.,9,35,0.458061158657074,"Sales and Distribution
+Resellers: We have historically sold the majority of our products through resellers who purchase our products and resell them through various channels. These resellers consist of E-tailers, warehouse distributors, traditional retailers, and jobber/installers with E-tailers and warehouse distributors accounting for 60% of our sales in 2022, and our top ten resellers accounting for 39% of our sales in 2022 with our largest reseller making up 19% of our sales in 2022.
+We have established mutually beneficial and long-term relationships with our resellers. We believe resellers benefit from our broad suite of product offerings that they can leverage to meet consumer demand across multiple product categories. Based on the value that we offer to our resellers, we are able to operate with pricing discipline that supports the value of our products in the marketplace and buttresses our profit margins. We believe our approach to pricing allows us to better understand consumer demand and identify what our end consumers are buying."
+11,What percentage of Holley Inc.'s total sales in 2022 came from its top seven brands?,Holley Inc.,77,387,0.4540202021598816,"9. REVENUE
+|  | For the years ended December 31, - 2022 | For the years ended December 31, - 2021 | For the years ended December 31, - 2020 |
+| - | - | - | - |
+| United States | $ 669,187 | $ 674,491 | $ 502,661 |
+| Italy | 19,228 | 18,356 | 1,518 |
+| Total sales | $ 688,415 | $ 692,847 | $ 504,179 |"
+12,What percentage of Holley Inc.'s 2022 sales did the Holley EFI brand represent?,Holley Inc.,7,28,0.788658082485199,"Brands
+- Holley EFI: Currently our largest brand and represented 14% of our sales for 2022. Our Holley EFI brand focuses on electronic fuel injection technology and showcases our new product development engine.
+- Holley: Currently our second largest brand and represented 14% of our sales for 2022. The Holley brand resonates with consumers as the majority of automotive enthusiast consumers recognize the Holley brand. Holley offers a variety of products across multiple categories but traces its roots back to carburetors which originally made the brand famous with automotive enthusiasts.
+- MSD: Currently our third leading brand and represented 10% of our sales for 2022. MSD has historically been focused on production of ignition products but today has been more focused on developing electronics for the powertrain category.
+- Simpson: Currently our fourth leading brand and represented 9% of our sales for 2022. Simpson was acquired in 2020 and has focused on motorsport safety products including helmets, head and neck restraints, seat belts and fire suits.
+- Powerteq: Currently our fifth leading brand and represented 8% of our sales for 2022. Powerteq is focused on exhaust, intakes, drivetrain and engine tuning products and accessories."
+12,What percentage of Holley Inc.'s 2022 sales did the Holley EFI brand represent?,Holley Inc.,36,163,0.6062742471694946,"Year Ended December 31, 2022 Compared With Year Ended December 31, 2021
+The table below presents Holley's results of operations for the years ended December 31, 2022 and 2021 (dollars in thousands):"
+12,What percentage of Holley Inc.'s 2022 sales did the Holley EFI brand represent?,Holley Inc.,53,270,0.5383111238479614,"HOLLEY INC. CONSOLIDATED STATEMENTS OF COMPREHENSIVE INCOME (LOSS)
+|  | For the years ended December 31, - 2022 | For the years ended December 31, - 2021 | For the years ended December 31, - 2020 |
+| - | - | - | - |
+| Diluted net income (loss) per share | $ 0.14 | $ (0.30) | $ 0.49 |
+See accompanying notes to consolidated financial statements."
+12,What percentage of Holley Inc.'s 2022 sales did the Holley EFI brand represent?,Holley Inc.,5,18,0.5295122861862183,"About Us
+Founded in 1903, Holley, Inc. (""Holley"" or the ""Company"") has been a part of the automotive industry for well over a century. We are a leading designer, marketer, and manufacturer of high-performance automotive aftermarket products for car and truck enthusiasts. Our products span a number of automotive platforms and are sold across multiple channels. We attribute a major component of our success to our brands, including ""Holley"" , ""APR"" , ""MSD"" and ""Flowmaster"" , among others. In addition, we have recently added to our brand lineup through a series of strategic acquisitions, including our 2022 acquisitions of substantially all the assets of John's Ind., Inc. (""John's""), Southern Kentucky Classics (""SKC""), and Vesta Motorsports USA, Inc., d.b.a. RaceQuip (""RaceQuip""), our 2021 acquisitions of substantially all the assets of AEM Performance Electronics (""AEM""), Classic Instruments LLC (""Classic Instruments""), ADS Precision Machining, Inc., d.b.a. Arizona Desert Shocks (""ADS""), Baer, Inc, d.b.a. Baer Brakes (""Baer""), Brothers Mail Order Industries, Inc., d.b.a. Brothers Trucks (""Brothers""), Rocket Performance Machine, Inc., d.b.a. Rocket Racing Wheels (""Rocket""), and Speartech Fuel Injections Systems, Inc."
+12,What percentage of Holley Inc.'s 2022 sales did the Holley EFI brand represent?,Holley Inc.,38,184,0.524653434753418,"Year Ended December 31, 2021 Compared With Year Ended December 31, 2020
+The table below presents Holley's results of operations for the years ended December 31, 2021 and 2020 (dollars in thousands):"
+13,"How many full-time employees did Holley Inc. have as of December 31, 2022?",Holley Inc.,10,40,0.4774261713027954,"Employees
+Holley's employees are integral to our strategic growth and success. We consider our team members to be our most valuable asset and seek to attract and maintain the highest quality talent by offering competitive benefits and wellness services, opportunities to grow professionally, and regular evaluations, among other initiatives. As of December 31, 2022, we employed 1,622 full-time employees and 100 temporary employees. Approximately 48% of our full-time employees are based primarily in our Bowling Green, KY headquarters, distribution center and manufacturing plants. None of our employees are subject to collective bargaining agreements or represented by a labor union. We believe our facilities are in labor markets with ready access to adequate numbers of skilled and unskilled workers, and we believe our relations with our employees are good.
+Many of our employees are automotive enthusiasts. We pride ourselves on having a platform built for enthusiasts by enthusiasts. As of December 2022, our Engineering function includes approximately 203 employees, including many enthusiast-focused engineers who are passionate about cars. We continue to seek out top level talent that will help accomplish our mission and vision moving forward. Our goal is to create an inclusive and safe environment for our employees that keeps them engaged in their work."
+13,"How many full-time employees did Holley Inc. have as of December 31, 2022?",Holley Inc.,93,450,0.43654006719589233,"EMPLOYMENT AGREEMENT
+EMPLOYMENT AGREEMENT (this ""Agreement"") dated as of March 30, 2022, between Holley Inc.,a Delaware Corporation (the ""Company""), and Carly Kennedy (""Executive"")."
+13,"How many full-time employees did Holley Inc. have as of December 31, 2022?",Holley Inc.,36,163,0.41959989070892334,"Year Ended December 31, 2022 Compared With Year Ended December 31, 2021
+The table below presents Holley's results of operations for the years ended December 31, 2022 and 2021 (dollars in thousands):"
+13,"How many full-time employees did Holley Inc. have as of December 31, 2022?",Holley Inc.,83,410,0.4095481336116791,"13. EQUITY-BASED COMPENSATION PLANS
+In 2021, the Company adopted the 2021 Omnibus Incentive Plan (the ""2021 Plan""), which provides for the grant of restricted stock awards, incentive and nonqualified stock options, and other share-based awards to employees, directors and non-employees. On December 31, 2022, the Company had 8,850,000 shares of common stock reserved for issuance and 5,816,705 shares available for future grants under the 2021 Plan."
+13,"How many full-time employees did Holley Inc. have as of December 31, 2022?",Holley Inc.,80,403,0.40734654664993286,"12. BENEFIT PLANS
+|  | December 31, - 2022 | December 31, - 2021 |
+| - | - | - |
+| Benefits paid from plan assets | (299) | (349) |
+| Expenses paid | (149) | (135) |
+| Fair value of plan net assets, December 31 | $ - | $ 5,242 |
+| Underfunded status at end of period | $ - | $ (862) |
+| Amounts recognized in the consolidated balance sheet: |  |  |
+| Current liabilities | $ - | $ - |
+| Non-current liabilities | - | (862) |
+| Net amount recorded | $ - | $ (862) |
+There was no remaining accumulated benefit obligation for the Plan as of December 31, 2022. The accumulated benefit obligation for the Plan was $6,104 on December 31, 2021. The Company made contributions of $765, $471, and $589 in 2022, 2021 and 2020, respectively. There were no participant contributions in 2022, 2021 or 2020."
+14,Approximately how much did Holley Inc. spend on marketing and advertising in 2022?,Holley Inc.,8,32,0.6160082221031189,"Marketing
+We reach and engage our consumers where they participate in the performance automotive aftermarket - online and in person. Our marketing strategy is centered on strong brand equity, leading new product innovation capabilities and delivering consistently high-quality products. In 2022, we spent approximately $11.6 million (or approximately 2% of our 2022 annual gross sales) on marketing and advertising. Going forward, consistent with our value creation strategies, we intend to continue our investments in direct consumer marketing and advertising as well as refocus our current mix of spending towards activities believed to generate the highest return on investment. We believe these strategies will have a meaningfully positive impact across our brand portfolio.
+In recent years, we have shifted our marketing efforts towards digital advertising and have increased investments in consumer engagement directly via digital and social media platforms and campaigns. Additionally, since mid-2020 we increased resources focused on expanding our ecommerce and digital platforms. These efforts have included turning Holley.com into a destination for automotive enthusiasts and launching Motor Life, our internal digital publication that is available to the public on our website. As a result, we have experienced a significant increase in social media and online engagement since that time. Continued expansion of and investment in digital and social media are expected in the future, including focusing on strategies to grow the high margin DTC channel."
+14,Approximately how much did Holley Inc. spend on marketing and advertising in 2022?,Holley Inc.,60,309,0.6031664609909058,"Advertising
+Advertising production costs are expensed the first time the advertising takes place. Total advertising expenses were $7,159, $6,299, and $4,379 for the years ended December 31, 2022, 2021, and 2020, respectively. Advertising costs are classified as a component of selling, general and administrative costs in the accompanying consolidated statements of comprehensive income (loss)."
+14,Approximately how much did Holley Inc. spend on marketing and advertising in 2022?,Holley Inc.,37,173,0.44966936111450195,"Research and Development Costs
+Research and development costs for the year ended December 31, 2022, increased $0.8 million, or 2.8%, to $29.1 million compared to $28.3 million for the year ended December 31, 2021. The increase in research and development costs reflects our pursuit of product innovation and new products."
+14,Approximately how much did Holley Inc. spend on marketing and advertising in 2022?,Holley Inc.,36,164,0.4474411606788635,"Year Ended December 31, 2022 Compared With Year Ended December 31, 2021
+|  | For the years ended December 31, - 2022 | For the years ended December 31, - 2021 | For the years ended December 31, - Change ($) | For the years ended December 31, - Change (%) |
+| - | - | - | - | - |
+| Net sales | $ 688,415 | $ 692,847 | $ (4,432) | (0.6%) |
+| Cost of goods sold | 434,757 | 406,040 | 28,717 | 7.1% |
+| Gross profit | 253,658 | 286,807 | (33,149) | (11.6%) |
+| Selling, general, and administrative | 150,728 | 116,793 | 33,935 | 29.1% |
+| Research and development costs | 29,083 | 28,280 | 803 | 2.8% |
+"
+14,Approximately how much did Holley Inc. spend on marketing and advertising in 2022?,Holley Inc.,43,218,0.4383973479270935,"Cash Flows
+Investing Activities. Cash used in investing activities for the year ended December 31, 2022, was $25.0 million, primarily relating to acquisitions of $14.3 million and capital expenditures of $13.6 million. For the year ended December 31, 2021, cash used in investing activities was $134.1 million, primarily relating to acquisitions of $119.2 million and capital expenditures of $15.2 million. For the year ended December 31, 2020, cash used in investing activities was $165.6 million, primarily relating to acquisitions of $156.8 million and capital expenditures of $9.4 million."
+15,How many annual self-funding events did Holley Inc. report hosting?,Holley Inc.,8,33,0.6383850574493408,"Marketing
+We have also spent significant time and effort in creating engaging, in-person events to build the Holley tribe. These events focus on creating memorable experiences for enthusiasts, celebrate car culture, build community and show enthusiasts how Holley products can help them enjoy their vehicles. Since 2015, our events have grown in total annual attendance from 14,000 to106,000 in2022. We currently host seven annual self-funding events, including LS Fest East, LS Fest West, Ford Fest, MoParty, High Voltage, Brother's Truck Show, plus a new event launched in 2022, LS Fest Texas, our largest inaugural event to date."
+15,How many annual self-funding events did Holley Inc. report hosting?,Holley Inc.,11,44,0.3663689196109772,"Employees
+Social Responsibility. We are committed to social responsibility. Our socially responsible initiatives include donations to community organizations, sponsorship of local sports teams and weekend family events. Through these programs, Holley and its employees are able to give back to the community through monetary donations and by providing community services. Holley gives its subsidiaries the ability to lead their own community engagement initiatives through contributions to charities and participation in fundraising events."
+15,How many annual self-funding events did Holley Inc. report hosting?,Holley Inc.,43,219,0.31881847977638245,"Cash Flows
+Financing Activities. Cash provided by financing activities for the year ended December 31, 2022, was $2.9 million, which primarily reflected net borrowings on long-term debt. Cash provided by financing activities for the year ended December 31, 2021, was $77.2 million, which included $630.0 million in proceeds from long-term debt, $132.3 million in cash received due to the recapitalization, and $25.0 million in net borrowings under the revolving credit agreement, largely offset by $687.5 million in principal payments on long-term debt, $13.4 million in deferred financing fees, and $9.2 million in payment of contingent consideration on acquisitions. Cash provided by financing activities for the year ended December 31, 2020, was $140.5 million, which included $170.0 million of proceeds from long-term debt, net of $24.6 million in debt payments and $4.7 million in deferred financing fees."
+15,How many annual self-funding events did Holley Inc. report hosting?,Holley Inc.,48,245,0.3038483262062073,"Item 14. Principal Accountant Fees and Services
+The information required by Item 14 will appear in the Company's Proxy Statement for its 2023 Annual Meeting of Stockholders and is incorporated herein by reference."
+15,How many annual self-funding events did Holley Inc. report hosting?,Holley Inc.,43,218,0.2853643298149109,"Cash Flows
+Investing Activities. Cash used in investing activities for the year ended December 31, 2022, was $25.0 million, primarily relating to acquisitions of $14.3 million and capital expenditures of $13.6 million. For the year ended December 31, 2021, cash used in investing activities was $134.1 million, primarily relating to acquisitions of $119.2 million and capital expenditures of $15.2 million. For the year ended December 31, 2020, cash used in investing activities was $165.6 million, primarily relating to acquisitions of $156.8 million and capital expenditures of $9.4 million."
+16,What was Yellow Pages Limited's total revenue in 2022?,TSX_Y,10,34,0.6144378185272217,"Revenues
+(In thousands of Canadian dollars, except percentage information)
+| For the years ended December 31, | 2022 | 2021 | % Change |
+| - | - | - | - |
+| Digital | $ 209,130 | $ 221,471 | (5.6%) |
+| Print | 59,148 | 66,175 | (10.6%) |
+| Total revenues | $ 268,278 | $ 287,646 | (6.7%) |
+Total revenues for the year ended December 31, 2022 decreased by 6.7% to $268.3 million, as compared to $287.6 million for the same period last year. The decrease in revenues is mainly due to the decline of our higher margin digital media and print products and to a lesser extent to our lower margin digital services products, thereby creating pressure on our gross profit margins."
+16,What was Yellow Pages Limited's total revenue in 2022?,TSX_Y,15,65,0.5969693660736084,"Summary of Consolidated Quarterly Results
+|  | 2022 2021 - Q4 | 2022 2021 - Q3 | 2022 2021 - Q2 | 2022 2021 - Q1 | 2022 2021 - Q4 | 2022 2021 - Q3 | 2022 2021 - Q2 | 2022 2021 - Q1 |
+| - | - | - | - | - | - | - | - | - |
+| Total revenues | $ 64,595 | $ 66,310 | $ 69,584 | $ 67,789 | $ 68,624 | $ 70,920 | $ 74,588 | $ 73,514 |
+| Operating costs | 43,616 | 39,920 | 45,796 | 42,378 | 44,264 | 44,303 | 50,148 | 46,931 |
+"
+16,What was Yellow Pages Limited's total revenue in 2022?,TSX_Y,16,75,0.5738996863365173,"Revenues
+| (In thousands of Canadian dollars, except percentage information) For the three-month periods ended December 31, | 2022 | 2021 | % Change |
+| - | - | - | - |
+| Digital | $ 51,509 | $ 53,798 | (4.3%) |
+| Print | 13,086 | 14,826 | (11.7%) |
+| Total revenues | $ 64,595 | $ 68,624 | (5.9%) |
+Total revenues for the fourth quarter ended December 31, 2022 decreased by 5.9% year-over-year and amounted to $64.6 million as compared to $68.6 million for the same period last year. The decrease for the quarter ended December 31, 2022 is due to the decline of our higher margin YP digital media and print products and to a lesser extent to our lower margin digital services products, thereby creating pressure on our gross profit margins."
+16,What was Yellow Pages Limited's total revenue in 2022?,TSX_Y,8,23,0.5720020532608032,"Key Analytics
+- Total Revenues - Total Revenues decreased 6.7% year-over-year and amounted to $268.3 million for the year ended December 31, 2022, an improvement from the decrease of 13.8% reported last year.
+- Digital revenues - Digital revenues decreased 5.6% year-over-year and amounted to $209.1 million for the year ended December 31, 2022, an improvement from the decrease of 12.2% reported last year.
+- Adjusted EBITDA 1 - Adjusted EBITDA declined to $96.6 million or 36.0% of revenues for the year ended December 31, 2022, relative to $102.0 million or 35.5% of revenues for the same period last year.
+- Adjusted EBITDA less CAPEX 1 - Adjusted EBITDA less CAPEX decreased to $91.6 million or 34.1% of revenues for the year ended December 31, 2022 compared to $96.9 million or 33.7% of revenues for the same period last year."
+16,What was Yellow Pages Limited's total revenue in 2022?,TSX_Y,10,35,0.5304208993911743,"Revenues
+Total digital revenues decreased 5.6% year-over-year and amounted to $209.1 million for the year ended December 31, 2022, as compared to $221.5 million for the same period last year. The revenue decline for the period ended December 31, 2022, was mainly attributable to a decrease in digital customer count partially offset by an increase in spend per customer.
+Total print revenues decreased 10.6% year-over-year and amounted to $59.1 million for year ended December 31, 2022. The revenue decline is mainly attributable to the decrease in the number of print customers as well as the spend per customer.
+The decline rates for total revenues, digital revenues and print revenues all significantly improved year-over-year. Total revenue decline of 6.7% this year compares to a decline of 13.8% reported last year. Digital revenue decline of 5.6% this year compares to a decline of 12.2% reported last year. Print revenue decline of 10.6% this year compares to a decline of 18.6% reported last year. These improvements were due to better spend per customer in digital, increased renewal rates as well as improvement in customer claims. The improved spend per customer is due in part to increased pricing."
+17,What was Yellow Pages Limited's digital revenue in 2022?,TSX_Y,10,34,0.7140370011329651,"Revenues
+(In thousands of Canadian dollars, except percentage information)
+| For the years ended December 31, | 2022 | 2021 | % Change |
+| - | - | - | - |
+| Digital | $ 209,130 | $ 221,471 | (5.6%) |
+| Print | 59,148 | 66,175 | (10.6%) |
+| Total revenues | $ 268,278 | $ 287,646 | (6.7%) |
+Total revenues for the year ended December 31, 2022 decreased by 6.7% to $268.3 million, as compared to $287.6 million for the same period last year. The decrease in revenues is mainly due to the decline of our higher margin digital media and print products and to a lesser extent to our lower margin digital services products, thereby creating pressure on our gross profit margins."
+17,What was Yellow Pages Limited's digital revenue in 2022?,TSX_Y,16,75,0.6907250881195068,"Revenues
+| (In thousands of Canadian dollars, except percentage information) For the three-month periods ended December 31, | 2022 | 2021 | % Change |
+| - | - | - | - |
+| Digital | $ 51,509 | $ 53,798 | (4.3%) |
+| Print | 13,086 | 14,826 | (11.7%) |
+| Total revenues | $ 64,595 | $ 68,624 | (5.9%) |
+Total revenues for the fourth quarter ended December 31, 2022 decreased by 5.9% year-over-year and amounted to $64.6 million as compared to $68.6 million for the same period last year. The decrease for the quarter ended December 31, 2022 is due to the decline of our higher margin YP digital media and print products and to a lesser extent to our lower margin digital services products, thereby creating pressure on our gross profit margins."
+17,What was Yellow Pages Limited's digital revenue in 2022?,TSX_Y,10,35,0.6688932180404663,"Revenues
+Total digital revenues decreased 5.6% year-over-year and amounted to $209.1 million for the year ended December 31, 2022, as compared to $221.5 million for the same period last year. The revenue decline for the period ended December 31, 2022, was mainly attributable to a decrease in digital customer count partially offset by an increase in spend per customer.
+Total print revenues decreased 10.6% year-over-year and amounted to $59.1 million for year ended December 31, 2022. The revenue decline is mainly attributable to the decrease in the number of print customers as well as the spend per customer.
+The decline rates for total revenues, digital revenues and print revenues all significantly improved year-over-year. Total revenue decline of 6.7% this year compares to a decline of 13.8% reported last year. Digital revenue decline of 5.6% this year compares to a decline of 12.2% reported last year. Print revenue decline of 10.6% this year compares to a decline of 18.6% reported last year. These improvements were due to better spend per customer in digital, increased renewal rates as well as improvement in customer claims. The improved spend per customer is due in part to increased pricing."
+17,What was Yellow Pages Limited's digital revenue in 2022?,TSX_Y,8,23,0.656155526638031,"Key Analytics
+- Total Revenues - Total Revenues decreased 6.7% year-over-year and amounted to $268.3 million for the year ended December 31, 2022, an improvement from the decrease of 13.8% reported last year.
+- Digital revenues - Digital revenues decreased 5.6% year-over-year and amounted to $209.1 million for the year ended December 31, 2022, an improvement from the decrease of 12.2% reported last year.
+- Adjusted EBITDA 1 - Adjusted EBITDA declined to $96.6 million or 36.0% of revenues for the year ended December 31, 2022, relative to $102.0 million or 35.5% of revenues for the same period last year.
+- Adjusted EBITDA less CAPEX 1 - Adjusted EBITDA less CAPEX decreased to $91.6 million or 34.1% of revenues for the year ended December 31, 2022 compared to $96.9 million or 33.7% of revenues for the same period last year."
+17,What was Yellow Pages Limited's digital revenue in 2022?,TSX_Y,12,50,0.6478975415229797,"Revenues
+Total digital revenues decreased 12.2% year-over-year and amounted to $221.5 million for the year ended December 31, 2021, as compared to $252.3 million for the same period in 2020. The revenue decline for the period ended December 31, 2021, was mainly attributable to a decrease in digital customer count partially offset by an increase in spend per customer.
+Print revenues decreased 18.6% year-over-year and amounted to $66.2 million for the year ended December 31, 2021. The revenue decline was mostly attributable to decreases in the number of print customers as well as the spend per customer."
+18,What was Yellow Pages Limited's Adjusted EBITDA margin in 2022?,TSX_Y,15,66,0.7139083743095398,"Summary of Consolidated Quarterly Results
+|  | 2022 2021 - Q4 | 2022 2021 - Q3 | 2022 2021 - Q2 | 2022 2021 - Q1 | 2022 2021 - Q4 | 2022 2021 - Q3 | 2022 2021 - Q2 | 2022 2021 - Q1 |
+| - | - | - | - | - | - | - | - | - |
+| Income from operations before depreciation and amortization, and restructuring and other charges (Adjusted EBITDA 1 ) | 20,979 | 26,390 | 23,788 | 25,411 | 24,360 | 26,617 | 24,440 | 26,583 |
+| Adjusted EBITDA margin 1 | 32.5% | 39.8% | 34.2% | 37.5% | 35.5% | 37.5% | 32.8% | 36.2% |
+"
+18,What was Yellow Pages Limited's Adjusted EBITDA margin in 2022?,TSX_Y,11,38,0.7097378373146057,"Adjusted EBITDA 1
+For the year ended December 31, 2022 Adjusted EBITDA decreased by $5.4 million or 5.3% to $96.6 million, compared to $102.0 million for the same period last year. The adjusted EBITDA margin increased during the year ended December 31, 2022 to 36.0%, compared to 35.5% for the same period last year. The decrease in Adjusted EBITDA for the year ended December 31, 2022, is the result of revenue pressures as well as ongoing investments in our tele-sales force capacity, partially offset by price increases, the efficiencies from optimization in cost of sales, reductions in other operating costs including reductions in our workforce and associated employee expenses, the decrease in bad debt expense and the decrease in cash-settled stock-based compensation expense. The decrease in cash settled stock-based compensation expense results from the revaluations of the cash settled stock-based compensation liabilities at December 31, 2022, resulting in a $1.9 million recovery related to cash settled stock-based compensation expense for the year ended December 31, 2022, compared to a charge of $4.2 million for the comparative year ended December 31, 2021."
+18,What was Yellow Pages Limited's Adjusted EBITDA margin in 2022?,TSX_Y,11,41,0.6942305564880371,"Adjusted EBITDA less CAPEX 1
+For the year ended December 31, 2022 Adjusted EBITDA less CAPEX decreased by $5.4 million or 5.5% to $91.6 million, compared to $96.9 million for the same period last year. The decrease is driven by the decrease in Adjusted EBITDA. The adjusted EBITDA less CAPEX margin increased during the period ended December 31, 2022 to 34.1% compared to 33.7% for the same period last year."
+18,What was Yellow Pages Limited's Adjusted EBITDA margin in 2022?,TSX_Y,6,16,0.6762782335281372,"Adjusted EBITDA and Adjusted EBITDA Margin
+Adjusted EBITDA is derived from revenues less operating costs, as shown in Yellow Pages Limited's consolidated statements of income. Adjusted EBITDA margin is defined as the percentage of Adjusted EBITDA to revenues. We use Adjusted EBITDA and Adjusted EBITDA margin to evaluate the performance of our business as these reflect its ongoing profitability. We believe that certain investors and analysts use Adjusted EBITDA and Adjusted EBITDA margin to measure a company's ability to service debt and to meet other payment obligations or as a common measurement to value companies in the media and marketing solutions industry as well as to evaluate the performance of a business."
+18,What was Yellow Pages Limited's Adjusted EBITDA margin in 2022?,TSX_Y,17,78,0.6648803949356079,"Adjusted EBITDA 1
+(In thousands of Canadian dollars, except percentage information)
+| For the three-month periods ended December 31, | % of - 2022 | % of - Revenues | % | % - 2021 | of - Revenues | of - % Change |
+| - | - | - | - | - | - | - |
+| Total Adjusted EBITDA | $ 20,979 | 32.5% | $ | 24,360 | 35.5% | (13.9%) |
+1 Adjusted EBITDA is a non-GAAP financial measure and does not have any standardized meaning under IFRS. Therefore, it is unlikely to be comparable to similar measures presented by other issuers. Definitions of non-GAAP financial measures are provided on page 4 of this MD&amp;A."
+19,By what percentage did Yellow Pages Limited's total revenue decline in 2022?,TSX_Y,10,34,0.6793138384819031,"Revenues
+(In thousands of Canadian dollars, except percentage information)
+| For the years ended December 31, | 2022 | 2021 | % Change |
+| - | - | - | - |
+| Digital | $ 209,130 | $ 221,471 | (5.6%) |
+| Print | 59,148 | 66,175 | (10.6%) |
+| Total revenues | $ 268,278 | $ 287,646 | (6.7%) |
+Total revenues for the year ended December 31, 2022 decreased by 6.7% to $268.3 million, as compared to $287.6 million for the same period last year. The decrease in revenues is mainly due to the decline of our higher margin digital media and print products and to a lesser extent to our lower margin digital services products, thereby creating pressure on our gross profit margins."
+19,By what percentage did Yellow Pages Limited's total revenue decline in 2022?,TSX_Y,16,75,0.6361980438232422,"Revenues
+| (In thousands of Canadian dollars, except percentage information) For the three-month periods ended December 31, | 2022 | 2021 | % Change |
+| - | - | - | - |
+| Digital | $ 51,509 | $ 53,798 | (4.3%) |
+| Print | 13,086 | 14,826 | (11.7%) |
+| Total revenues | $ 64,595 | $ 68,624 | (5.9%) |
+Total revenues for the fourth quarter ended December 31, 2022 decreased by 5.9% year-over-year and amounted to $64.6 million as compared to $68.6 million for the same period last year. The decrease for the quarter ended December 31, 2022 is due to the decline of our higher margin YP digital media and print products and to a lesser extent to our lower margin digital services products, thereby creating pressure on our gross profit margins."
+19,By what percentage did Yellow Pages Limited's total revenue decline in 2022?,TSX_Y,10,35,0.6265509724617004,"Revenues
+Total digital revenues decreased 5.6% year-over-year and amounted to $209.1 million for the year ended December 31, 2022, as compared to $221.5 million for the same period last year. The revenue decline for the period ended December 31, 2022, was mainly attributable to a decrease in digital customer count partially offset by an increase in spend per customer.
+Total print revenues decreased 10.6% year-over-year and amounted to $59.1 million for year ended December 31, 2022. The revenue decline is mainly attributable to the decrease in the number of print customers as well as the spend per customer.
+The decline rates for total revenues, digital revenues and print revenues all significantly improved year-over-year. Total revenue decline of 6.7% this year compares to a decline of 13.8% reported last year. Digital revenue decline of 5.6% this year compares to a decline of 12.2% reported last year. Print revenue decline of 10.6% this year compares to a decline of 18.6% reported last year. These improvements were due to better spend per customer in digital, increased renewal rates as well as improvement in customer claims. The improved spend per customer is due in part to increased pricing."
+19,By what percentage did Yellow Pages Limited's total revenue decline in 2022?,TSX_Y,8,23,0.6257999539375305,"Key Analytics
+- Total Revenues - Total Revenues decreased 6.7% year-over-year and amounted to $268.3 million for the year ended December 31, 2022, an improvement from the decrease of 13.8% reported last year.
+- Digital revenues - Digital revenues decreased 5.6% year-over-year and amounted to $209.1 million for the year ended December 31, 2022, an improvement from the decrease of 12.2% reported last year.
+- Adjusted EBITDA 1 - Adjusted EBITDA declined to $96.6 million or 36.0% of revenues for the year ended December 31, 2022, relative to $102.0 million or 35.5% of revenues for the same period last year.
+- Adjusted EBITDA less CAPEX 1 - Adjusted EBITDA less CAPEX decreased to $91.6 million or 34.1% of revenues for the year ended December 31, 2022 compared to $96.9 million or 33.7% of revenues for the same period last year."
+19,By what percentage did Yellow Pages Limited's total revenue decline in 2022?,TSX_Y,16,76,0.6069592833518982,"Revenues
+Total digital revenues decreased 4.3% year-over-year and amounted to $51.5 million during the fourth quarter of 2022 compared to $53.8 million for the same period last year. The revenue decline is mainly attributable to a decrease in digital customer count partially offset by a higher spend per customer.
+Total print revenues decreased 11.7% year-over-year and amounted to $13.1 million during the fourth quarter of 2022 as compared to $14.8 million in the fourth quarter of 2021. The revenue decline was mostly attributable to decreases in the number of print customers as well as the spend per customer.
+The decline rates for total revenues, digital revenues and print revenues all significantly improved year-over-year. Total revenue decline of 5.9% this quarter compares to a decline of 10.5% reported for the same period last year. Digital revenue decline of 4.3% this quarter compares to a decline of 8.7% reported for the same period last year. Print revenue decline of 11.7% this quarter compares to a decline of 16.5% reported for the same period last year. These improvements were due to better spend per customer in digital, increased renewal rates, as well as improvement in customer claims. The improved spend per customer is due in part to increased pricing."
+20,How many customers did Yellow Pages Limited have at the end of 2022?,TSX_Y,8,24,0.6042952537536621,"Key Analytics
+- YP Customer Count 2 - YP's customer count decreased to 92,100 customers for the year ended December 31, 2022, as compared to 104,700 customers for same period last year. The customer count reduction of 12,600 for the year ended December 31, 2022 compares to a decline of 20,700 in the comparable period of the previous year.
+- Headcount 3 - Headcount decreased to 629 employees as at December 31, 2022 compared to 651 employees at December 31, 2021.
+1 Adjusted EBITDA and adjusted EBITDA less CAPEX are non-GAAP financial measures and do not have any standardized meaning under IFRS. Therefore, they are unlikely to be comparable to similar measures presented by other issuers. Definitions of these non-GAAP financial measures are provided on page 4 of this MD&amp;A.
+2 YP Customer Count is defined as the number of customers advertising through one of our products as at the end of the reporting period on a trailing twelve-month basis excluding 411.ca customers.
+3 The Company defines headcount as total employees including contracted employees but excluding employees on short term and long-term disability leave, and on maternity leave."
+20,How many customers did Yellow Pages Limited have at the end of 2022?,TSX_Y,10,35,0.48370829224586487,"Revenues
+Total digital revenues decreased 5.6% year-over-year and amounted to $209.1 million for the year ended December 31, 2022, as compared to $221.5 million for the same period last year. The revenue decline for the period ended December 31, 2022, was mainly attributable to a decrease in digital customer count partially offset by an increase in spend per customer.
+Total print revenues decreased 10.6% year-over-year and amounted to $59.1 million for year ended December 31, 2022. The revenue decline is mainly attributable to the decrease in the number of print customers as well as the spend per customer.
+The decline rates for total revenues, digital revenues and print revenues all significantly improved year-over-year. Total revenue decline of 6.7% this year compares to a decline of 13.8% reported last year. Digital revenue decline of 5.6% this year compares to a decline of 12.2% reported last year. Print revenue decline of 10.6% this year compares to a decline of 18.6% reported last year. These improvements were due to better spend per customer in digital, increased renewal rates as well as improvement in customer claims. The improved spend per customer is due in part to increased pricing."
+20,How many customers did Yellow Pages Limited have at the end of 2022?,TSX_Y,16,76,0.4656537175178528,"Revenues
+Total digital revenues decreased 4.3% year-over-year and amounted to $51.5 million during the fourth quarter of 2022 compared to $53.8 million for the same period last year. The revenue decline is mainly attributable to a decrease in digital customer count partially offset by a higher spend per customer.
+Total print revenues decreased 11.7% year-over-year and amounted to $13.1 million during the fourth quarter of 2022 as compared to $14.8 million in the fourth quarter of 2021. The revenue decline was mostly attributable to decreases in the number of print customers as well as the spend per customer.
+The decline rates for total revenues, digital revenues and print revenues all significantly improved year-over-year. Total revenue decline of 5.9% this quarter compares to a decline of 10.5% reported for the same period last year. Digital revenue decline of 4.3% this quarter compares to a decline of 8.7% reported for the same period last year. Print revenue decline of 11.7% this quarter compares to a decline of 16.5% reported for the same period last year. These improvements were due to better spend per customer in digital, increased renewal rates, as well as improvement in customer claims. The improved spend per customer is due in part to increased pricing."
+20,How many customers did Yellow Pages Limited have at the end of 2022?,TSX_Y,12,50,0.45455247163772583,"Revenues
+Total digital revenues decreased 12.2% year-over-year and amounted to $221.5 million for the year ended December 31, 2021, as compared to $252.3 million for the same period in 2020. The revenue decline for the period ended December 31, 2021, was mainly attributable to a decrease in digital customer count partially offset by an increase in spend per customer.
+Print revenues decreased 18.6% year-over-year and amounted to $66.2 million for the year ended December 31, 2021. The revenue decline was mostly attributable to decreases in the number of print customers as well as the spend per customer."
+20,How many customers did Yellow Pages Limited have at the end of 2022?,TSX_Y,39,195,0.443717896938324,"Consolidated Statements of Cash Flows
+| For the years ended December 31, | Note | 2022 | 2021 |
+| - | - | - | - |
+| CASH, END OF YEAR |  | $ 43,907 | $ 123,559 |
+The accompanying notes are an integral part of these consolidated financial statements."
+21,"How many employees did Yellow Pages Limited report at December 31, 2022?",TSX_Y,8,24,0.5651705861091614,"Key Analytics
+- YP Customer Count 2 - YP's customer count decreased to 92,100 customers for the year ended December 31, 2022, as compared to 104,700 customers for same period last year. The customer count reduction of 12,600 for the year ended December 31, 2022 compares to a decline of 20,700 in the comparable period of the previous year.
+- Headcount 3 - Headcount decreased to 629 employees as at December 31, 2022 compared to 651 employees at December 31, 2021.
+1 Adjusted EBITDA and adjusted EBITDA less CAPEX are non-GAAP financial measures and do not have any standardized meaning under IFRS. Therefore, they are unlikely to be comparable to similar measures presented by other issuers. Definitions of these non-GAAP financial measures are provided on page 4 of this MD&amp;A.
+2 YP Customer Count is defined as the number of customers advertising through one of our products as at the end of the reporting period on a trailing twelve-month basis excluding 411.ca customers.
+3 The Company defines headcount as total employees including contracted employees but excluding employees on short term and long-term disability leave, and on maternity leave."
+21,"How many employees did Yellow Pages Limited report at December 31, 2022?",TSX_Y,39,195,0.5160998106002808,"Consolidated Statements of Cash Flows
+| For the years ended December 31, | Note | 2022 | 2021 |
+| - | - | - | - |
+| CASH, END OF YEAR |  | $ 43,907 | $ 123,559 |
+The accompanying notes are an integral part of these consolidated financial statements."
+21,"How many employees did Yellow Pages Limited report at December 31, 2022?",TSX_Y,64,316,0.5083856582641602,"15. Post-employment benefits
+| As at December 31, | 2022 - Pension benefits 1 | 2022 - Other benefits | 2022 - Pension benefits 1 | 2021 - Other benefits |
+| - | - | - | - | - |
+| Fair value of plan assets, end of year | $ 402,960 | $ - | $ 499,048 | $ - |
+| Accrued benefit obligation, beginning of year | $ 544,732 | $ 29,536 | $ 596,227 | $ 34,700 |
+| Current service cost | 2,080 | 3 | 2,704 | 9 |
+| Employee contributions | 334 | - | 347 | - |
+| Benefit payments | (33,236) | (2,425) | (35,043) | (2,327) |
+| Interest cost | 16,944 | 921 | 15,016 | 879 |
+| Actuarial (gains) losses due to: |  |  |  |  |
+"
+21,"How many employees did Yellow Pages Limited report at December 31, 2022?",TSX_Y,70,350,0.48513737320899963,"Restricted Share Unit and Performance Share Unit Plan
+|  | 2022 - Number of RSUs | 2022 - Liability¹ | 2022 - Number of RSUs | 2021 - Liability¹ |
+| - | - | - | - | - |
+| Outstanding, beginning of year | 277,317 | $ 1,950 | 327,617 | $ 831 |
+| Granted 2 | 149,371 | 258 | - | - |
+| Dividends credited 3 | 12,702 | 172 | 12,204 | 86 |
+| Settled | (65,269) | (838) | (62,504) | (891) |
+| Variation due to change in fair value and vesting | - | 1,133 | - | 1,924 |
+| Outstanding, end of year 4 | 374,121 | $ 2,675 | 277,317 | $ 1,950 |"
+21,"How many employees did Yellow Pages Limited report at December 31, 2022?",TSX_Y,36,180,0.48510265350341797,"Consolidated Statements of Financial Position
+| As at December 31, | Note | 2022 | 2021 |
+| - | - | - | - |
+| Deferred revenues | 9 | 1,266 | 1,622 |
+| Current portion of lease obligations | 10 | 3,396 | 2,940 |
+| TOTAL CURRENT LIABILITIES |  | 56,014 | 65,888 |
+| NON-CURRENT LIABILITIES |  |  |  |
+| Provisions | 14 | 826 | 1,051 |
+| Post-employment benefits | 15 | 40,944 | 75,220 |
+| Lease obligations | 10 | 43,733 | 46,939 |
+| TOTAL NON-CURRENT LIABILITIES |  | 85,503 | 123,210 |
+| TOTAL LIABILITIES |  | 141,517 | 189,098 |
+| CAPITAL AND RESERVES |  | 121,070 | 6,498,894 |
+"
+22,How much cash did Yellow Pages Limited hold at the end of 2022?,TSX_Y,22,113,0.7285060286521912,"Sources and Uses of Cash
+| For the years ended December 31, | 2022 | 2021 |
+| - | - | - |
+| CASH, END OF YEAR | $ 43,907 | $ 123,559 |"
+22,How much cash did Yellow Pages Limited hold at the end of 2022?,TSX_Y,39,195,0.664605975151062,"Consolidated Statements of Cash Flows
+| For the years ended December 31, | Note | 2022 | 2021 |
+| - | - | - | - |
+| CASH, END OF YEAR |  | $ 43,907 | $ 123,559 |
+The accompanying notes are an integral part of these consolidated financial statements."
+22,How much cash did Yellow Pages Limited hold at the end of 2022?,TSX_Y,22,111,0.5338432192802429,"Sources and Uses of Cash
+(In thousands of Canadian dollars)
+| For the years ended December 31, | 2022 | 2021 |
+| - | - | - |
+| Cash flows from operating activities |  |  |
+| Change in operating assets and liabilities | $ 4,728 | $ 26,154 |
+| Stock-based compensation cash payments | (7,155) | (5,541) |
+| Funding of post-employment benefit plans in excess of costs | (32,106) | (7,523) |
+| Income taxes paid, net | (7,758) | - |
+| Cash flows from operations, excluding the above | 91,791 | 91,489 |
+|  | $ 49,500 | $ 104,579 |
+| Cash flows used in investing activities |  |  |
+| Additions to intangible assets | $ (4,911) | $ (4,957) |
+| Additions to property and equipment | (93) | (117) |
+| Payments received from net investment in subleases | 1,338 | 593 |
+|  | $ (3,666) | $ (4,481) |
+"
+22,How much cash did Yellow Pages Limited hold at the end of 2022?,TSX_Y,22,112,0.5199279189109802,"Sources and Uses of Cash
+| For the years ended December 31, | 2022 | 2021 |
+| - | - | - |
+| Cash flows used in financing activities |  |  |
+| Repayment of exchangeable debentures | $ - | $ (107,033) |
+| Repurchase of common shares through NCIBs | (12,404) | (5,334) |
+| Repurchase of common shares per plan of arrangement, net of treasury shares and transaction costs | (96,125) | - |
+| Issuance of common shares | 153 | 111 |
+| Payment of lease obligations | (2,947) | (3,045) |
+| Dividends paid | (14,163) | (14,730) |
+|  | $ (125,486) | $ (130,031) |
+| NET DECREASE IN CASH | $ (79,652) | $ (29,933) |
+| CASH, BEGINNING OF YEAR | 123,559 | 153,492 |
+"
+22,How much cash did Yellow Pages Limited hold at the end of 2022?,TSX_Y,21,110,0.5009942650794983,"Pension Contributions
+As of December 31, 2021, the Company's Pension Plan had a Prior Year Credit Balance (""PYCB"") of $3.1 million. During 2022, the Company drew down $2.7 million (2021 - $2.7 million) of the PYCB, thereby reducing cash payments required into the Pension Plan and leaving a PYCB of $0.4 million as of December 31, 2022. Total cash payments for pension and other benefit plans expected in 2023 amount to approximately $12.5 million, including the $6.0 million contribution toward the Pension Plan's wind-up deficit. Total cash payments for pension and other benefit plans made by the Company during the year ended December 31, 2022 totaled $36.7 million."
+23,How much did Yellow Pages Limited distribute to shareholders through its 2022 share repurchase under the statutory plan of arrangement?,TSX_Y,20,97,0.7228258848190308,"Share repurchase - Plan of Arrangement
+On August 4, 2022, the Board approved a distribution to shareholders of approximately $100.0 million by way of a share repurchase from all shareholders pursuant to a statutory arrangement under the Business Corporations Act (British Columbia) (the ""Arrangement""). The shareholders of the Company (the ""Shareholders"") approved the Arrangement at a special meeting of the Shareholders held on September 23, 2022 and the Company subsequently obtained the final order from the Supreme Court of British Columbia approving the Arrangement on September 27, 2022. On October 4, 2022, the Company repurchased from shareholders pro rata an aggregate of 7,949,125 common shares (including 388,082 shares held in treasury) at a purchase price of $12.58 per share pursuant to the Arrangement for a total of $101.0 million, including $1.0 million of transaction costs. The $101.0 million cash outlay was reduced by $4.9 million for the cancellation of 388,082 of YP's 1,298,994 shares held in Treasury for a net cash outlay of $96.1 million."
+23,How much did Yellow Pages Limited distribute to shareholders through its 2022 share repurchase under the statutory plan of arrangement?,TSX_Y,68,340,0.7081446051597595,"Share repurchases - Plan of Arrangement
+On August 4, 2022, the Board approved a distribution to shareholders of approximately $100.0 million by way of a share repurchase from all shareholders pursuant to a statutory arrangement under the Business Corporations Act (British Columbia). The shareholders of the Company (the ""Shareholders"") approved the Arrangement at a special meeting of the Shareholders held on September 23, 2022 and the Company subsequently obtained the final order from the Supreme Court of British Columbia approving the Arrangement on September 27, 2022. On October 4, 2022, the Company repurchased from shareholders pro rata an aggregate of 7,949,125 common shares (including 388,082 shares holder in treasury) at a purchase price of $12.58 per share pursuant to the Arrangement for a total of $101.0 million, including $1.0 million of transaction costs. The $101.0 million cash outlay was reduced by $4.9 million for the cancellation of 388,082 of YP's 1,298,994 shares held in Treasury for a net cash outlay of $96.1 million."
+23,How much did Yellow Pages Limited distribute to shareholders through its 2022 share repurchase under the statutory plan of arrangement?,TSX_Y,3,3,0.5921124219894409,"Message to Shareholders
+- Produced strong profitability. For the year, our profit (measured as Adjusted EBITDA margin 1 ) was 36.0% of revenues, despite our ongoing, productive investments in revenue initiatives.
+- Cash to Shareholders and to Pension Plan. Pursuant to a statutory plan of arrangement, during 2022, we distributed $100.0 million to shareholders by way of a share repurchase from all shareholders on a pro rata basis and advanced $24.0 million of voluntary contributions to our Defined Benefit Pension Plan's wind-up deficit, in addition to our $4.0 million voluntary incremental payments as announced in May 2021 toward our Defined Benefit Pension Plan's wind-up deficit.
+- Completed NCIB for our common stock. Under our Normal Course Issuer Bid program, launched during 2021, the company purchased 871,135 common shares for cash of $12.4 million during 2022.
+- Paid quarterly cash dividends. We continued to pay dividends of 15 cents per common share per quarter, for a total of $14.2 million in dividends to our common shareholders during 2022.
+- Healthy cash balance. Even after the significant disbursements to shareholders and the Pension Plan, and continued investment in our revenue initiatives, we ended the year with approximately $43.9 million in cash."
+23,How much did Yellow Pages Limited distribute to shareholders through its 2022 share repurchase under the statutory plan of arrangement?,TSX_Y,68,341,0.5852658748626709,"Share repurchases - Plan of Arrangement
+Also pursuant to the Arrangement, the Company advanced $24.0 million to the Pension Plan's wind-up deficit for the year ended December 31, 2022 (see Note 15 Post-employment benefits for additional details).
+In addition, the Board approved a reduction in the carrying amount of Shareholders' capital of $2,545.0 million in order to reflect the legal stated capital amount at December 31, 2022 of $129.0 million; and the reversal of the amounts previously recognized for Reduction of capital reserves of $2,457.1 million and Other reserves of $112.3 million, with an offset to Deficit. The Reduction of capital and Other reserves were mostly created through multiple transactions over a decade ago and the reversal of these reserves and the reduction in the carrying amount of Shareholders' capital was performed to provide more relevant information about the state of current capital and related reserves to users of these financial statements. There is no impact on total equity, net income, or cash flows."
+23,How much did Yellow Pages Limited distribute to shareholders through its 2022 share repurchase under the statutory plan of arrangement?,TSX_Y,19,93,0.5681291818618774,"Outstanding Share Data
+| As at | February 14, 2023 | December 31, 2022 | December 31, 2021 |
+| - | - | - | - |
+| Common shares outstanding 1 | 18,658,347 | 18,658,347 | 27,459,686 |
+| Common share purchase warrants outstanding 2 | - | - | 2,995,483 |
+| Stock options outstanding 3 | 2,132,132 | 2,132,132 | 2,332,893 |
+1 On October 4, 2022, the Company repurchased from shareholders pro rata an aggregate of 7,949,125 common shares pursuant to the plan of arrangement (refer to the section ''Plan of Arrangement'' for details.
+2 The Common share purchase warrants expired on December 20, 2022."
+24,How many common shares did Yellow Pages Limited purchase under its Normal Course Issuer Bid in 2022?,TSX_Y,68,337,0.6410021781921387,"Share repurchases - NCIBs
+The Company entered into a normal course issuer bid (""NCIB""), commencing August 10, 2020, to purchase up to $5.0 million of Common Shares in the open market for cancellation, on or before August 9, 2021. Upon completion of this NCIB on July 16, 2021, the Company had purchased 403,220 common shares for cash of $5.0 million. The related historical carrying value of these shares was reclassified from shareholder's capital to deficit."
+24,How many common shares did Yellow Pages Limited purchase under its Normal Course Issuer Bid in 2022?,TSX_Y,19,95,0.619896411895752,"Share repurchases - NCIBs
+The Company entered into a normal course issuer bid (""NCIB""), commencing August 10, 2020, to purchase up to $5.0 million of Common Shares in the open market for cancellation, on or before August 9, 2021. The Company completed this NCIB program on July 16, 2021 after attaining the $5.0 million limit."
+24,How many common shares did Yellow Pages Limited purchase under its Normal Course Issuer Bid in 2022?,TSX_Y,37,187,0.6150527596473694,"Consolidated Statements of Changes in Equity
+|  |  |  |  |  |  |  |  |  |  |
+| - | - | - | - | - | - | - | - | - | - |
+| Balance, December 31, 2022 | $ | 129,004 | $ (10,988) | $ - $ | 3,054 | $ - | $ 121,070 | $ (55,289) | $ 65,781 |
+1 NCIB - Normal course issuer bid"
+24,How many common shares did Yellow Pages Limited purchase under its Normal Course Issuer Bid in 2022?,TSX_Y,68,338,0.5590169429779053,"Share repurchases - NCIBs
+On August 5, 2021, the Company announced a new NCIB commencing August 10, 2021 to purchase up to $16.0 million of the Company's outstanding shares for cancellation on or before August 9, 2022. Upon completion of this NCIB program on May 30, 2022, the Company purchased under this NCIB program, a total of 1,122,511 common shares for cash of $16.0 million. For the year ended December 31, 2022, the Company purchased under this NCIB program 871,135 common shares, for cash of $12.4 million. For the year ended December 31, 2021, the Company purchased under this NCIB program 251,376 common shares for cash of $3.6 million. The related historical carrying value of these shares in excess of the repurchase proceeds was reclassified from shareholder's capital to deficit."
+24,How many common shares did Yellow Pages Limited purchase under its Normal Course Issuer Bid in 2022?,TSX_Y,19,96,0.5587100982666016,"Share repurchases - NCIBs
+On August 5, 2021, the Company announced a new NCIB commencing August 10, 2021 to purchase up to $16.0 million of the Company's outstanding shares for cancellation on or before August 9, 2022. Upon completion of this NCIB program on May 30, 2022, the Company purchased under this NCIB program, a total of 1,122,511 common shares for cash of $16.0 million. For the year ended December 31, 2022, the Company purchased under this NCIB program 871,135 common shares, for cash of $12.4 million. The related historical carrying value of these shares in excess of the repurchase proceeds was reclassified from shareholder's capital to deficit within the Company's consolidated financial statements. For the year ended December 31, 2021, the Company purchased under this NCIB program 251,376 common shares for cash of $3.6 million."
+25,What were Mercia Asset Management PLC's net assets in 2022?,Mercia Asset Management PLC,42,169,0.5758072137832642,"Summarised statement of financial position and cash flows
+|  | As at 31 March 2022 £'000 | As at 31 March 2021 £'000 |
+| - | - | - |
+| Net assets per share (pence)* | 45.6p | 40.0p |
+* 440,109,707 Ordinary shares were in issue during the years ended 31 March 2022 and 31 March 2021
+Net assets per share increased by c.14% during the year, notwithstanding the payment of dividends totalling £2,641,000 (2021: c.24% growth after dividends paid of £440,000)."
+25,What were Mercia Asset Management PLC's net assets in 2022?,Mercia Asset Management PLC,78,352,0.553476095199585,"Consolidated statement of financial position
+|  |  | As at 31 March 2022 | As at 31 March 2021 |
+| - | - | - | - |
+| Total non-current liabilities |  | (4,223) | (6,592) |
+| Total liabilities |  | (14,212) | (16,419) |
+| Net assets |  | 200,589 | 176,021 |
+| Equity |  |  |  |
+| Issued share capital | 24 | 4 | 4 |
+| Share premium | 25 | 81,644 | 81,644 |
+| Other distributable reserve | 26 | 66,919 | 69,560 |
+| Retained earnings |  | 48,505 | 22,405 |
+| Share-based payments reserve |  | 3,517 | 2,408 |
+| Total equity |  | 200,589 | 176,021 |
+The notes on pages 79 to 104 are an integral part of these financial statements."
+25,What were Mercia Asset Management PLC's net assets in 2022?,Mercia Asset Management PLC,42,168,0.5464063286781311,"Summarised statement of financial position and cash flows
+|  | As at 31 March 2022 £'000 | As at 31 March 2021 £'000 |
+| - | - | - |
+| Goodwill and intangible assets | 32,355 | 34,388 |
+| Direct investment portfolio | 119,558 | 96,220 |
+| Other non-current assets, trade and other receivables | 1,604 | 4,623 |
+| Cash and short-term liquidity investments | 61,284 | 57,209 |
+| Total assets | 214,801 | 192,440 |
+| Trade and other payables | (7,415) | (8,600) |
+| Deferred consideration | (2,869) | (4,447) |
+| Deferred taxation | (3,928) | (3,372) |
+| Total liabilities | (14,212) | (16,419) |
+| Net assets | 200,589 | 176,021 |
+"
+25,What were Mercia Asset Management PLC's net assets in 2022?,Mercia Asset Management PLC,78,350,0.5084605813026428,"Consolidated statement of financial position
+|  |  | As at 31 March 2022 | As at 31 March 2021 |
+| - | - | - | - |
+| Assets | Note | £'000 | £'000 |
+| Non-current assets |  |  |  |
+| Goodwill | 13 | 16,642 | 16,642 |
+| Intangible assets | 14 | 15,713 | 17,746 |
+| Property, plant and equipment | 15 | 113 | 107 |
+| Right-of-use assets | 16 | 417 | 456 |
+| Investments | 17 | 119,558 | 96,220 |
+| Total non-current assets |  | 152,443 | 131,171 |
+| Current assets |  |  |  |
+| Trade and other receivables | 18 | 1,074 | 4,060 |
+| Restricted cash | 19 | - | 2,484 |
+| Short-term liquidity investments | 19 | 5,235 | 234 |
+"
+25,What were Mercia Asset Management PLC's net assets in 2022?,Mercia Asset Management PLC,17,63,0.5066803693771362,"Direct investments: portfolio-wide progress, breakout at nDreams
+|  | Year of first direct investment | Net investment value as at 1 April 2021 £'000 | Net cash invested year to 31 March 2022 £'000 | Investment realisations year to 31 March 2022 £'000 | Realised gains year to 31 March 2022 £'000 | Fair value movement year to 31 March 2022 £'000 | Net investment value as at 31 March 2022 £'000 | Percentage held as at 31 March 2022 % |
+| - | - | - | - | - | - | - | - | - |
+| nDreams Ltd | 2014 | 17,726 | 1,301 | - | - | 6,734 | 25,761 | 33.2 |
+| Intechnica Group Ltd | 2017 | 9,996 | 1,531 | - | - | 2,884 | 14,411 | 24.1 |
+"
+26,What was Mercia's net asset value per share in 2022?,Mercia Asset Management PLC,42,169,0.6396306753158569,"Summarised statement of financial position and cash flows
+|  | As at 31 March 2022 £'000 | As at 31 March 2021 £'000 |
+| - | - | - |
+| Net assets per share (pence)* | 45.6p | 40.0p |
+* 440,109,707 Ordinary shares were in issue during the years ended 31 March 2022 and 31 March 2021
+Net assets per share increased by c.14% during the year, notwithstanding the payment of dividends totalling £2,641,000 (2021: c.24% growth after dividends paid of £440,000)."
+26,What was Mercia's net asset value per share in 2022?,Mercia Asset Management PLC,12,39,0.5019871592521667,"Growing net asset value (""NAV"") per share
+Our hybrid investment model of supporting exciting SMEs, first through our managed funds, before selectively co-investing with scale-up funding from our proprietary capital, is now consistently contributing to our growing NAV per share. The recent full cash exit from Faradion, which followed less than 12 months after the successful OXGENE™ full cash exit, demonstrates a number of key points. We are typically exiting at prices significantly above our holding values - OXGENE at c.£18million above holding value in the previous financial year, and Faradion at c.£14million above the opening holding value in this financial year. These two exits alone generated c.£50million in cash back to our balance sheet, meaning that we are unlikely to come back to our shareholders to ask them for more money to fund the Group's direct investment activities. Being largely comprised of unquoted investments which are not susceptible to stock market volatility, as is currently occurring, we remain confident that our maturing direct investment portfolio will continue to play an important role in increasing NAV per share in the years to come. For more detail on Mercia's financial performance, please refer to Martin Glanfield's Chief Financial Officer review (""CFO""), starting on page 36."
+26,What was Mercia's net asset value per share in 2022?,Mercia Asset Management PLC,94,436,0.4943891167640686,"11. Earnings per share
+|  | Year ended 31 March 2022 | Year ended 31 March 2021 |
+| - | - | - |
+| Profit for the financial year (£'000) | 26,100 | 34,458 |
+| Basic weighted average number of Ordinary shares ('000) | 440,110 | 440,110 |
+| Basic earnings per Ordinary share (pence) | 5.93 | 7.83 |
+| Diluted weighted average number of Ordinary shares ('000) | 448,466 | 440,110 |
+| Diluted earnings per Ordinary share (pence) | 5.82 | 7.83 |
+The calculation of basic and diluted earnings per share is based on the following data:"
+26,What was Mercia's net asset value per share in 2022?,Mercia Asset Management PLC,20,82,0.48930975794792175,"Our equity performance
+| IRR - Proprietary capital - TVPI * | 31 March 2022 - 16% - Venture | 31 March 2022 - 16% - Private Equity | 31 March 2021 - 15% - Venture | 31 March 2021 - 15% - Private Equity |
+| - | - | - | - | - |
+| Institutional Funds |  |  |  |  |
+| Legacy | 193% | 132% | 138% | 142% |
+| Current | 111% | 109% | 98% | 87% |
+| Retail EIS Funds |  |  |  |  |
+| Legacy | 139% | n/a | 123% | n/a |
+| Current | 96% | n/a | 102% | n/a |
+| VCTs (pence per Ordinary share) | NAV ** | Total return ** | NAV | Total return |
+| Northern Venture Trust | 68.4 | 252.9 | 79.8 | 254.3 |
+"
+26,What was Mercia's net asset value per share in 2022?,Mercia Asset Management PLC,94,437,0.4892561733722687,"11. Earnings per share
+|  | Year ended 31 March 2022 '000 | Year ended 31 March 2021 '000 |
+| - | - | - |
+| Weighted average number of shares |  |  |
+| Basic | 440,110 | 440,110 |
+| Dilutive impact of share options | 8,356 | - |
+| Diluted weighted average number of Ordinary shares | 448,466 | 440,110 |"
+27,What was Mercia's revenue excluding performance fees in 2022?,Mercia Asset Management PLC,84,382,0.5827983617782593,"Performance fees
+Performance fees are earned when specified performance metrics exceed hurdles set out within fund management agreements, or when agreed with investors. These fees are recognised in the consolidated statement of comprehensive income only when the Group is entitled to receive a fee based on performance, the quantum of fee is known and it is highly probable that payment will be received by the Group. Performance fees are received shortly after confirmation of entitlement. Directly attributable costs, such as staff compensation linked to the performance in excess of the hurdle, are recognised in the consolidated statement of comprehensive income within administrative expenses upon recognition of the performance fee."
+27,What was Mercia's revenue excluding performance fees in 2022?,Mercia Asset Management PLC,39,152,0.5799560546875,"Adjusted operating profit - alternative performance measure (""APM"")
+|  | Year ended 31 March 2022 £'000 | Year ended 31 March 2021 £'000 |
+| - | - | - |
+| Revenue 1 | 20,576 | 19,186 |
+| Administrative expenses 1 | (16,618) | (15,897) |
+| Net finance income | 4,437 | 48 |
+| Adjusted operating profit | 8,395 | 3,337 |
+| Performance fees | 2,607 | 4,224 |
+| Variable compensation attributable to performance fees | (1,015) | (445) |
+| Net performance fees | 1,592 | 3,779 |
+| Adjusted operating profit including net performance fees | 9,987 | 7,116 |
+| Depreciation | (224) | (212) |
+| Net finance income | (4,437) | (48) |
+| Realised gain on disposal of investment | 9,878 | 20,251 |
+"
+27,What was Mercia's revenue excluding performance fees in 2022?,Mercia Asset Management PLC,90,415,0.5784754753112793,"3. Segmental reporting
+|  | Year ended 31 March 2022 £'000 | Year ended 31 March 2021 £'000 |
+| - | - | - |
+| Fund management fees | 14,957 | 13,143 |
+| Initial management fees | 2,456 | 1,447 |
+| Portfolio directors' fees | 2,969 | 3,086 |
+| VCTs share offer fees | - | 1,318 |
+| Performance fees | 2,607 | 4,224 |
+| Other revenue | 194 | 192 |
+|  | 23,183 | 23,410 |"
+27,What was Mercia's revenue excluding performance fees in 2022?,Mercia Asset Management PLC,40,156,0.5547764897346497,"Revenue
+Revenue 1 increased 7.2% to £20,576,000 (2021: £19,186,000) and comprised fund management related fees, initial management fees from investment rounds, investment director monitoring fees and sundry business services income. Excluding the impact of VCT share offer fees received in the year ended 31 March 2021, the like-for-like increase was c.15%."
+27,What was Mercia's revenue excluding performance fees in 2022?,Mercia Asset Management PLC,40,159,0.511184811592102,"Performance fees and attributable variable compensation
+Performance fees can become receivable under certain of the Group's fund management mandates, when predetermined performance hurdles are exceeded. During the year, performance fees totalling £2,607,000 (2021: £4,224,000) were received, predominantly from Northern Venture Trust PLC, based upon the growth in its net asset value per share above a hurdle for the year ended 30 September 2021. Attributable VCT investment team bonuses (including employer's National Insurance) totalling £1,015,000 were paid (2021: £445,000)."
+28,What was Mercia's adjusted operating profit excluding performance fees in 2022?,Mercia Asset Management PLC,39,152,0.7361880540847778,"Adjusted operating profit - alternative performance measure (""APM"")
+|  | Year ended 31 March 2022 £'000 | Year ended 31 March 2021 £'000 |
+| - | - | - |
+| Revenue 1 | 20,576 | 19,186 |
+| Administrative expenses 1 | (16,618) | (15,897) |
+| Net finance income | 4,437 | 48 |
+| Adjusted operating profit | 8,395 | 3,337 |
+| Performance fees | 2,607 | 4,224 |
+| Variable compensation attributable to performance fees | (1,015) | (445) |
+| Net performance fees | 1,592 | 3,779 |
+| Adjusted operating profit including net performance fees | 9,987 | 7,116 |
+| Depreciation | (224) | (212) |
+| Net finance income | (4,437) | (48) |
+| Realised gain on disposal of investment | 9,878 | 20,251 |
+"
+28,What was Mercia's adjusted operating profit excluding performance fees in 2022?,Mercia Asset Management PLC,39,151,0.6621026992797852,"Adjusted operating profit - alternative performance measure (""APM"")
+The Directors believe that the reporting of adjusted operating profit assists in providing a consistent measure of operating performance and is an important APM of interest to shareholders.
+Adjusted operating profit is defined as operating profit before performance fees net of variable compensation, realised gains on disposal of investments, fair value movements in investments, share-based payments charge, depreciation, amortisation of intangible assets, movement in fair value of deferred consideration and exceptional items. It includes net finance income.
+Results reported on an APM basis are denoted by 1 throughout this review."
+28,What was Mercia's adjusted operating profit excluding performance fees in 2022?,Mercia Asset Management PLC,39,153,0.6269928812980652,"Adjusted operating profit - alternative performance measure (""APM"")
+|  | Year ended 31 March 2022 £'000 | Year ended 31 March 2021 £'000 |
+| - | - | - |
+| Fair value movements in investments | 11,385 | 10,088 |
+| Share-based payments charge | (1,109) | (543) |
+| Amortisation of intangible assets | (2,033) | (2,317) |
+| Movement in fair value of deferred consideration | (522) | (365) |
+| Operating profit | 22,925 | 33,970 |
+| Net finance income | 4,437 | 48 |
+| Profit before taxation | 27,362 | 34,018 |
+| Taxation | (1,262) | 440 |
+| Profit and total comprehensive income for the year | 26,100 | 34,458 |
+<!-- image -->"
+28,What was Mercia's adjusted operating profit excluding performance fees in 2022?,Mercia Asset Management PLC,92,428,0.5919517874717712,"7. Operating profit
+|  | Year ended 31 March 2022 £'000 | Year ended 31 March 2021 £'000 |
+| - | - | - |
+| Administrative expenses: |  |  |
+| Staff costs including bonuses linked to performance fees (note 5) | 12,961 | 10,703 |
+| Marketing, professional adviser, travel and entertainment and other administration costs | 4,150 | 5,111 |
+| Depreciation of property, plant and equipment (note 15) | 70 | 70 |
+| Depreciation of right-of-use assets (note 16) | 154 | 142 |
+| Expenses relating to short-term leases and leases of low-value assets (note 21) | 327 | 309 |
+| Auditor's remuneration 1 : |  |  |
+| - Fees payable to the Company's auditor for the audit of the Company and consolidated accounts | 115 | 115 |
+| - Fees payable to the Company's auditor for other services: |  |  |
+| - Review of the interim accounts of the Company | 20 | 44 |
+| - The audit of accounts of subsidiaries of the Company | 46 | 46 |
+"
+28,What was Mercia's adjusted operating profit excluding performance fees in 2022?,Mercia Asset Management PLC,79,355,0.5476547479629517,"Consolidated statement of cash flows
+|  | Note | Year ended 31 March 2022 £'000 | Year ended 31 March 2021 £'000 |
+| - | - | - | - |
+| Cash flows from operating activities: |  |  |  |
+| Operating profit |  | 22,925 | 33,970 |
+| Adjustments to reconcile operating profit to net cash generated from operating activities: |  |  |  |
+| Depreciation of property, plant and equipment | 15 | 70 | 70 |
+| Depreciation of right-of-use assets | 16 | 154 | 142 |
+| Gain on sale of direct investment | 17 | (9,878) | (20,251) |
+| Fair value movements in direct investments | 4 | (11,385) | (10,088) |
+| Share-based payments charge | 6 | 1,109 | 543 |
+| Amortisation of intangible assets | 14 | 2,033 | 2,317 |
+| Movement in fair value of deferred consideration | 22 | 522 | 365 |
+"
+29,What was Mercia's profit before taxation in 2022?,Mercia Asset Management PLC,77,348,0.5991618633270264,"Consolidated statement of comprehensive income
+|  | Note | Year ended 31 March 2022 £'000 | Year ended 31 March 2021 £'000 |
+| - | - | - | - |
+| Profit before taxation |  | 27,362 | 34,018 |
+| Taxation | 10 | (1,262) | 440 |
+| Profit and total comprehensive income for the year |  | 26,100 | 34,458 |
+| Basic earnings per Ordinary share (pence) | 11 | 5.93 | 7.83 |
+| Diluted earnings per Ordinary share (pence) | 11 | 5.82 | 7.83 |
+All results derive from continuing operations.
+The notes on pages 79 to 104 are an integral part of these financial statements.
+<!-- image -->"
+29,What was Mercia's profit before taxation in 2022?,Mercia Asset Management PLC,93,433,0.5767036080360413,"10. Taxation
+|  | Year ended 31 March 2022 £'000 | Year ended 31 March 2021 £'000 |
+| - | - | - |
+| Profit before taxation | 27,362 | 34,018 |
+| Tax at the standard rate of corporation tax in the UK of 19% (2021: 19%) | (5,199) | (6,463) |
+| Effects of: |  |  |
+| Income not subject to tax | 4,039 | 6,938 |
+| Expenses not deductible for tax purposes | (314) | (193) |
+| Share of partnership profits | (513) | - |
+| Remeasurement of deferred tax for changes in tax rates | 252 | - |
+| Other timing differences not recognised | 473 | 158 |
+| Total tax (charge)/credit | (1,262) | 440 |"
+29,What was Mercia's profit before taxation in 2022?,Mercia Asset Management PLC,39,153,0.5519649982452393,"Adjusted operating profit - alternative performance measure (""APM"")
+|  | Year ended 31 March 2022 £'000 | Year ended 31 March 2021 £'000 |
+| - | - | - |
+| Fair value movements in investments | 11,385 | 10,088 |
+| Share-based payments charge | (1,109) | (543) |
+| Amortisation of intangible assets | (2,033) | (2,317) |
+| Movement in fair value of deferred consideration | (522) | (365) |
+| Operating profit | 22,925 | 33,970 |
+| Net finance income | 4,437 | 48 |
+| Profit before taxation | 27,362 | 34,018 |
+| Taxation | (1,262) | 440 |
+| Profit and total comprehensive income for the year | 26,100 | 34,458 |
+<!-- image -->"
+29,What was Mercia's profit before taxation in 2022?,Mercia Asset Management PLC,38,148,0.5169367790222168,"Robust results and business fundamentals
+Chief Financial Officer Martin Glanfield
+""Mercia has generated over £60million of pre-tax profits during the last two years.""
+2022 Highlights
+£27.4m
+Profit before taxation
+2021: £34.0m
+£200.6m
+Net assets
+2021: £176.0m
+45.6p
+Net assets per share
+2021: 40.0p
+£61.3m
+Cash*
+2021: £54.7m
+* Including short-term liquidity investments
+<!-- image -->
+The significance of Mercia's financial results for the year ended 31 March 2022 is that they demonstrate that the previous year's record results were not a 'one-off'. These results were generated from both the Group's profitable fund management operations and its maturing direct investment portfolio. This combination of recurring profits and cash flow generation from both our fund management operations and balance sheet investment portfolio, is a key differentiator in the specialist asset management sector."
+29,What was Mercia's profit before taxation in 2022?,Mercia Asset Management PLC,92,428,0.5003851652145386,"7. Operating profit
+|  | Year ended 31 March 2022 £'000 | Year ended 31 March 2021 £'000 |
+| - | - | - |
+| Administrative expenses: |  |  |
+| Staff costs including bonuses linked to performance fees (note 5) | 12,961 | 10,703 |
+| Marketing, professional adviser, travel and entertainment and other administration costs | 4,150 | 5,111 |
+| Depreciation of property, plant and equipment (note 15) | 70 | 70 |
+| Depreciation of right-of-use assets (note 16) | 154 | 142 |
+| Expenses relating to short-term leases and leases of low-value assets (note 21) | 327 | 309 |
+| Auditor's remuneration 1 : |  |  |
+| - Fees payable to the Company's auditor for the audit of the Company and consolidated accounts | 115 | 115 |
+| - Fees payable to the Company's auditor for other services: |  |  |
+| - Review of the interim accounts of the Company | 20 | 44 |
+| - The audit of accounts of subsidiaries of the Company | 46 | 46 |
+"
+30,What were Mercia's approximate assets under management in 2022?,Mercia Asset Management PLC,17,71,0.46797752380371094,"Direct investments: portfolio-wide progress, breakout at nDreams
+|  | Year of first direct investment | Net investment value as at 1 April 2021 £'000 | Net cash invested year to 31 March 2022 £'000 | Investment realisations year to 31 March 2022 £'000 | Realised gains year to 31 March 2022 £'000 | Fair value movement year to 31 March 2022 £'000 | Net investment value as at 31 March 2022 £'000 | Percentage held as at 31 March 2022 % |
+| - | - | - | - | - | - | - | - | - |
+| MyHealthChecked plc | 2016 | 4,488 | - | - | - | (2,856) | 1,632 | 13.1 |
+| MIP Discovery Ltd**** | 2020 | 302 | 1,147 | - | - | - | 1,449 | 10.2 |
+"
+30,What were Mercia's approximate assets under management in 2022?,Mercia Asset Management PLC,17,73,0.4670301377773285,"Direct investments: portfolio-wide progress, breakout at nDreams
+|  | Year of first direct investment | Net investment value as at 1 April 2021 £'000 | Net cash invested year to 31 March 2022 £'000 | Investment realisations year to 31 March 2022 £'000 | Realised gains year to 31 March 2022 £'000 | Fair value movement year to 31 March 2022 £'000 | Net investment value as at 31 March 2022 £'000 | Percentage held as at 31 March 2022 % |
+| - | - | - | - | - | - | - | - | - |
+| Total |  | 96,220 | 18,384 | (16,309) | 9,878 | 11,385 | 119,558 | n/a |
+* Trading as Intelligent Positioning
+** Trading as Avid Games
+*** Formerly Soccer Manager Limited, prior to a change in registered name to Invincibles Studio Limited in March 2022"
+30,What were Mercia's approximate assets under management in 2022?,Mercia Asset Management PLC,17,63,0.4649018943309784,"Direct investments: portfolio-wide progress, breakout at nDreams
+|  | Year of first direct investment | Net investment value as at 1 April 2021 £'000 | Net cash invested year to 31 March 2022 £'000 | Investment realisations year to 31 March 2022 £'000 | Realised gains year to 31 March 2022 £'000 | Fair value movement year to 31 March 2022 £'000 | Net investment value as at 31 March 2022 £'000 | Percentage held as at 31 March 2022 % |
+| - | - | - | - | - | - | - | - | - |
+| nDreams Ltd | 2014 | 17,726 | 1,301 | - | - | 6,734 | 25,761 | 33.2 |
+| Intechnica Group Ltd | 2017 | 9,996 | 1,531 | - | - | 2,884 | 14,411 | 24.1 |
+"
+30,What were Mercia's approximate assets under management in 2022?,Mercia Asset Management PLC,17,69,0.46177512407302856,"Direct investments: portfolio-wide progress, breakout at nDreams
+|  | Year of first direct investment | Net investment value as at 1 April 2021 £'000 | Net cash invested year to 31 March 2022 £'000 | Investment realisations year to 31 March 2022 £'000 | Realised gains year to 31 March 2022 £'000 | Fair value movement year to 31 March 2022 £'000 | Net investment value as at 31 March 2022 £'000 | Percentage held as at 31 March 2022 % |
+| - | - | - | - | - | - | - | - | - |
+| Sense Biodetection Ltd | 2020 | 945 | 909 | - | - | 625 | 2,479 | 1.6 |
+| sureCore Ltd | 2016 | 2,417 | - | - | - | - | 2,417 | 22.0 |
+| Edge Case Games Ltd | 2015 | 2,300 | - | - | - | - | 2,300 | 18.7 |
+"
+30,What were Mercia's approximate assets under management in 2022?,Mercia Asset Management PLC,17,68,0.456570565700531,"Direct investments: portfolio-wide progress, breakout at nDreams
+|  | Year of first direct investment | Net investment value as at 1 April 2021 £'000 | Net cash invested year to 31 March 2022 £'000 | Investment realisations year to 31 March 2022 £'000 | Realised gains year to 31 March 2022 £'000 | Fair value movement year to 31 March 2022 £'000 | Net investment value as at 31 March 2022 £'000 | Percentage held as at 31 March 2022 % |
+| - | - | - | - | - | - | - | - | - |
+| Eyoto Group Ltd | 2017 | 1,813 | 1,147 | - | - | - | 2,960 | 15.7 |
+| W2 Global Data Solutions Ltd | 2018 | 2,300 | 200 | - | - | - | 2,500 | 16.3 |
+"
+31,"How much cash, including short-term liquidity investments, did Mercia report in 2022?",Mercia Asset Management PLC,42,173,0.7388489842414856,"Cash and short-term liquidity investments
+The summarised movements in the Group's cash and short-term liquidity investments position during the year is shown below.
+|  | Year ended 31 March 2022 £'000 | Year ended 31 March 2021 £'000 |
+| - | - | - |
+| Opening cash and short-term liquidity investments | 54,725 | 30,186 |
+| Net cash generated from operating activities | 9,150 | 5,611 |
+| Net cash generated from direct investment activities | 2,363 | 21,640 |
+| Purchase of VCT fund management contracts | (2,100) | (2,100) |
+| Cash outflow from other investing activities | (62) | (34) |
+| Net cash used in financing activities | (2,792) | (578) |
+| Closing cash and short-term liquidity investments | 61,284 | 54,725 |"
+31,"How much cash, including short-term liquidity investments, did Mercia report in 2022?",Mercia Asset Management PLC,109,513,0.6947187185287476,"Cash, cash equivalents and short-term liquidity investments
+Cash and cash equivalents include cash in hand, deposits held with banks and other short-term highly liquid investments with original maturities of less than three months. Short-term liquid investments with a maturity of over three months but less than 12 months are included in a separate category, 'short-term liquidity investments'.
+<!-- image -->"
+31,"How much cash, including short-term liquidity investments, did Mercia report in 2022?",Mercia Asset Management PLC,87,403,0.693761944770813,"Cash, cash equivalents and short-term liquidity investments
+Cash and cash equivalents include cash in hand, deposits held with banks and other short-term highly liquid investments with original maturities of less than three months. Short-term liquid investments with a maturity of between three and 12 months, are included in a separate category, 'short-term liquidity investments'."
+31,"How much cash, including short-term liquidity investments, did Mercia report in 2022?",Mercia Asset Management PLC,42,172,0.654172420501709,"Cash and short-term liquidity investments
+At the year end, Mercia had cash and short-term liquidity investments (which is cash on deposit with maturities of between 32 days and three months) totalling £61,284,000 (2021: £54,725,000), comprising cash of £56,049,000 (2021: £54,491,000) and short-term liquidity investments of £5,235,000 (2021: £234,000). The Group held no cash on behalf of third-party EIS investors as at 31 March 2022 (2021: £2,484,000), following the appointment of an external custodian during the year.
+The Group continues to have limited working capital needs due to the nature of its business and generated net operating cash inflow of £9.2million (2021: £5.6million net inflow).
+The overriding emphasis of the Group's treasury policy remains the preservation of its shareholders' cash for investment, corporate and working capital purposes, not yield. As at 31 March 2022, the Group's cash and short-term liquidity investments were spread across four leading United Kingdom banks."
+31,"How much cash, including short-term liquidity investments, did Mercia report in 2022?",Mercia Asset Management PLC,92,430,0.6517232656478882,"8. Finance income
+Finance income is derived from:
+|  | Year ended 31 March 2022 £'000 | Year ended 31 March 2021 £'000 |
+| - | - | - |
+| Cash and cash equivalents | 12 | 5 |
+| Short-term liquidity investments | 2 | 13 |
+| Investee company loans (interest and redemption premiums) | 4,438 | 50 |
+| Total interest income | 4,452 | 68 |"
+32,How much did Mercia receive in total proceeds from the sale of Faradion Ltd?,Mercia Asset Management PLC,3,2,0.7810197472572327,"2022 highlights
+- Sale of Faradion Ltd with total proceeds of £19.4million
+- £11.4million fair value movements (""FvM"") in the direct investment portfolio, following continued commercial progress, including significant third-party investment into nDreams"
+32,How much did Mercia receive in total proceeds from the sale of Faradion Ltd?,Mercia Asset Management PLC,18,76,0.6956914663314819,"Chief Investment Officer's review continued
+Faradion was sold in January 2022 to India's Reliance New Energy Solar Ltd, a wholly owned subsidiary of India-based Reliance Industries Ltd, for £100.0million. Total cash proceeds back to Mercia's balance sheet of £19.4million resulted in a realised gain of £9.9million, generating a 4.4x return on Mercia's direct investment cost of £4.4million and a c.72% internal rate of return (""IRR"") since the first direct investment in 2017.
+The sale has also generated combined cash returns of c.£32million on a total investment cost of £3.6million for Mercia's managed funds, delivering fund IRRs of between c.30% and c.72%. Mercia has proactively supported Faradion throughout its development, including representation from Mercia's Investment Director, Ashwin Kumaraswamy, as a non-executive director on Faradion's board from inception through to exit.
+We continued to support our foremost direct portfolio businesses with £11.1million of the £18.4million total being invested across our top 10 direct investments."
+32,How much did Mercia receive in total proceeds from the sale of Faradion Ltd?,Mercia Asset Management PLC,97,452,0.688535213470459,"17. Investments
+On 4 January 2022, the Group completed the sale of its investment in Faradion Limited, generating a realised gain of £9,878,000. Total cash proceeds of £19,402,000 were received upon completion, comprising £16,309,000 from the sale of the Group's equity holding, a loan repayment of £1,500,000, a loan redemption premium of £1,500,000 and loan interest of £93,000. Additional loan redemption premiums and interest, totalling £738,000, converted into equity immediately prior to disposal of the Group's total equity holding.
+Investments held as part of the Group's direct investment portfolio are carried at fair value in accordance with the IFRS 10 Investment Entity exemption.
+The measurement basis for determining the fair value of investments held at 31 March is as follows:"
+32,How much did Mercia receive in total proceeds from the sale of Faradion Ltd?,Mercia Asset Management PLC,29,116,0.6871529221534729,"Another strong performance
+<!-- image -->
+Realised gain on the sale of Faradion Responsible business
+<!-- image -->"
+32,How much did Mercia receive in total proceeds from the sale of Faradion Ltd?,Mercia Asset Management PLC,41,167,0.6480633020401001,"Profit and total comprehensive income for the year
+The adjusted operating profit, net performance fees, realised gain on the sale of Faradion and net fair value increases for the year as a whole, all contributed favourably to a consolidated total comprehensive income of £26,100,000 (2021: £34,458,000). This has resulted in basic earnings per Ordinary share of 5.93 pence (2021: 7.83 pence).
+<!-- image -->"
+33,What was Mercia's proposed final dividend per share for the 2022 financial year?,Mercia Asset Management PLC,94,440,0.7871946692466736,"12. Dividends
+The final dividend for the year ended 31 March 2022 proposed by the Board of 0.5 pence per share, totalling £2,201,000, is subject to shareholder approval at the AGM on 13 September 2022, and as such has not been included as a liability in these financial statements in accordance with IAS 10."
+33,What was Mercia's proposed final dividend per share for the 2022 financial year?,Mercia Asset Management PLC,94,438,0.7507404088973999,"12. Dividends
+| Dividends declared/proposed in respect of the year | Year ended 31 March 2022 - Pence per share | Year ended 31 March 2022 - £'000 | Year ended 31 March 2021 - Pence per share | Year ended 31 March 2021 - £'000 |
+| - | - | - | - | - |
+| Interim dividend declared in relation to year ended 31 March 2021 | - | - | 0.1 | 440 |
+| Final dividend declared in relation to year ended 31 March 2021 | - | - | 0.3 | 1,320 |
+| Interim dividend declared in relation to year ended 31 March 2022 | 0.3 | 1,320 | - | - |
+| Final dividend proposed in relation to year ended 31 March 2022 | 0.5 | 2,201 | - | - |
+| Total | 0.8 | 3,521 | 0.4 | 1,760 |"
+33,What was Mercia's proposed final dividend per share for the 2022 financial year?,Mercia Asset Management PLC,56,233,0.7197407484054565,"Results and dividends
+The profit for the year was £26,100,000 (2021: £34,458,000). An interim dividend of 0.3 pence per share was paid on 31 December 2021 at a cost of £1,320,000 (2021: 0.1 pence per share at a cost of £440,000). In accordance with the progressive dividend policy adopted by the Board, the Directors recommend the payment of a final dividend of 0.5 pence per share for the year ended 31 March 2022 (2021: 0.3 pence per share). If approved by shareholders at the Annual General Meeting (""AGM""), the final dividend will be paid on 11 October 2022 to shareholders on the register on 23 September 2022."
+33,What was Mercia's proposed final dividend per share for the 2022 financial year?,Mercia Asset Management PLC,116,552,0.717112123966217,"Ordinary resolutions
+7. That a final dividend of 0.5 pence per Ordinary share for the year ended 31 March 2022 be declared."
+33,What was Mercia's proposed final dividend per share for the 2022 financial year?,Mercia Asset Management PLC,94,439,0.6758021116256714,"12. Dividends
+| Dividends paid during the year | Year ended 31 March 2022 - Pence per share | Year ended 31 March 2022 - £'000 | Year ended 31 March 2021 - Pence per share | Year ended 31 March 2021 - £'000 |
+| - | - | - | - | - |
+| Interim dividend paid in relation to year ended 31 March 2021 | - | - | 0.1 | 440 |
+| Final dividend paid in relation to year ended 31 March 2021 | 0.3 | 1,320 | - | - |
+| Interim dividend paid in relation to year ended 31 March 2022 | 0.3 | 1,321 | - | - |
+| Total | 0.6 | 2,641 | 0.1 | 440 |"
+34,What were CrossFirst Bankshares' total assets at the end of 2022?,CrossFirst Bank,95,549,0.6095489859580994,"Note 9: Foreclosed Assets
+|  | As of or for the Year Ended December 31, - 2022 - (Dollars in thousands) | As of or for the Year Ended December 31, - 2022 - (Dollars in thousands) | As of or for the Year Ended December 31, - 2021 2020 - (Dollars in thousands) | As of or for the Year Ended December 31, - 2021 2020 - (Dollars in thousands) |
+| - | - | - | - | - |
+| Ending balance | $ | 1,130 $ | 1,148 | $ 2,347 |"
+34,What were CrossFirst Bankshares' total assets at the end of 2022?,CrossFirst Bank,38,187,0.6039863228797913,"Growth History
+|  | 2018 to 2022 - CAGR - (Dollars in thousands) | As of December 31, - 2022 - (Dollars in thousands) | As of December 31, - 2021 - (Dollars in thousands) | As of December 31, - 2020 - (Dollars in thousands) | As of December 31, - 2019 - (Dollars in thousands) | As of December 31, - 2018 - (Dollars in thousands) |
+| - | - | - | - | - | - | - |
+| Total assets | 13 | 6,601,086 | 5,621,457 | 5,659,303 | 4,931,233 | 4,107,214 |
+| Non-interest-bearing deposits | 30 | 1,400,260 | 1,163,224 | 718,459 | 521,826 | 484,284 |
+"
+34,What were CrossFirst Bankshares' total assets at the end of 2022?,CrossFirst Bank,108,635,0.5602976083755493,"Condensed Statements of Financial Condition
+|  | Year Ended December 31, - 2022 - (Dollars in thousands) | Year Ended December 31, - 2021 - (Dollars in thousands) |
+| - | - | - |
+| Assets |  |  |
+| Investment in consolidated subsidiaries |  |  |
+| Banks | $ 608,545 | $ 646,027 |
+| Equity method investments | 2,597 | 433 |
+| Cash | 4,457 | 23,368 |
+| Other assets | 8,776 | 1,596 |
+| Total assets | $ 624,375 | $ 671,424 |
+| Liabilities and stockholders' equity |  |  |
+| Other borrowings | $ 5,000 | $ - |
+| Trust preferred securities, net | 1,061 | 1,009 |
+| Other liabilities | 9,715 | 2,842 |
+| Total liabilities | 15,776 | 3,851 |
+| Stockholders' equity |  |  |
+| Common stock | 530 | 526 |
+"
+34,What were CrossFirst Bankshares' total assets at the end of 2022?,CrossFirst Bank,108,636,0.544996440410614,"Condensed Statements of Financial Condition
+|  | Year Ended December 31, - 2022 - (Dollars in thousands) | Year Ended December 31, - 2021 - (Dollars in thousands) |
+| - | - | - |
+| Treasury stock at cost | (64,127) | (28,347) |
+| Additional paid-in capital | 530,658 | 526,806 |
+| Retained earnings | 206,095 | 147,099 |
+| Accumulated other comprehensive (loss) income | (64,557) | 21,489 |
+| Total stockholders' equity | 608,599 | 667,573 |
+| Total liabilities and stockholders' equity | $ 624,375 | $ 671,424 |"
+34,What were CrossFirst Bankshares' total assets at the end of 2022?,CrossFirst Bank,39,192,0.5428820252418518,"2022 Highlights:
+- � Completed the acquisition of Farmers &amp; Stockmens Bank (""Central"") adding liquidity, new production talent, and expanding into attractive and growing markets
+- o Added $389 million of loans and $570 million of deposits
+- � Total assets were $6.6 billion primarily made up of $5.4 billion in loans and $687 million in securities
+- � Loans grew $1.1 billion for the year or 26%; excluding the Central acquisition, loans grew 17% for the year
+- � Deposits grew $968 million for the year or 21%; excluding the Central acquisition, deposits grew 9% for the year
+- � Credit quality improved meaningfully with the non-performing assets to total assets ratio at 0.20% at year end and full year net charge offs of just 0.08%
+- � Purchased 2,448,428 or $36 million of outstanding shares as part of the share repurchase programs in 2022 representing 5% of outstanding shares
+- � Launched a new digital banking platform, providing enhanced online tools and resources for clients"
+35,What was CrossFirst's adjusted return on common equity in 2022?,CrossFirst Bank,46,232,0.7153463959693909,"Non-GAAP Financial Measures
+|  | For the Year Ended - 12/31/2022 - (Dollars in thousands) | For the Year Ended - (Dollars in thousands) | For the Year Ended - 12/31/2021 - (Dollars in thousands) | For the Year Ended - (Dollars in thousands) | For the Year Ended - 12/31/2020 - (Dollars in thousands) | For the Year Ended - (Dollars in thousands) |
+| - | - | - | - | - | - | - |
+|  | (Dollars in thousands) | (Dollars in thousands) | (Dollars in thousands) | (Dollars in thousands) | (Dollars in thousands) | (Dollars in thousands) |
+| Adjusted return on common equity: |  |  |  |  |  |  |
+| Net income | $ 61,599 |  | $ 69,413 |  | $ 12,601 |  |
+| Adjusted net income | 68,617 |  | 72,979 |  | 19,998 |  |
+"
+35,What was CrossFirst's adjusted return on common equity in 2022?,CrossFirst Bank,46,233,0.7091952562332153,"Non-GAAP Financial Measures
+|  | For the Year Ended - 12/31/2022 - (Dollars in thousands) | For the Year Ended - (Dollars in thousands) | For the Year Ended - 12/31/2021 - (Dollars in thousands) | For the Year Ended - (Dollars in thousands) | For the Year Ended - 12/31/2020 - (Dollars in thousands) | For the Year Ended - (Dollars in thousands) |
+| - | - | - | - | - | - | - |
+| Average common equity | $ 617,582 |  | $ 640,202 |  | $ 614,276 |  |
+| Return on average common equity | 9.97 | % | 10.84 | % | 2.05 | % |
+| Adjusted return on average common equity | 11.11 | % | 11.40 | % | 3.26 | % |
+|  | For the Year Ended | For the Year Ended | For the Year Ended | For the Year Ended | For the Year Ended | For the Year Ended |
+"
+35,What was CrossFirst's adjusted return on common equity in 2022?,CrossFirst Bank,39,189,0.6728265881538391,"Performance Measures
+|  | As of or for the Year Ended December 31, - 2022 - (Dollars in thousands, except per share data) | As of or for the Year Ended December 31, - 2022 - (Dollars in thousands, except per share data) |
+| - | - | - |
+| Return on average assets |  | 1.07 |
+| Adjusted return on average assets (1) |  | 1.19 |
+| Return on average common equity |  | 9.97 |
+| Adjusted return on average common equity (1) |  | 11.11 |
+| Earnings per share | $ | 1.24 |
+| Diluted earnings per share | $ | 1.23 |
+| Adjusted diluted earnings per share (1) | $ | 1.37 |
+| Efficiency ratio (2) |  | 57.75 |
+| Adjusted efficiency ratio - FTE (1)(2)(3) |  | 54.43 |
+| Ratio of equity to assets |  | 9.22 |
+"
+35,What was CrossFirst's adjusted return on common equity in 2022?,CrossFirst Bank,2,3,0.6084538698196411,"ADJUSTED NET INCOME (1)
+MILLION $ 68.6
+for the year, delivering $1.37 in adjusted diluted earnings per share (1)
+ADJUSTED RETURN ON COMMON EQUITY (ROE) (1)
+Adjusted ROE improved from 5.18% in 2019 to 11.11% in 2022 11.11 %
+DEPOSITS GREW
+MILLION $ 968
+for the year or 21% (excluding the Central acquisition, deposits grew 9% for the year)
+NON-PERFORMING ASSETS TO TOTAL ASSETS
+0.20 %
+Credit quality improved meaningfully with the non-performing assets ratio at 0.20% at year-end 2022"
+35,What was CrossFirst's adjusted return on common equity in 2022?,CrossFirst Bank,46,231,0.5530637502670288,"Non-GAAP Financial Measures
+|  | For the Year Ended - 12/31/2022 - (Dollars in thousands) | For the Year Ended - (Dollars in thousands) | For the Year Ended - 12/31/2021 - (Dollars in thousands) | For the Year Ended - (Dollars in thousands) | For the Year Ended - 12/31/2020 - (Dollars in thousands) | For the Year Ended - (Dollars in thousands) |
+| - | - | - | - | - | - | - |
+| Return on average assets | 1.07 | % | 1.24 | % | 0.24 | % |
+| Adjusted return on average assets | 1.19 | % | 1.31 | % | 0.37 | % |
+|  | For the Year Ended | For the Year Ended | For the Year Ended | For the Year Ended | For the Year Ended | For the Year Ended |
+|  | 12/31/2022 |  | 12/31/2021 |  | 12/31/2020 |  |
+"
+36,How much did CrossFirst's loans grow in dollar terms during 2022?,CrossFirst Bank,38,188,0.597602367401123,"Growth History
+|  | 2018 to 2022 - CAGR - (Dollars in thousands) | As of December 31, - 2022 - (Dollars in thousands) | As of December 31, - 2021 - (Dollars in thousands) | As of December 31, - 2020 - (Dollars in thousands) | As of December 31, - 2019 - (Dollars in thousands) | As of December 31, - 2018 - (Dollars in thousands) |
+| - | - | - | - | - | - | - |
+| Total deposits | 15 % | $ 5,651,308 | $ 4,683,597 | $ 4,694,740 | $ 3,923,759 | $ 3,208,097 |
+(1) Includes $3 million, $65 million and $292 million of PPP loans at December 31, 2022, 2021 and 2020, respectively."
+36,How much did CrossFirst's loans grow in dollar terms during 2022?,CrossFirst Bank,38,186,0.5801944136619568,"Growth History
+|  | 2018 to 2022 - CAGR - (Dollars in thousands) | As of December 31, - 2022 - (Dollars in thousands) | As of December 31, - 2021 - (Dollars in thousands) | As of December 31, - 2020 - (Dollars in thousands) | As of December 31, - 2019 - (Dollars in thousands) | As of December 31, - 2018 - (Dollars in thousands) |
+| - | - | - | - | - | - | - |
+| Available-for-sale (""AFS"") securities | 1 % | $ 686,901 | $ 745,969 | $ 654,588 | $ 739,473 | $ 661,628 |
+| Gross loans (net of unearned income) (1) | 15 | 5,372,729 | 4,256,213 | 4,441,897 | 3,852,244 | 3,060,747 |
+"
+36,How much did CrossFirst's loans grow in dollar terms during 2022?,CrossFirst Bank,2,2,0.5682097673416138,"TOTAL ASSETS
+BILLION $ 6.6
+Since 2019, we grew our balance sheet by $1.7 billion or over 33%
+LOANS GREW
+BILLION $ 1.1
+for the year or 26% (excluding the Central acquisition, loans grew 17% for the year)"
+36,How much did CrossFirst's loans grow in dollar terms during 2022?,CrossFirst Bank,39,192,0.5309164524078369,"2022 Highlights:
+- � Completed the acquisition of Farmers &amp; Stockmens Bank (""Central"") adding liquidity, new production talent, and expanding into attractive and growing markets
+- o Added $389 million of loans and $570 million of deposits
+- � Total assets were $6.6 billion primarily made up of $5.4 billion in loans and $687 million in securities
+- � Loans grew $1.1 billion for the year or 26%; excluding the Central acquisition, loans grew 17% for the year
+- � Deposits grew $968 million for the year or 21%; excluding the Central acquisition, deposits grew 9% for the year
+- � Credit quality improved meaningfully with the non-performing assets to total assets ratio at 0.20% at year end and full year net charge offs of just 0.08%
+- � Purchased 2,448,428 or $36 million of outstanding shares as part of the share repurchase programs in 2022 representing 5% of outstanding shares
+- � Launched a new digital banking platform, providing enhanced online tools and resources for clients"
+36,How much did CrossFirst's loans grow in dollar terms during 2022?,CrossFirst Bank,3,6,0.5233697891235352,"Dear Fellow CrossFirst Stockholder,
+In terms of 2022 financial performance, we reported $68.6 million in adjusted net income (1) for the year, or adjusted diluted earnings per share of $1.37 (1) . We also grew loans by 26% for the year, with 17% of that growth being organic, and demand deposits grew from 13% to 25% of total deposits. When we look back to our initial public offering in August 2019, and all that has happened at the Bank and to our industry and country since, I am incredibly proud of the progress we have made. We have worked hard to deploy the capital we raised during the IPO through organic balance sheet growth, share buybacks, and now a successful acquisition. Since our IPO:"
+37,How much did CrossFirst's deposits grow in dollar terms during 2022?,CrossFirst Bank,38,188,0.6668189764022827,"Growth History
+|  | 2018 to 2022 - CAGR - (Dollars in thousands) | As of December 31, - 2022 - (Dollars in thousands) | As of December 31, - 2021 - (Dollars in thousands) | As of December 31, - 2020 - (Dollars in thousands) | As of December 31, - 2019 - (Dollars in thousands) | As of December 31, - 2018 - (Dollars in thousands) |
+| - | - | - | - | - | - | - |
+| Total deposits | 15 % | $ 5,651,308 | $ 4,683,597 | $ 4,694,740 | $ 3,923,759 | $ 3,208,097 |
+(1) Includes $3 million, $65 million and $292 million of PPP loans at December 31, 2022, 2021 and 2020, respectively."
+37,How much did CrossFirst's deposits grow in dollar terms during 2022?,CrossFirst Bank,38,187,0.6081554889678955,"Growth History
+|  | 2018 to 2022 - CAGR - (Dollars in thousands) | As of December 31, - 2022 - (Dollars in thousands) | As of December 31, - 2021 - (Dollars in thousands) | As of December 31, - 2020 - (Dollars in thousands) | As of December 31, - 2019 - (Dollars in thousands) | As of December 31, - 2018 - (Dollars in thousands) |
+| - | - | - | - | - | - | - |
+| Total assets | 13 | 6,601,086 | 5,621,457 | 5,659,303 | 4,931,233 | 4,107,214 |
+| Non-interest-bearing deposits | 30 | 1,400,260 | 1,163,224 | 718,459 | 521,826 | 484,284 |
+"
+37,How much did CrossFirst's deposits grow in dollar terms during 2022?,CrossFirst Bank,53,272,0.5713710784912109,"Deposits
+|  | As of December 31, 2022 - (Dollars in thousands) | As of December 31, 2021 - (Dollars in thousands) | December 31, 2021 vs. December 31, 2022 % Change |  |
+| - | - | - | - | - |
+| Non-interest-bearing deposits | $ 1,400,260 | $ 1,163,224 | 20.4 | % |
+| Transaction deposits | 543,801 | 536,225 | 1.4 |  |
+| Savings and money market deposits | 2,761,680 | 2,359,761 | 17.0 |  |
+| Time deposits (1) | 945,567 | 624,387 | 51.4 |  |
+| Total deposits | $ 5,651,308 | $ 4,683,597 | 20.7 | % |
+| Total uninsured deposits (2) | $ 2,449,506 | $ 2,413,533 |  |  |"
+37,How much did CrossFirst's deposits grow in dollar terms during 2022?,CrossFirst Bank,53,274,0.5678487420082092,"Deposits
+At December 31, 2022, deposits increased $968 million, or 21%, from the prior year-end including $570 million from the Central acquisition. Non-interest-bearing deposits increased $237 million or 20% from December 31, 2021 to December 31, 2022, including $225 million from the Central acquisition. The increase in non-interest-bearing deposits was driven by approximately $544 million of increased deposits from current clients and approximately $189 million from new deposit relationships and $225 million from Central, partially offset by deposit withdrawals. At both December 31, 2022 and 2021, non-interest-bearing deposits represented 25% of total deposits. Transaction deposits and savings and money market deposits increased $409 million at December 31, 2022 as compared to December 31, 2021, as a result of new deposit relationships, increased deposits from current clients and the acquisition of Central. Time deposits increased by $321 million during 2022. Approximately $489 million of time deposits matured in 2022, offset by $829 million of new and renewed time deposits. Brokered time deposits increased during 2022 to meet short-term liquidity needs."
+37,How much did CrossFirst's deposits grow in dollar terms during 2022?,CrossFirst Bank,54,276,0.5626933574676514,"Deposits
+|  | As of December 31, 2022 - Three Months or Less - (Dollars in thousands) | As of December 31, 2022 - Three to Six Months - (Dollars in thousands) | As of December 31, 2022 - Six to Twelve Months - (Dollars in thousands) | As of December 31, 2022 - After Twelve Months - (Dollars in thousands) | As of December 31, 2022 - Total - (Dollars in thousands) |
+| - | - | - | - | - | - |
+| Total time deposits | $ 189,640 | $ 194,653 | $ 204,687 | $ 356,587 | $ 945,567 |"
+38,What was CrossFirst's adjusted net income in 2022?,CrossFirst Bank,41,201,0.6048113107681274,"Net Interest Income
+| For the Years Ended December 31, - 2022 - Average Balance - (Dollars in thousands) |
+| - |
+|  |
+| $ 220,760 |
+| 551,734 |
+| 3,139 |
+| 239,240 |
+| 4,603,697 |
+| 5,618,570 |
+| (57,388) |
+| 198,849 |
+| $ 5,760,031 |
+|  |
+| $ 538,604 |
+| 2,475,891 |
+| 688,095 |
+| 3,702,590 |
+| 232,018 |
+| 1,072 |
+| 1,146,594 |
+| 5,082,274 |
+| 60,175 |
+| 617,582 |
+| $ 5,760,031 |
+| $ |
+|  |
+|  |
+"
+38,What was CrossFirst's adjusted net income in 2022?,CrossFirst Bank,2,4,0.6046521663665771,"ADJUSTED NET INCOME (1)
+(1) Represents a non-GAAP financial measure. Non-GAAP results should not be substituted as a measure of our performance but instead should be used along with GAAP results as a supplemental measure of financial performance. These non-GAAP financial measures are used by management along with GAAP results to analyze our business, to make strategic decisions, and to assess long-term trends on a comparable basis. Please see ""Non-GAAP Financial Measures"" in Management Discussion and Analysis of our annual report on Form 10-K for the year ended December 31, 2022 for a reconciliation of these items to GAAP results."
+38,What was CrossFirst's adjusted net income in 2022?,CrossFirst Bank,41,202,0.5940656661987305,"Net Interest Income
+| For the Years Ended December 31, - 2022 - Interest Income / Expense - (Dollars in thousands) |
+| - |
+|  |
+| $ 5,286 |
+| 18,559 |
+| 49 |
+| 3,702 |
+| 224,138 |
+| $ 251,734 |
+|  |
+|  |
+|  |
+|  |
+| $ 4,951 |
+| 33,599 |
+| 11,432 |
+| 49,982 |
+| 4,855 |
+| 142 |
+| - |
+| $ 54,979 |
+|  |
+|  |
+|  |
+| 196,755 |
+|  |
+|  |
+"
+38,What was CrossFirst's adjusted net income in 2022?,CrossFirst Bank,46,232,0.5854753255844116,"Non-GAAP Financial Measures
+|  | For the Year Ended - 12/31/2022 - (Dollars in thousands) | For the Year Ended - (Dollars in thousands) | For the Year Ended - 12/31/2021 - (Dollars in thousands) | For the Year Ended - (Dollars in thousands) | For the Year Ended - 12/31/2020 - (Dollars in thousands) | For the Year Ended - (Dollars in thousands) |
+| - | - | - | - | - | - | - |
+|  | (Dollars in thousands) | (Dollars in thousands) | (Dollars in thousands) | (Dollars in thousands) | (Dollars in thousands) | (Dollars in thousands) |
+| Adjusted return on common equity: |  |  |  |  |  |  |
+| Net income | $ 61,599 |  | $ 69,413 |  | $ 12,601 |  |
+| Adjusted net income | 68,617 |  | 72,979 |  | 19,998 |  |
+"
+38,What was CrossFirst's adjusted net income in 2022?,CrossFirst Bank,46,230,0.5814385414123535,"Non-GAAP Financial Measures
+|  | For the Year Ended - 12/31/2022 - (Dollars in thousands) | For the Year Ended - (Dollars in thousands) | For the Year Ended - 12/31/2021 - (Dollars in thousands) | For the Year Ended - (Dollars in thousands) | For the Year Ended - 12/31/2020 - (Dollars in thousands) | For the Year Ended - (Dollars in thousands) |
+| - | - | - | - | - | - | - |
+| Adjusted return on average assets: |  |  |  |  |  |  |
+| Net income | $ 61,599 |  | $ 69,413 |  | $ 12,601 |  |
+| Adjusted net income | 68,617 |  | 72,979 |  | 19,998 |  |
+| Average assets | $ 5,760,031 |  | $ 5,591,471 |  | $ 5,358,479 |  |
+"
+39,What was CrossFirst's adjusted diluted earnings per share in 2022?,CrossFirst Bank,104,610,0.7036317586898804,"Earnings per share
+The following table presents the computation of basic and diluted earnings per share:
+|  | For the Year Ended December 31, - 2022 - (Dollars in thousands, except per share data) | For the Year Ended December 31, - 2021 - (Dollars in thousands, except per share data) | For the Year Ended December 31, - 2020 - (Dollars in thousands, except per share data) |
+| - | - | - | - |
+| Earnings per Share |  |  |  |
+| Net Income | $ 61,599 | $ 69,413 | $ 12,601 |
+| Weighted average common shares | 49,489,860 | 51,291,428 | 52,070,624 |
+| Earnings per share | $ 1.24 | $ 1.35 | $ 0.24 |
+| Diluted Earnings per Share |  |  |  |
+| Net Income | $ 61,599 | $ 69,413 | $ 12,601 |
+"
+39,What was CrossFirst's adjusted diluted earnings per share in 2022?,CrossFirst Bank,45,228,0.6960301399230957,"Non-GAAP Financial Measures
+|  | For the Year Ended - 12/31/2022 - (Dollars in thousands, except per share data) | For the Year Ended - 12/31/2021 - (Dollars in thousands, except per share data) | For the Year Ended - 12/31/2020 - (Dollars in thousands, except per share data) |
+| - | - | - | - |
+| Less: Tax effect (2) | (2,335) | (1,512) | - |
+| Adjusted net income | $ 68,617 | $ 72,979 | $ 19,998 |
+| Diluted weighted average common shares outstanding | 50,002,054 | 52,030,582 | 52,548,547 |
+| Diluted earnings per share | $ 1.23 | $ 1.33 | $ 0.24 |
+| Adjusted diluted earnings per share | $ 1.37 | $ 1.40 | $ 0.38 |
+(1) No tax effect."
+39,What was CrossFirst's adjusted diluted earnings per share in 2022?,CrossFirst Bank,104,611,0.6672214269638062,"Earnings per share
+|  | For the Year Ended December 31, - 2022 - (Dollars in thousands, except per share data) | For the Year Ended December 31, - 2021 - (Dollars in thousands, except per share data) | For the Year Ended December 31, - 2020 - (Dollars in thousands, except per share data) |
+| - | - | - | - |
+| Weighted average common shares | 49,489,860 | 51,291,428 | 52,070,624 |
+| Effect of dilutive shares | 512,194 | 739,154 | 477,923 |
+| Weighted average dilutive common shares | 50,002,054 | 52,030,582 | 52,548,547 |
+| Diluted earnings per share | $ 1.23 | $ 1.33 | $ 0.24 |
+| Stock-based awards not included because to do so would be antidilutive | 523,768 | 658,100 | 1,014,639 |"
+39,What was CrossFirst's adjusted diluted earnings per share in 2022?,CrossFirst Bank,39,189,0.6220185160636902,"Performance Measures
+|  | As of or for the Year Ended December 31, - 2022 - (Dollars in thousands, except per share data) | As of or for the Year Ended December 31, - 2022 - (Dollars in thousands, except per share data) |
+| - | - | - |
+| Return on average assets |  | 1.07 |
+| Adjusted return on average assets (1) |  | 1.19 |
+| Return on average common equity |  | 9.97 |
+| Adjusted return on average common equity (1) |  | 11.11 |
+| Earnings per share | $ | 1.24 |
+| Diluted earnings per share | $ | 1.23 |
+| Adjusted diluted earnings per share (1) | $ | 1.37 |
+| Efficiency ratio (2) |  | 57.75 |
+| Adjusted efficiency ratio - FTE (1)(2)(3) |  | 54.43 |
+| Ratio of equity to assets |  | 9.22 |
+"
+39,What was CrossFirst's adjusted diluted earnings per share in 2022?,CrossFirst Bank,2,3,0.564167857170105,"ADJUSTED NET INCOME (1)
+MILLION $ 68.6
+for the year, delivering $1.37 in adjusted diluted earnings per share (1)
+ADJUSTED RETURN ON COMMON EQUITY (ROE) (1)
+Adjusted ROE improved from 5.18% in 2019 to 11.11% in 2022 11.11 %
+DEPOSITS GREW
+MILLION $ 968
+for the year or 21% (excluding the Central acquisition, deposits grew 9% for the year)
+NON-PERFORMING ASSETS TO TOTAL ASSETS
+0.20 %
+Credit quality improved meaningfully with the non-performing assets ratio at 0.20% at year-end 2022"
+40,What was CrossFirst's non-performing assets to total assets ratio at year-end 2022?,CrossFirst Bank,52,263,0.6934973001480103,"Non-performing assets and past due loans
+| Asset quality | For the Year Ended December 31, - 2022 - (Dollars in thousands) | For the Year Ended December 31, - 2021 - (Dollars in thousands) | For the Year Ended December 31, - 2020 - (Dollars in thousands) |
+| - | - | - | - |
+| Asset quality metrics (%) | 2022 | 2021 | 2020 |
+| Non-performing loans to total loans | 0.22 % | 0.74 % | 1.71 % |
+| Non-performing assets to total assets | 0.20 | 0.58 | 1.39 |
+| ACL to total loans | 1.15 | 1.37 | 1.70 |
+| ACLs + RUC to total loans (1) | 1.31 | N/A | N/A |
+| ACL to non-performing loans | 514 | 185 | 99 |
+| Classified Loans / (Capital + ACL) | 10.1 | 10.8 | 40.9 |
+"
+40,What was CrossFirst's non-performing assets to total assets ratio at year-end 2022?,CrossFirst Bank,6,16,0.6355677843093872,"non-performing assets / total assets
+<!-- image -->"
+40,What was CrossFirst's non-performing assets to total assets ratio at year-end 2022?,CrossFirst Bank,52,265,0.6321735978126526,"Non-performing assets and past due loans
+Credit quality metrics were significantly improved compared to the prior year. Non-performing assets decreased to $13.2 million at December 31, 2022 entirely due to a $20.2 million decrease in non-accrual loans. The decline is attributable primarily to payments and payoffs on non-accrual energy, commercial and industrial and commercial real estate loans during the year. The non-performing assets to total assets ratio decreased to 0.20% at December 31, 2022 from 0.58% at December 31, 2021. Classified loans decreased $11.2 million during the year but included the addition of $5.7 million from Central. Without Central, classified assets decreased $16.9 million due to reductions in classified energy, commercial and industrial and commercial real estate loans. Loans 30-89 days past due increased $16.0 million primarily due to administrative past dues which were short-term in nature."
+40,What was CrossFirst's non-performing assets to total assets ratio at year-end 2022?,CrossFirst Bank,2,3,0.6177962422370911,"ADJUSTED NET INCOME (1)
+MILLION $ 68.6
+for the year, delivering $1.37 in adjusted diluted earnings per share (1)
+ADJUSTED RETURN ON COMMON EQUITY (ROE) (1)
+Adjusted ROE improved from 5.18% in 2019 to 11.11% in 2022 11.11 %
+DEPOSITS GREW
+MILLION $ 968
+for the year or 21% (excluding the Central acquisition, deposits grew 9% for the year)
+NON-PERFORMING ASSETS TO TOTAL ASSETS
+0.20 %
+Credit quality improved meaningfully with the non-performing assets ratio at 0.20% at year-end 2022"
+40,What was CrossFirst's non-performing assets to total assets ratio at year-end 2022?,CrossFirst Bank,52,264,0.6140522956848145,"Non-performing assets and past due loans
+| Asset quality | For the Year Ended December 31, - 2022 - (Dollars in thousands) | For the Year Ended December 31, - 2021 - (Dollars in thousands) | For the Year Ended December 31, - 2020 - (Dollars in thousands) |
+| - | - | - | - |
+| Classified Loans / (Capital + ACL + RUC) (1) | 10.0 | N/A | N/A |
+(1) Includes the accrual for off-balance sheet credit risk from unfunded commitments that resulted from CECL adoption on January 1, 2022."
+41,Which bank did CrossFirst acquire in November 2022?,CrossFirst Bank,39,192,0.5590093731880188,"2022 Highlights:
+- � Completed the acquisition of Farmers &amp; Stockmens Bank (""Central"") adding liquidity, new production talent, and expanding into attractive and growing markets
+- o Added $389 million of loans and $570 million of deposits
+- � Total assets were $6.6 billion primarily made up of $5.4 billion in loans and $687 million in securities
+- � Loans grew $1.1 billion for the year or 26%; excluding the Central acquisition, loans grew 17% for the year
+- � Deposits grew $968 million for the year or 21%; excluding the Central acquisition, deposits grew 9% for the year
+- � Credit quality improved meaningfully with the non-performing assets to total assets ratio at 0.20% at year end and full year net charge offs of just 0.08%
+- � Purchased 2,448,428 or $36 million of outstanding shares as part of the share repurchase programs in 2022 representing 5% of outstanding shares
+- � Launched a new digital banking platform, providing enhanced online tools and resources for clients"
+41,Which bank did CrossFirst acquire in November 2022?,CrossFirst Bank,75,385,0.5577342510223389,"Note 2: Acquisition Activities
+On November 22, 2022, the Company completed its acquisition of Central whereupon Central was merged with and into the Bank. Pursuant to the merger agreement executed in June 2022, the Company paid $66.2 million of cash consideration and assumed all of the assets and liabilities of Central by operation of law. The acquisition added three full-service branches within Colorado and New Mexico to the Company's footprint, adds experienced leaders, in particular in the SBA and Residential Mortgage lending areas, and accelerates our growth strategy.
+Central acquisition-related costs totaled $8.3 million for the year ended December 31, 2022, including a Day 1 CECL provision expense of $4.4 million, which were included in the Company's consolidated statements of operations. The results of Central are included in the results of the Company subsequent to the acquisition date and reported in this annual report on Form 10-K."
+41,Which bank did CrossFirst acquire in November 2022?,CrossFirst Bank,11,35,0.5502904057502747,"Developments during the Fiscal Year ended December 31, 2022
+In May of 2022, the Company announced a new share repurchase program under which we could repurchase up to $30 million of Company common stock. This program remains in effect. The Company completed the share repurchase program previously announced in October 2021 during the third quarter of 2022. During 2022, the Company repurchased $36 million, representing 2,448,428 common shares, at an average price per share of $14.61 under both repurchase programs.
+The Company announced on June 13, 2022, an agreement under which CrossFirst Bank would acquire Central Bancorp, Inc.'s bank subsidiary, Farmers &amp; Stockmens Bank (""Central""), in an all-cash transaction. The transaction was closed on November 22, 2022.
+In June 2022, Amy Abrams was appointed as the Company's General Counsel and Corporate Secretary."
+41,Which bank did CrossFirst acquire in November 2022?,CrossFirst Bank,76,387,0.5043041706085205,"Note 2: Acquisition Activities
+|  | November 22, 2022 (Dollars in thousands) |
+| - | - |
+| Assets: |  |
+| Cash and cash equivalents | $ 191,916 |
+| Available-for-sale securities | 41,103 |
+| Loans, net of unearned fees | 388,531 |
+| Premises and equipment | 2,270 |
+| Restricted equity securities | 1,087 |
+| Interest receivable | 2,514 |
+| Foreclosed assets held for sale | 158 |
+| Core deposit intangible | 16,465 |
+| Other | 4,231 |
+| Total assets acquired | 648,275 |
+| Liabilities: |  |
+| Total deposits | 570,275 |
+| Federal Home Loan Bank advances | 10,559 |
+| Other borrowings | 10,901 |
+| Interest payable and other liabilities | 3,209 |
+| Total liabilities assumed | 594,944 |
+| Identifiable net assets acquired | $ 53,331 |
+| Consideration: |  |
+| Cash | 66,167 |
+| Goodwill | $ 12,836 |"
+41,Which bank did CrossFirst acquire in November 2022?,CrossFirst Bank,53,274,0.4608268141746521,"Deposits
+At December 31, 2022, deposits increased $968 million, or 21%, from the prior year-end including $570 million from the Central acquisition. Non-interest-bearing deposits increased $237 million or 20% from December 31, 2021 to December 31, 2022, including $225 million from the Central acquisition. The increase in non-interest-bearing deposits was driven by approximately $544 million of increased deposits from current clients and approximately $189 million from new deposit relationships and $225 million from Central, partially offset by deposit withdrawals. At both December 31, 2022 and 2021, non-interest-bearing deposits represented 25% of total deposits. Transaction deposits and savings and money market deposits increased $409 million at December 31, 2022 as compared to December 31, 2021, as a result of new deposit relationships, increased deposits from current clients and the acquisition of Central. Time deposits increased by $321 million during 2022. Approximately $489 million of time deposits matured in 2022, offset by $829 million of new and renewed time deposits. Brokered time deposits increased during 2022 to meet short-term liquidity needs."
+42,Which two US states did CrossFirst enter through its acquisition of Central?,CrossFirst Bank,75,385,0.5739017724990845,"Note 2: Acquisition Activities
+On November 22, 2022, the Company completed its acquisition of Central whereupon Central was merged with and into the Bank. Pursuant to the merger agreement executed in June 2022, the Company paid $66.2 million of cash consideration and assumed all of the assets and liabilities of Central by operation of law. The acquisition added three full-service branches within Colorado and New Mexico to the Company's footprint, adds experienced leaders, in particular in the SBA and Residential Mortgage lending areas, and accelerates our growth strategy.
+Central acquisition-related costs totaled $8.3 million for the year ended December 31, 2022, including a Day 1 CECL provision expense of $4.4 million, which were included in the Company's consolidated statements of operations. The results of Central are included in the results of the Company subsequent to the acquisition date and reported in this annual report on Form 10-K."
+42,Which two US states did CrossFirst enter through its acquisition of Central?,CrossFirst Bank,75,386,0.43135014176368713,"Note 2: Acquisition Activities
+The Company determined that the acquisition of Central constitutes a business combination as defined in ASC Topic 805, Business Combinations. Accordingly, as of the date of the acquisition, the Company recorded the assets acquired and liabilities assumed at fair value. The Company determined fair values in accordance with the guidance provided in ASC Topic 820, Fair Value Measurements and Disclosures. In many cases, the determination of these fair values required management to make estimates about discount rates, future expected cash flows, market conditions and other future events that are highly subjective in nature and subject to change. Actual results could differ materially. The Company has made the determination of fair values using the best information available at the time; however, purchase accounting is not complete and the assumptions used are subject to change and, if changed, could have a material effect on the Company's financial position and results of operations.
+The table below summarizes preliminary net assets acquired (at fair value) and consideration transferred in connection with the Central acquisition:"
+42,Which two US states did CrossFirst enter through its acquisition of Central?,CrossFirst Bank,77,391,0.4159099757671356,"Accounting for acquired loans
+The following table provides a summary of PCD loans purchased as part of the Central acquisition as of the acquisition date:
+|  | Total (Dollars in thousands) |
+| - | - |
+| Unpaid principal balance | $ 22,005 |
+| PCD allowance for credit loss at acquisition | (916) |
+| (Discount) premium on acquired loans | (566) |
+| Purchase price of PCD loans | $ 20,523 |"
+42,Which two US states did CrossFirst enter through its acquisition of Central?,CrossFirst Bank,3,5,0.40924012660980225,"Dear Fellow CrossFirst Stockholder,
+I always look forward to this annual opportunity to share an update on CrossFirst's financial performance, as well as offer a preview of what's to come in the year ahead.
+As we entered last year, we did so under the mantra of ""always accelerating."" The idea was to build on the solid framework we already had in place and position ourselves for future success. The always accelerating mindset and approach is core to what we do and who we are at CrossFirst, and last year's results prove that. One of the major drivers of growth was our acquisition of Central, giving CrossFirst a presence in Colorado and New Mexico for the first time.
+In addition to expansion through acquisition, we also continue to grow organically in other markets, particularly in Arizona and North Texas. The leadership teams we have in place in these locations are second to none and fully committed to building our brand and expanding our offerings in those fast-growing communities. Going forward, we will continue to be opportunistic in evaluating acquisition targets, looking for partners that are strong strategic and cultural fits to CrossFirst."
+42,Which two US states did CrossFirst enter through its acquisition of Central?,CrossFirst Bank,77,392,0.3986644148826599,"Pro forma information
+The following table presents unaudited pro-forma information as if the acquisition of Central had occurred on January 1, 2021. This pro forma information gives effect to certain adjustments, including purchase accounting fair value adjustments, amortization of core deposit intangible and related income tax effects and is based on our historical results for the periods presented. The Day 1 CECL provision of $4.4 million is included in the 2021 pro forma results. Transaction-related costs related to each acquisition are not reflected in the pro forma amounts. The pro forma information does not necessarily reflect the results of operations that would have occurred had the Company acquired Central at the beginning of fiscal year 2021. Cost savings are also not reflected in the unaudited pro forma amounts.
+The pro forma information is theoretical in nature and not necessarily indicative of future consolidated results of operations of the Company or the consolidated results of operations which would have resulted had the Company acquired Central during the periods presented."
+43,"What were Yellow Pages Limited's and Mercia Asset Management PLC's reported 2022 revenues, in their respective currencies?",TSX_Y,10,34,0.6215047836303711,"Revenues
+(In thousands of Canadian dollars, except percentage information)
+| For the years ended December 31, | 2022 | 2021 | % Change |
+| - | - | - | - |
+| Digital | $ 209,130 | $ 221,471 | (5.6%) |
+| Print | 59,148 | 66,175 | (10.6%) |
+| Total revenues | $ 268,278 | $ 287,646 | (6.7%) |
+Total revenues for the year ended December 31, 2022 decreased by 6.7% to $268.3 million, as compared to $287.6 million for the same period last year. The decrease in revenues is mainly due to the decline of our higher margin digital media and print products and to a lesser extent to our lower margin digital services products, thereby creating pressure on our gross profit margins."
+43,"What were Yellow Pages Limited's and Mercia Asset Management PLC's reported 2022 revenues, in their respective currencies?",TSX_Y,16,75,0.5971883535385132,"Revenues
+| (In thousands of Canadian dollars, except percentage information) For the three-month periods ended December 31, | 2022 | 2021 | % Change |
+| - | - | - | - |
+| Digital | $ 51,509 | $ 53,798 | (4.3%) |
+| Print | 13,086 | 14,826 | (11.7%) |
+| Total revenues | $ 64,595 | $ 68,624 | (5.9%) |
+Total revenues for the fourth quarter ended December 31, 2022 decreased by 5.9% year-over-year and amounted to $64.6 million as compared to $68.6 million for the same period last year. The decrease for the quarter ended December 31, 2022 is due to the decline of our higher margin YP digital media and print products and to a lesser extent to our lower margin digital services products, thereby creating pressure on our gross profit margins."
+43,"What were Yellow Pages Limited's and Mercia Asset Management PLC's reported 2022 revenues, in their respective currencies?",TSX_Y,8,23,0.5815213322639465,"Key Analytics
+- Total Revenues - Total Revenues decreased 6.7% year-over-year and amounted to $268.3 million for the year ended December 31, 2022, an improvement from the decrease of 13.8% reported last year.
+- Digital revenues - Digital revenues decreased 5.6% year-over-year and amounted to $209.1 million for the year ended December 31, 2022, an improvement from the decrease of 12.2% reported last year.
+- Adjusted EBITDA 1 - Adjusted EBITDA declined to $96.6 million or 36.0% of revenues for the year ended December 31, 2022, relative to $102.0 million or 35.5% of revenues for the same period last year.
+- Adjusted EBITDA less CAPEX 1 - Adjusted EBITDA less CAPEX decreased to $91.6 million or 34.1% of revenues for the year ended December 31, 2022 compared to $96.9 million or 33.7% of revenues for the same period last year."
+43,"What were Yellow Pages Limited's and Mercia Asset Management PLC's reported 2022 revenues, in their respective currencies?",TSX_Y,9,29,0.5673304796218872,"Consolidated Operating and Financial Results
+(In thousands of Canadian dollars, except per share and percentage information)
+| For the years ended December 31, | 2022 | % of Revenues |  | 2021 | % of Revenues | 2020 | % of Revenues |
+| - | - | - | - | - | - | - | - |
+| Revenues | $ 268,278 |  | $ | 287,646 |  | $ 333,538 |  |
+| Cost of sales | 112,371 | 41.9% |  | 116,692 | 40.6% | 127,789 | 38.3% |
+| Gross profit | 155,907 | 58.1% |  | 170,954 | 59.4% | 205,749 | 61.7% |
+| Other operating costs | 59,339 | 22.1% |  | 68,954 | 24.0% | 76,307 | 22.9% |
+"
+43,"What were Yellow Pages Limited's and Mercia Asset Management PLC's reported 2022 revenues, in their respective currencies?",TSX_Y,15,65,0.5530177354812622,"Summary of Consolidated Quarterly Results
+|  | 2022 2021 - Q4 | 2022 2021 - Q3 | 2022 2021 - Q2 | 2022 2021 - Q1 | 2022 2021 - Q4 | 2022 2021 - Q3 | 2022 2021 - Q2 | 2022 2021 - Q1 |
+| - | - | - | - | - | - | - | - | - |
+| Total revenues | $ 64,595 | $ 66,310 | $ 69,584 | $ 67,789 | $ 68,624 | $ 70,920 | $ 74,588 | $ 73,514 |
+| Operating costs | 43,616 | 39,920 | 45,796 | 42,378 | 44,264 | 44,303 | 50,148 | 46,931 |
+"
+43,"What were Yellow Pages Limited's and Mercia Asset Management PLC's reported 2022 revenues, in their respective currencies?",Mercia Asset Management PLC,79,354,0.4822097420692444,"Consolidated statement of cash flows
+For the year ended 31 March 2022"
+43,"What were Yellow Pages Limited's and Mercia Asset Management PLC's reported 2022 revenues, in their respective currencies?",Mercia Asset Management PLC,77,347,0.46754008531570435,"Consolidated statement of comprehensive income
+|  | Note | Year ended 31 March 2022 £'000 | Year ended 31 March 2021 £'000 |
+| - | - | - | - |
+| Revenue | 3 | 23,183 | 23,410 |
+| Administrative expenses | 7 | (17,857) | (16,554) |
+| Realised gain on sale of direct investment | 17 | 9,878 | 20,251 |
+| Fair value movements in direct investments | 4 | 11,385 | 10,088 |
+| Share-based payments charge | 6 | (1,109) | (543) |
+| Amortisation of intangible assets | 14 | (2,033) | (2,317) |
+| Movement in fair value of deferred consideration | 22 | (522) | (365) |
+| Operating profit |  | 22,925 | 33,970 |
+| Finance income | 8 | 4,452 | 68 |
+| Finance expense | 9 | (15) | (20) |
+"
+43,"What were Yellow Pages Limited's and Mercia Asset Management PLC's reported 2022 revenues, in their respective currencies?",Mercia Asset Management PLC,77,346,0.46559107303619385,"Consolidated statement of comprehensive income
+For the year ended 31 March 2022"
+43,"What were Yellow Pages Limited's and Mercia Asset Management PLC's reported 2022 revenues, in their respective currencies?",Mercia Asset Management PLC,40,154,0.4610227048397064,"Chief Financial Officer's review continued
+A reconciliation of the results reported on an APM basis to International Financial Reporting Standards (""IFRS"") is as follows:
+|  | Year ended 31 March 2022 - APM basis 1 £'000 | Year ended 31 March 2022 - Performance fees £'000 | Year ended 31 March 2022 - Depreciation £'000 | Year ended 31 March 2022 - IFRS as reported £'000 |
+| - | - | - | - | - |
+| Revenue | 20,576 | 2,607 | - | 23,183 |
+| Administrative expenses | (16,618) | (1,015) | (224) | (17,857) |
+| Depreciation | (224) | - | 224 | - |"
+43,"What were Yellow Pages Limited's and Mercia Asset Management PLC's reported 2022 revenues, in their respective currencies?",Mercia Asset Management PLC,90,415,0.4472864270210266,"3. Segmental reporting
+|  | Year ended 31 March 2022 £'000 | Year ended 31 March 2021 £'000 |
+| - | - | - |
+| Fund management fees | 14,957 | 13,143 |
+| Initial management fees | 2,456 | 1,447 |
+| Portfolio directors' fees | 2,969 | 3,086 |
+| VCTs share offer fees | - | 1,318 |
+| Performance fees | 2,607 | 4,224 |
+| Other revenue | 194 | 192 |
+|  | 23,183 | 23,410 |"
+44,What were Mercia Asset Management PLC's 2022 net assets and CrossFirst Bankshares' 2022 total assets?,Mercia Asset Management PLC,78,352,0.5904419422149658,"Consolidated statement of financial position
+|  |  | As at 31 March 2022 | As at 31 March 2021 |
+| - | - | - | - |
+| Total non-current liabilities |  | (4,223) | (6,592) |
+| Total liabilities |  | (14,212) | (16,419) |
+| Net assets |  | 200,589 | 176,021 |
+| Equity |  |  |  |
+| Issued share capital | 24 | 4 | 4 |
+| Share premium | 25 | 81,644 | 81,644 |
+| Other distributable reserve | 26 | 66,919 | 69,560 |
+| Retained earnings |  | 48,505 | 22,405 |
+| Share-based payments reserve |  | 3,517 | 2,408 |
+| Total equity |  | 200,589 | 176,021 |
+The notes on pages 79 to 104 are an integral part of these financial statements."
+44,What were Mercia Asset Management PLC's 2022 net assets and CrossFirst Bankshares' 2022 total assets?,Mercia Asset Management PLC,42,168,0.5855075120925903,"Summarised statement of financial position and cash flows
+|  | As at 31 March 2022 £'000 | As at 31 March 2021 £'000 |
+| - | - | - |
+| Goodwill and intangible assets | 32,355 | 34,388 |
+| Direct investment portfolio | 119,558 | 96,220 |
+| Other non-current assets, trade and other receivables | 1,604 | 4,623 |
+| Cash and short-term liquidity investments | 61,284 | 57,209 |
+| Total assets | 214,801 | 192,440 |
+| Trade and other payables | (7,415) | (8,600) |
+| Deferred consideration | (2,869) | (4,447) |
+| Deferred taxation | (3,928) | (3,372) |
+| Total liabilities | (14,212) | (16,419) |
+| Net assets | 200,589 | 176,021 |
+"
+44,What were Mercia Asset Management PLC's 2022 net assets and CrossFirst Bankshares' 2022 total assets?,Mercia Asset Management PLC,42,169,0.5828353762626648,"Summarised statement of financial position and cash flows
+|  | As at 31 March 2022 £'000 | As at 31 March 2021 £'000 |
+| - | - | - |
+| Net assets per share (pence)* | 45.6p | 40.0p |
+* 440,109,707 Ordinary shares were in issue during the years ended 31 March 2022 and 31 March 2021
+Net assets per share increased by c.14% during the year, notwithstanding the payment of dividends totalling £2,641,000 (2021: c.24% growth after dividends paid of £440,000)."
+44,What were Mercia Asset Management PLC's 2022 net assets and CrossFirst Bankshares' 2022 total assets?,Mercia Asset Management PLC,78,350,0.5522267818450928,"Consolidated statement of financial position
+|  |  | As at 31 March 2022 | As at 31 March 2021 |
+| - | - | - | - |
+| Assets | Note | £'000 | £'000 |
+| Non-current assets |  |  |  |
+| Goodwill | 13 | 16,642 | 16,642 |
+| Intangible assets | 14 | 15,713 | 17,746 |
+| Property, plant and equipment | 15 | 113 | 107 |
+| Right-of-use assets | 16 | 417 | 456 |
+| Investments | 17 | 119,558 | 96,220 |
+| Total non-current assets |  | 152,443 | 131,171 |
+| Current assets |  |  |  |
+| Trade and other receivables | 18 | 1,074 | 4,060 |
+| Restricted cash | 19 | - | 2,484 |
+| Short-term liquidity investments | 19 | 5,235 | 234 |
+"
+44,What were Mercia Asset Management PLC's 2022 net assets and CrossFirst Bankshares' 2022 total assets?,Mercia Asset Management PLC,107,500,0.5350719690322876,"Company balance sheet
+|  | Note | As at 31 March 2022 £'000 | As at 31 March 2021 £'000 |
+| - | - | - | - |
+| Total assets |  | 154,818 | 156,916 |
+| Current liabilities |  |  |  |
+| Trade and other payables | 40 | (1,148) | (850) |
+| Lease liabilities | 41 | (127) | (122) |
+| Total current liabilities |  | (1,275) | (972) |
+| Non-current liabilities |  |  |  |
+| Lease liabilities | 41 | (222) | (351) |
+| Total non-current liabilities |  | (222) | (351) |
+| Total liabilities |  | (1,497) | (1,323) |
+| Net assets |  | 153,321 | 155,593 |
+| Equity |  |  |  |
+| Issued share capital | 42 | 4 | 4 |
+| Share premium | 42 | 81,644 | 81,644 |
+"
+44,What were Mercia Asset Management PLC's 2022 net assets and CrossFirst Bankshares' 2022 total assets?,CrossFirst Bank,38,187,0.6192061901092529,"Growth History
+|  | 2018 to 2022 - CAGR - (Dollars in thousands) | As of December 31, - 2022 - (Dollars in thousands) | As of December 31, - 2021 - (Dollars in thousands) | As of December 31, - 2020 - (Dollars in thousands) | As of December 31, - 2019 - (Dollars in thousands) | As of December 31, - 2018 - (Dollars in thousands) |
+| - | - | - | - | - | - | - |
+| Total assets | 13 | 6,601,086 | 5,621,457 | 5,659,303 | 4,931,233 | 4,107,214 |
+| Non-interest-bearing deposits | 30 | 1,400,260 | 1,163,224 | 718,459 | 521,826 | 484,284 |
+"
+44,What were Mercia Asset Management PLC's 2022 net assets and CrossFirst Bankshares' 2022 total assets?,CrossFirst Bank,108,635,0.5746911764144897,"Condensed Statements of Financial Condition
+|  | Year Ended December 31, - 2022 - (Dollars in thousands) | Year Ended December 31, - 2021 - (Dollars in thousands) |
+| - | - | - |
+| Assets |  |  |
+| Investment in consolidated subsidiaries |  |  |
+| Banks | $ 608,545 | $ 646,027 |
+| Equity method investments | 2,597 | 433 |
+| Cash | 4,457 | 23,368 |
+| Other assets | 8,776 | 1,596 |
+| Total assets | $ 624,375 | $ 671,424 |
+| Liabilities and stockholders' equity |  |  |
+| Other borrowings | $ 5,000 | $ - |
+| Trust preferred securities, net | 1,061 | 1,009 |
+| Other liabilities | 9,715 | 2,842 |
+| Total liabilities | 15,776 | 3,851 |
+| Stockholders' equity |  |  |
+| Common stock | 530 | 526 |
+"
+44,What were Mercia Asset Management PLC's 2022 net assets and CrossFirst Bankshares' 2022 total assets?,CrossFirst Bank,39,192,0.5542188882827759,"2022 Highlights:
+- � Completed the acquisition of Farmers &amp; Stockmens Bank (""Central"") adding liquidity, new production talent, and expanding into attractive and growing markets
+- o Added $389 million of loans and $570 million of deposits
+- � Total assets were $6.6 billion primarily made up of $5.4 billion in loans and $687 million in securities
+- � Loans grew $1.1 billion for the year or 26%; excluding the Central acquisition, loans grew 17% for the year
+- � Deposits grew $968 million for the year or 21%; excluding the Central acquisition, deposits grew 9% for the year
+- � Credit quality improved meaningfully with the non-performing assets to total assets ratio at 0.20% at year end and full year net charge offs of just 0.08%
+- � Purchased 2,448,428 or $36 million of outstanding shares as part of the share repurchase programs in 2022 representing 5% of outstanding shares
+- � Launched a new digital banking platform, providing enhanced online tools and resources for clients"
+44,What were Mercia Asset Management PLC's 2022 net assets and CrossFirst Bankshares' 2022 total assets?,CrossFirst Bank,95,549,0.5497833490371704,"Note 9: Foreclosed Assets
+|  | As of or for the Year Ended December 31, - 2022 - (Dollars in thousands) | As of or for the Year Ended December 31, - 2022 - (Dollars in thousands) | As of or for the Year Ended December 31, - 2021 2020 - (Dollars in thousands) | As of or for the Year Ended December 31, - 2021 2020 - (Dollars in thousands) |
+| - | - | - | - | - |
+| Ending balance | $ | 1,130 $ | 1,148 | $ 2,347 |"
+44,What were Mercia Asset Management PLC's 2022 net assets and CrossFirst Bankshares' 2022 total assets?,CrossFirst Bank,108,636,0.5363990068435669,"Condensed Statements of Financial Condition
+|  | Year Ended December 31, - 2022 - (Dollars in thousands) | Year Ended December 31, - 2021 - (Dollars in thousands) |
+| - | - | - |
+| Treasury stock at cost | (64,127) | (28,347) |
+| Additional paid-in capital | 530,658 | 526,806 |
+| Retained earnings | 206,095 | 147,099 |
+| Accumulated other comprehensive (loss) income | (64,557) | 21,489 |
+| Total stockholders' equity | 608,599 | 667,573 |
+| Total liabilities and stockholders' equity | $ 624,375 | $ 671,424 |"
+45,How did Yellow Pages Limited's 2022 employee headcount compare with Holley Inc.'s full-time employee count at year-end 2022?,Holley Inc.,36,163,0.4176785349845886,"Year Ended December 31, 2022 Compared With Year Ended December 31, 2021
+The table below presents Holley's results of operations for the years ended December 31, 2022 and 2021 (dollars in thousands):"
+45,How did Yellow Pages Limited's 2022 employee headcount compare with Holley Inc.'s full-time employee count at year-end 2022?,Holley Inc.,10,40,0.41274207830429077,"Employees
+Holley's employees are integral to our strategic growth and success. We consider our team members to be our most valuable asset and seek to attract and maintain the highest quality talent by offering competitive benefits and wellness services, opportunities to grow professionally, and regular evaluations, among other initiatives. As of December 31, 2022, we employed 1,622 full-time employees and 100 temporary employees. Approximately 48% of our full-time employees are based primarily in our Bowling Green, KY headquarters, distribution center and manufacturing plants. None of our employees are subject to collective bargaining agreements or represented by a labor union. We believe our facilities are in labor markets with ready access to adequate numbers of skilled and unskilled workers, and we believe our relations with our employees are good.
+Many of our employees are automotive enthusiasts. We pride ourselves on having a platform built for enthusiasts by enthusiasts. As of December 2022, our Engineering function includes approximately 203 employees, including many enthusiast-focused engineers who are passionate about cars. We continue to seek out top level talent that will help accomplish our mission and vision moving forward. Our goal is to create an inclusive and safe environment for our employees that keeps them engaged in their work."
+45,How did Yellow Pages Limited's 2022 employee headcount compare with Holley Inc.'s full-time employee count at year-end 2022?,Holley Inc.,10,42,0.4024391770362854,"Employees
+Employee health and safety in the workplace is one of our top priorities. We have implemented programs and training designed to eliminate workplace incidents, risks and hazards. The core training provided includes Emergency Response, OSHA Reporting, Fire Safety, and Office Ergonomics. We also review and monitor our performance closely. In response to the COVID-19 pandemic, we followed guidance from the Centers for Disease Control, the World Health Organization, and the various states and counties in which we operate in order to keep our employees safe. We will continue to make the health and wellbeing of our employees a priority.
+Inclusion. We know that diversity throughout our company creates stronger teams, leads to innovation, and results in an organization that provides the best service to our customers. We have a recruitment strategy that encourages diversity across the company. We leverage our employee referral program to identify diverse talent during the recruitment process. We also engage with a local development board and a local refugee center in Bowling Green, KY to increase our diverse talent candidate pool.
+We believe our employees should reflect the customers we serve. Notably, approximately 30% of Holley consumers are female. Accordingly, we recognize the benefits of female representation in our workforce, and in 2022 over 30% of our workforce were women. We are committed to closing the gender gap and our recruitment and retention strategies support improving women's representation in leadership roles."
+45,How did Yellow Pages Limited's 2022 employee headcount compare with Holley Inc.'s full-time employee count at year-end 2022?,Holley Inc.,79,399,0.39823657274246216,"11. EARNINGS PER SHARE
+|  | For the years ended December 31, - 2022 | For the years ended December 31, - 2021 | For the years ended December 31, - 2020 |
+| - | - | - | - |
+| Anti-dilutive shares excluded from calculation of diluted EPS: |  |  |  |
+| Warrants | - | 14,666,644 | - |
+| Stock options | 1,709,690 | 1,386,974 | - |
+| Restricted stock units | 540,344 | 656,485 | - |
+| Earn-out shares | 1,093,750 | 2,187,500 | - |
+| Total anti-dilutive shares | 3,343,784 | 18,897,603 | - |"
+45,How did Yellow Pages Limited's 2022 employee headcount compare with Holley Inc.'s full-time employee count at year-end 2022?,Holley Inc.,93,450,0.397348552942276,"EMPLOYMENT AGREEMENT
+EMPLOYMENT AGREEMENT (this ""Agreement"") dated as of March 30, 2022, between Holley Inc.,a Delaware Corporation (the ""Company""), and Carly Kennedy (""Executive"")."
+45,How did Yellow Pages Limited's 2022 employee headcount compare with Holley Inc.'s full-time employee count at year-end 2022?,TSX_Y,8,24,0.5757353901863098,"Key Analytics
+- YP Customer Count 2 - YP's customer count decreased to 92,100 customers for the year ended December 31, 2022, as compared to 104,700 customers for same period last year. The customer count reduction of 12,600 for the year ended December 31, 2022 compares to a decline of 20,700 in the comparable period of the previous year.
+- Headcount 3 - Headcount decreased to 629 employees as at December 31, 2022 compared to 651 employees at December 31, 2021.
+1 Adjusted EBITDA and adjusted EBITDA less CAPEX are non-GAAP financial measures and do not have any standardized meaning under IFRS. Therefore, they are unlikely to be comparable to similar measures presented by other issuers. Definitions of these non-GAAP financial measures are provided on page 4 of this MD&amp;A.
+2 YP Customer Count is defined as the number of customers advertising through one of our products as at the end of the reporting period on a trailing twelve-month basis excluding 411.ca customers.
+3 The Company defines headcount as total employees including contracted employees but excluding employees on short term and long-term disability leave, and on maternity leave."
+45,How did Yellow Pages Limited's 2022 employee headcount compare with Holley Inc.'s full-time employee count at year-end 2022?,TSX_Y,64,316,0.4741673469543457,"15. Post-employment benefits
+| As at December 31, | 2022 - Pension benefits 1 | 2022 - Other benefits | 2022 - Pension benefits 1 | 2021 - Other benefits |
+| - | - | - | - | - |
+| Fair value of plan assets, end of year | $ 402,960 | $ - | $ 499,048 | $ - |
+| Accrued benefit obligation, beginning of year | $ 544,732 | $ 29,536 | $ 596,227 | $ 34,700 |
+| Current service cost | 2,080 | 3 | 2,704 | 9 |
+| Employee contributions | 334 | - | 347 | - |
+| Benefit payments | (33,236) | (2,425) | (35,043) | (2,327) |
+| Interest cost | 16,944 | 921 | 15,016 | 879 |
+| Actuarial (gains) losses due to: |  |  |  |  |
+"
+45,How did Yellow Pages Limited's 2022 employee headcount compare with Holley Inc.'s full-time employee count at year-end 2022?,TSX_Y,65,324,0.4486163854598999,"15. Post-employment benefits
+| For the years ended December 31, | Note | Pension benefits | 2022 - Other benefits | Pension benefits | 2021 - Other benefits |
+| - | - | - | - | - | - |
+| Actuarial losses (gains) recognized in OCI |  | $ 1,402 | $ (5,909) | $ (41,781) | $ (3,725) |
+| Total net benefit plan costs (recovery) for the Yellow Pages (""YP"") defined benefit plans |  | $ 5,445 | $ (4,985) | $ (36,223) | $ (2,837) |
+| Net benefit plan costs for the YP defined contribution plans 1 |  | 1,916 | - | 2,035 | - |
+| Total net benefit plan costs (recovery) |  | $ 7,361 | $ (4,985) | $ (34,188) | $ (2,837) |
+1 Included in operating costs.
+No significant workforce reductions occurred during the years ended December 31, 2022 and 2021."
+45,How did Yellow Pages Limited's 2022 employee headcount compare with Holley Inc.'s full-time employee count at year-end 2022?,TSX_Y,64,315,0.44690948724746704,"15. Post-employment benefits
+| As at December 31, | 2022 - Pension benefits 1 | 2022 - Other benefits | 2022 - Pension benefits 1 | 2021 - Other benefits |
+| - | - | - | - | - |
+| Fair value of plan assets, beginning of year | $ 499,048 | $ - | $ 505,918 | $ - |
+| Employer contributions | 32,311 | 2,425 | 8,402 | 2,327 |
+| Employee contributions | 334 | - | 347 | - |
+| Interest income | 15,540 | - | 12,647 | - |
+| Return on plan assets excluding interest income | (110,478) | - | 7,262 | - |
+| Benefit payments | (33,236) | (2,425) | (35,043) | (2,327) |
+| Administration costs | (559) | - | (485) | - |
+"
+45,How did Yellow Pages Limited's 2022 employee headcount compare with Holley Inc.'s full-time employee count at year-end 2022?,TSX_Y,64,317,0.43991246819496155,"15. Post-employment benefits
+| As at December 31, | 2022 - Pension benefits 1 | 2022 - Other benefits | 2022 - Pension benefits 1 | 2021 - Other benefits |
+| - | - | - | - | - |
+| Experience adjustments | 29 | - | (80) | 796 |
+| Changes in financial assumptions | (109,105) | (5,909) | (34,439) | (4,521) |
+| Defined benefit obligation, end of year | $ 421,778 | $ 22,126 | $ 544,732 | $ 29,536 |
+| Net defined benefit obligation | $ (18,818) | $ (22,126) | $ (45,684) | $ (29,536) |
+1 Including unfunded supplementary defined benefit pension plans.
+While all the plans are not considered fully funded for financial reporting purposes, registered plans are funded in accordance with the applicable statutory funding rules and regulations governing the particular plans."

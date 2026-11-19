@@ -13,24 +13,21 @@ class DocumentChunk(BaseModel):
     model_config = ConfigDict(extra="allow")
 
     id: int
-    text: str | None
+    text: str = Field(min_length=1)
     page: int
-    metadata: dict=Field(default_factory=dict)
+    metadata: dict = Field(default_factory=dict)
 
 
 class RetrievedChunk(BaseModel):
-    page: int | None 
+    sha1: str
+    page: int | None
     text: str
     id: int
-    score: float 
-
-class RAGResponse(BaseModel):
-    final_answer: str 
-    company_query_list: list[dict]
-    selected_chunks: dict[str, list[RetrievedChunk]]
+    score: float
 
 class RAGResponse(BaseModel):
     status: RAGStatus
+    rewritten_query: str | None
     message: str | None = None
     final_answer: str | None = None
     company_query_list: list[dict] = Field(default_factory=list)

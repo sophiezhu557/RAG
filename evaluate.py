@@ -1,6 +1,7 @@
 import json
 import os
 from pathlib import Path
+import pandas as pd
 from langgraph.graph import StateGraph
 from ragas import EvaluationDataset, evaluate
 from ragas.metrics import FactualCorrectness, Faithfulness, LLMContextRecall, LLMContextPrecisionWithReference
@@ -18,15 +19,17 @@ if __name__ == "__main__":
     load_databases()
 
     samples = []
+    chunk_rows = []
 
     with open(EVAL_DIR / "test_questions.json", encoding="utf-8") as f:
         test_questions = json.load(f)
 
-    for item in test_questions:
+    for question_id, item in enumerate(test_questions, start=1):
         completion = run_rag(item["question"])
 
         samples.append({
             "user_input": item["question"],
+            "rewritten_query": completion.rewritten_query,
             "reference": item["reference"],
             "response": completion.final_answer or "",
             "retrieved_contexts": [
@@ -37,6 +40,18 @@ if __name__ == "__main__":
                 for chunk in chunks
             ]
         })
+
+        for company, chunks in completion.selected_chunks.items():
+            for chunk in chunks:
+                chunk_rows.append({
+                    "question_id": question_id,
+                    "user_input": item["question"],
+                    "company": company,
+                    "page": chunk.page,
+                    "chunk_id": chunk.id,
+                    "score": chunk.score,
+                    "text": chunk.text
+                })
 
     dataset = EvaluationDataset.from_list(samples)
 
@@ -66,6 +81,18 @@ if __name__ == "__main__":
 
     print(result)
 
-    (EVAL_DIR / "results").mkdir(exist_ok=True)
+    results_dir = EVAL_DIR / "results"
+    results_dir.mkdir(exist_ok=True)
+
     df = result.to_pandas()
-    df.to_csv(EVAL_DIR / "results" / "ragas_results.csv", index=False)
+
+    df.insert(0, "question_id", range(1, len(df) + 1))
+
+    # 删除冗长的 retrieved_contexts 列
+    df = df.drop(columns=["retrieved_contexts"])
+
+    df.to_csv(results_dir / "ragas_results.csv", index=False)
+
+    # 单独保存 chunks
+    chunks_df = pd.DataFrame(chunk_rows)
+    chunks_df.to_csv(results_dir / "retrieved_chunks.csv", index=False)

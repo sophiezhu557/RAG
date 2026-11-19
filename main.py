@@ -9,6 +9,7 @@ from company_router import load_company_mapping, identify_companies
 from retrival import load_databases, retrieve
 from schemas import RAGResponse
 from prompts import SYSTEM_prompt, build_user_question
+from query_rewrite import rewrite_query
 
 
 load_dotenv()
@@ -25,6 +26,7 @@ databases = load_databases()
 # 1. State
 class RAGState(TypedDict, total=False):
     question: str
+    rewritten_query: str
     company_query_list: list[dict]
     selected_chunks: dict
     final_answer: str
@@ -32,19 +34,27 @@ class RAGState(TypedDict, total=False):
     message: str | None
 
 
+def query_rewritting_node(state: RAGState):
+    question = state["question"]
+    company_query_list = identify_companies(
+            question,
+            company_mapping
+        )
+    
+    rewritten_query = rewrite_query(question, company_query_list, llm)
+    
+    return {
+        "company_query_list": company_query_list,
+        "rewritten_query": rewritten_query
+    }
+
+
 # 2. Retrieval Node
 def retrieval_node(state: RAGState):
-    query = state["question"]
-    
-    company_query_list = identify_companies(
-        query,
-        company_mapping
-    )
-
-    if company_query_list: # if companies are found, proceed to retrieve relevant chunks
+    if state["company_query_list"]: # if companies are found, proceed to retrieve relevant chunks
         selected_chunks = retrieve(
-            query=query,
-            company_query_list=company_query_list,
+            query=state["rewritten_query"],
+            company_query_list=state["company_query_list"],
             databases=databases,
             top_k=5
         )
@@ -52,7 +62,6 @@ def retrieval_node(state: RAGState):
         selected_chunks = {}
 
     return {
-        "company_query_list": company_query_list,
         "selected_chunks": selected_chunks
     }
 
@@ -104,7 +113,7 @@ def generation_node(state: RAGState):
         }
 
     return {
-        "status": "success",
+        "status": "Success",
         "message": None,
         "final_answer": final_answer
     }
@@ -114,10 +123,12 @@ def generation_node(state: RAGState):
 # ——————————————————————————————————————————————————————————————
 builder = StateGraph(RAGState)
 
+builder.add_node("query_rewrite", query_rewritting_node)
 builder.add_node("retrieval", retrieval_node)
 builder.add_node("generation", generation_node)
 
-builder.add_edge(START, "retrieval")
+builder.add_edge(START, "query_rewrite")
+builder.add_edge("query_rewrite", "retrieval")
 builder.add_edge("retrieval", "generation")
 builder.add_edge("generation", END)
 
@@ -132,6 +143,7 @@ def run_rag(question):
 
     return RAGResponse(
         final_answer=result.get("final_answer"),
+        rewritten_query=result.get("rewritten_query"),
         company_query_list=result.get("company_query_list", []),
         selected_chunks=result.get("selected_chunks", {}),
         status=result["status"],
@@ -155,10 +167,10 @@ if __name__ == "__main__":
     for company, chunks in result.selected_chunks.items():
         for chunk in chunks:
             print(
-                f"{company} | Page {chunk['page']} | "
-                f"Score {chunk['score']:.4f}"
+                f"{company} | Page {chunk.page} | "
+                f"Score {chunk.score:.4f}"
             )
-            print(chunk["text"][:300])
+            print(chunk.text[:300])
             print("-" * 50)
 
     print("\nFinal Answer:")

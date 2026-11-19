@@ -17,8 +17,8 @@ def build_user_question(question, selected_chunks):
         for chunk in chunks:
             context_parts.append(
                 f"Company: {company}\n"
-                f"Page: {chunk['page']}\n"
-                f"Content: {chunk['text']}"
+                f"Page: {chunk.page}\n"
+                f"Content: {chunk.text}"
             )
 
     context = "\n\n---\n\n".join(context_parts)

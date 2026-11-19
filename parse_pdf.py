@@ -62,6 +62,7 @@ def parse_pdf():
             source_types = [item.label.value for item in chunk.meta.doc_items]
             stored_chunk = DocumentChunk(
                 id = i,
+                sha1 = pdf.stem,
                 page = page_numbers[0],
                 heading = chunk.meta.headings or [],
                 type = "table" if "table" in source_types else "content",

@@ -5,6 +5,7 @@ from pathlib import Path
 import faiss
 import numpy as np
 from sentence_transformers import SentenceTransformer
+from schemas import DocumentChunk
 
 DATA_DIR = Path(__file__).resolve().parent
 JSON_DIR = DATA_DIR / "databases_qwen" / "chunked_reports"
@@ -27,15 +28,16 @@ def build_databases():
         file_sha1 = json_path.stem
         faiss_path = FAISS_DIR / f"{file_sha1}.faiss"
 
-        if faiss_path.exists():
-            continue
+        # if faiss_path.exists():
+        #     continue
 
         with open(json_path, encoding="utf-8") as f:
             document = json.load(f)
 
-        chunks = document["content"]["chunks"]
-        chunk_texts = [chunk["text"] for chunk in chunks]
-        # chunk_texts = [chunk["text"] for chunk in chunks[:50]]
+        # 从json中读取符合pydantic定义格式的chunk
+        chunks = [DocumentChunk.model_validate(chunk) 
+            for chunk in document["content"]["chunks"]]
+        chunk_texts = [chunk.text for chunk in chunks]
 
         print(
             f"Embedding {file_sha1}: {len(chunk_texts)} chunks",
@@ -58,8 +60,8 @@ def build_databases():
             print("Shape:", chunk_embeddings.shape, flush=True)
             print("Dtype:", chunk_embeddings.dtype, flush=True)
 
-            if not index:
-                index = faiss.IndexFlatL2(chunk_embeddings.shape[1])
+            if index is None:
+                index = faiss.IndexFlatIP(chunk_embeddings.shape[1])
 
             index.add(chunk_embeddings)
 
