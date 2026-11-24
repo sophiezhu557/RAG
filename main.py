@@ -134,30 +134,44 @@ def run_rag(question):
 
     missing = [company for company in companies if company["sha1"] not in databases ]
 
+    indexed = []
+    missing = []
+
+    for company in companies:
+        if company["sha1"] in databases:
+            indexed.append(company)
+        else:
+            missing.append(company)
+
+    index_message = None
     if missing:
-        names = ", ".join(
-            f"{company['company_name']} ({company['sha1']})"
-            for company in missing
-        )
+        names = ", ".join(company["company_name"] for company in missing)
+        index_message = f"No report index loaded for routing matches: {names}."
+
+    if not indexed:
         return RAGResponse(
             status="MissingIndex",
             rewritten_query=None,
             company_query_list=companies,
-            message=f"No report index loaded for: {names}.",
+            message=index_message,
         )
     
     result = app.invoke({
         "question": question,
-        "company_query_list": companies
+        "company_query_list": indexed
     })
+
+    message = " ".join(
+        part for part in [result.get("message"), index_message] if part
+    ) or None
 
     return RAGResponse(
         final_answer=result.get("final_answer"),
         rewritten_query=result.get("rewritten_query"),
-        company_query_list=result.get("company_query_list", []),
+        company_query_list=companies,
         selected_chunks=result.get("selected_chunks", {}),
         status=result["status"],
-        message=result.get("message")
+        message=message
     )
 
 
