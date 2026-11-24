@@ -11,7 +11,8 @@ from docling_core.transforms.serializer.markdown import MarkdownTableSerializer,
 from schemas import DocumentChunk
 
 DATA_DIR = Path(__file__).resolve().parent
-PDF_DIR = DATA_DIR / "test_PDFs"
+PDF_DIR = DATA_DIR / "PDFs"
+_n = 20 # parse how many PDFs this time
 OUTPUT_DIR = DATA_DIR / "databases_qwen" / "chunked_reports"
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
@@ -38,8 +39,13 @@ def parse_pdf():
             ) 
     # 当前hybrid chunker不支持overlap tokens
 
+    parsed_sha1s = []
     converter = DocumentConverter()
-    for pdf in PDF_DIR.glob("*.pdf"):
+    for i, pdf in enumerate(PDF_DIR.glob("*.pdf")):
+
+        if i > _n:
+            break 
+
         output_path = OUTPUT_DIR / f"{pdf.stem}.json"
 
         if output_path.exists():
@@ -85,7 +91,8 @@ def parse_pdf():
             indent=2)
 
         print(f"Saved {len(chunks)} chunks: {output_path}")
-        # break
+        parsed_sha1s.append(pdf.stem)
+    return parsed_sha1s
 
 
 if __name__ == "__main__":

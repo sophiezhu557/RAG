@@ -9,90 +9,128 @@ from ragas.llms import LangchainLLMWrapper
 from main import RAGState
 from main import RAGState
 from langchain_openai import ChatOpenAI
-from main import run_rag
+from main import databases, run_rag
 from langgraph.graph import StateGraph, START, END
 from retrival import load_databases
 
 EVAL_DIR = Path(__file__).resolve().parent / "evaluation"
+QUESTION_FILE = EVAL_DIR / "test_questions.json"
 
 if __name__ == "__main__":
-    load_databases()
-
-    samples = []
+    questions = json.loads(QUESTION_FILE.read_text(encoding="utf-8"))
+    runs = []
     chunk_rows = []
+    samples = []
+    scored_ids = []
 
-    with open(EVAL_DIR / "test_questions.json", encoding="utf-8") as f:
-        test_questions = json.load(f)
+    for question_id, item in enumerate(questions, start=1):
+        question = item["question"]
+        expected_pdf = item["pdf"]
+        expected_sha1 = Path(expected_pdf).stem
 
-    for question_id, item in enumerate(test_questions, start=1):
-        completion = run_rag(item["question"])
-
-        samples.append({
-            "user_input": item["question"],
-            "rewritten_query": completion.rewritten_query,
+        row = {
+            "question_id": question_id,
+            "user_input": question,
             "reference": item["reference"],
-            "response": completion.final_answer or "",
-            "retrieved_contexts": [
-                f"Company: {company}\n"
-                f"Page: {chunk.page}\n"
-                f"Content: {chunk.text}"
-                for company, chunks in completion.selected_chunks.items()
-                for chunk in chunks
-            ]
-        })
+            "reference_source": item.get("reference_source"),
+            "expected_pdf": expected_pdf,
+            "status": "MissingIndex",
+            "message": None,
+            "route_matches_expected": None,
+            "matched_companies": None,
+            "response": None,
+            "rewritten_query": None,
+        }
+        runs.append(row)
 
+        if expected_sha1 not in databases:
+            row["message"] = f"Expected report is not indexed: {expected_pdf}"
+            print(f"[{question_id}/{len(questions)}] {row['message']}", flush=True)
+            continue
+
+        completion = run_rag(question)
+        matched_sha1s = {entry["sha1"] for entry in completion.company_query_list}
+
+        row.update(
+            status=completion.status,
+            message=completion.message,
+            route_matches_expected=matched_sha1s == {expected_sha1},
+            matched_companies="; ".join(
+                entry["company_name"] for entry in completion.company_query_list
+            ),
+            response=completion.final_answer,
+            rewritten_query=completion.rewritten_query,
+        )
+        print(f"[{question_id}/{len(questions)}] {completion.status}", flush=True)
+
+        contexts = []
         for company, chunks in completion.selected_chunks.items():
             for chunk in chunks:
+                contexts.append(
+                    f"Company: {company}\nPage: {chunk.page}\nContent: {chunk.text}"
+                )
                 chunk_rows.append({
                     "question_id": question_id,
-                    "user_input": item["question"],
+                    "user_input": question,
                     "company": company,
                     "page": chunk.page,
                     "chunk_id": chunk.id,
                     "score": chunk.score,
-                    "text": chunk.text
+                    "text": chunk.text,
                 })
 
-    dataset = EvaluationDataset.from_list(samples)
+        if completion.final_answer and contexts:
+            scored_ids.append(question_id)
+            samples.append({
+                "user_input": question,
+                "reference": item["reference"],
+                "response": completion.final_answer,
+                "retrieved_contexts": contexts,
+            })
 
-    evaluator_llm = LangchainLLMWrapper(
-        ChatOpenAI(
-            model="deepseek-chat",
-            base_url="https://api.deepseek.com",
-            api_key=os.environ["DEEPSEEK_API_KEY"],
-            temperature=0,
-        )
-    )
-
-    result = evaluate(
-        dataset=dataset,
-        metrics=[
-            FactualCorrectness(mode="precision"), 
-            Faithfulness(),
-            LLMContextRecall(),
-            LLMContextPrecisionWithReference(),
-        ],
-        llm=evaluator_llm,
-    )
-# f1：既检查答案有没有编造事实，也检查有没有遗漏 Reference 中的事实。
-# precision：主要检查 Response 提出的事实是否与 Reference 一致，不因遗漏额外事实而直接扣分。
-# atomicity="low"：尽量减少过度拆分事实陈述。
-# coverage="low"：不要求拆分时保留所有细枝末节。
-
-    print(result)
+    metrics = [
+        FactualCorrectness(mode="f1"),
+        Faithfulness(),
+        LLMContextRecall(),
+        LLMContextPrecisionWithReference(),
+    ]
 
     results_dir = EVAL_DIR / "results"
     results_dir.mkdir(exist_ok=True)
+    results_path = results_dir / "ragas_results.csv"
 
-    df = result.to_pandas()
+    results = pd.DataFrame(runs).set_index("question_id")
+    for metric in metrics:
+        results[metric.name] = float("nan")
+    results.to_csv(results_path)
 
-    df.insert(0, "question_id", range(1, len(df) + 1))
+    chunk_columns = [
+        "question_id", "user_input", "company", "page", "chunk_id", "score", "text"
+    ]
+    pd.DataFrame(chunk_rows, columns=chunk_columns).to_csv(
+        results_dir / "retrieved_chunks.csv", index=False
+    )
 
-    # 删除冗长的 retrieved_contexts 列
-    df = df.drop(columns=["retrieved_contexts"])
+    print(f"Scoring {len(samples)} of {len(questions)} questions.")
+    if samples:
+        evaluator_llm = LangchainLLMWrapper(
+            ChatOpenAI(
+                model="deepseek-chat",
+                base_url="https://api.deepseek.com",
+                api_key=os.environ["DEEPSEEK_API_KEY"],
+                temperature=0,
+            )
+        )
+        result = evaluate(
+            dataset=EvaluationDataset.from_list(samples),
+            metrics=metrics,
+            llm=evaluator_llm,
+        )
 
-    df.to_csv(results_dir / "ragas_results.csv", index=False)
-
-    # 单独保存 chunks
-    chunks_df = pd.DataFrame(chunk_rows)
-    chunks_df.to_csv(results_dir / "retrieved_chunks.csv", index=False)
+        scores = result.to_pandas().rename(columns={
+            "factual_correctness(mode=f1)": "factual_correctness",
+        })
+        for metric in metrics:
+            results.loc[scored_ids, metric.name] = scores[metric.name].to_numpy()
+        results.to_csv(results_path)
+        print(result)

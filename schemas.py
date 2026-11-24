@@ -2,9 +2,10 @@ from pydantic import BaseModel, Field, ConfigDict
 from typing import Literal
 
 RAGStatus = Literal["Success",
-                    "CompanyNotFound",
                     "NoRelevantChunks",
-                    "NoAnswerFound"]
+                    "CompanyNotFound",
+                    "NoAnswerFound",
+                    "MissingIndex"]
 
 class RAGRequest(BaseModel):
     question: str = Field(min_length = 1)

@@ -25,23 +25,41 @@ def load_company_mapping():
 
 
 def identify_companies(query, company_mapping, threshold=80):
-    query = f"{normalize(query)}"
-    matchs = []
+    query = normalize(query)
+    padded_query = f" {query} "
+    candidates = []
+    exact_matches = []
 
     for row in company_mapping:
-        company = row["company_name"]
+        company = {
+            "company_name": row["company_name"],
+            "sha1": row["sha1"],
+        }
 
-        names = [company] + [alias.strip() for alias in row.get("aliases","").split(";")
-                             if alias.strip()]
+        names = [normalize(row["company_name"])]
+        for alias in row.get("aliases", "").split(";"):
+            alias = normalize(alias)
+            names.append(alias)
 
-        match_score = max(fuzz.partial_ratio(normalize(name), normalize(query)) for name in names)
+        candidates.append((company, names))
+        if any(name and f" {name} " in padded_query for name in names):
+            exact_matches.append(company)
+
+    if exact_matches:
+        return exact_matches
+
+    matches = []
+    for company, names in candidates:
+        match_score = max(
+            (fuzz.partial_ratio(name, query) for name in names if name),
+            default=0,
+        )
 
         if match_score >= threshold:
-            matchs.append({
-                "company_name": company,
-                "sha1": row["sha1"]
-            })
-    return matchs
+            matches.append(company)
+
+    return matches
+
 
 
 if __name__ == "__main__":

@@ -1,488 +1,422 @@
 [
   {
-    "id": "T01",
-    "company": "Compagnie Financière Tradition",
-    "pdf": "2779336b845a41544348abb7b3e6e5bd2ff893a2.pdf",
-    "page": 6,
-    "type": "financial_table",
-    "question": "What was Compagnie Financière Tradition's reported consolidated revenue in 2022?",
-    "reference": "CHF 947.4 million."
+    "id": "Q01",
+    "question": "What ownership percentage did Odyssey Gold Limited report for the Tuckanarra and Stakewell gold projects?",
+    "reference": "80%.",
+    "pdf": "0c0faea14d108e1617f2d6d2a7c1aae04eb88fe0.pdf",
+    "page": 3
   },
   {
-    "id": "T02",
-    "company": "Compagnie Financière Tradition",
-    "pdf": "2779336b845a41544348abb7b3e6e5bd2ff893a2.pdf",
-    "page": 4,
-    "type": "financial_text",
-    "question": "What was Compagnie Financière Tradition's adjusted consolidated revenue in 2022?",
-    "reference": "CHF 1,028.6 million."
+    "id": "Q02",
+    "question": "How many metres of reverse-circulation drilling did Odyssey Gold complete at Tuckanarra in FY2022?",
+    "reference": "23,131 metres of reverse-circulation drilling.",
+    "pdf": "0c0faea14d108e1617f2d6d2a7c1aae04eb88fe0.pdf",
+    "page": 4
   },
   {
-    "id": "T03",
-    "company": "Compagnie Financière Tradition",
-    "pdf": "2779336b845a41544348abb7b3e6e5bd2ff893a2.pdf",
-    "page": 9,
-    "type": "financial_table",
-    "question": "What was Compagnie Financière Tradition's year-end closing share price in 2022?",
-    "reference": "CHF 104.5 per share."
+    "id": "Q03",
+    "question": "How many soil samples did Odyssey Gold collect in the Tuckanarra sampling program described in its 2022 annual report?",
+    "reference": "1,535 soil samples.",
+    "pdf": "0c0faea14d108e1617f2d6d2a7c1aae04eb88fe0.pdf",
+    "page": 12
   },
   {
-    "id": "T04",
-    "company": "Compagnie Financière Tradition",
-    "pdf": "2779336b845a41544348abb7b3e6e5bd2ff893a2.pdf",
-    "page": 9,
-    "type": "financial_table",
-    "question": "What was Compagnie Financière Tradition's market capitalisation at 31 December 2022?",
-    "reference": "CHF 774,842,000."
+    "id": "Q04",
+    "question": "How many flowcells did Bionano Genomics sell in the full year ended December 31, 2022?",
+    "reference": "15,375 flowcells.",
+    "pdf": "5a24fa827d172a7669eca206b2a5f47c2b19b48d.pdf",
+    "page": 8
   },
   {
-    "id": "T05",
-    "company": "Compagnie Financière Tradition",
-    "pdf": "2779336b845a41544348abb7b3e6e5bd2ff893a2.pdf",
-    "page": 9,
-    "type": "financial_table",
-    "question": "What was Compagnie Financière Tradition's price earnings ratio (PER 1) at 31 December 2021?",
-    "reference": "12.0."
+    "id": "Q05",
+    "question": "How many Saphyr systems did Bionano Genomics have installed at customer locations at the end of 2022?",
+    "reference": "240 Saphyr systems.",
+    "pdf": "5a24fa827d172a7669eca206b2a5f47c2b19b48d.pdf",
+    "page": 8
   },
   {
-    "id": "E01",
-    "company": "ENRG Elements Limited",
-    "pdf": "43437bccca01aeae222ec7cc706ba3eaf50be2d7.pdf",
-    "page": 15,
-    "type": "financial_text",
-    "question": "What was ENRG Elements Limited's loss after tax for FY2022?",
-    "reference": "ENRG Elements Limited reported a loss after tax of A$4,542,384 for FY2022."
+    "id": "Q06",
+    "question": "Which company did Bionano Genomics acquire in November 2022 to expand its sample preparation capabilities?",
+    "reference": "Purigen Biosystems, Inc.",
+    "pdf": "5a24fa827d172a7669eca206b2a5f47c2b19b48d.pdf",
+    "page": 7
   },
   {
-    "id": "E02",
-    "company": "ENRG Elements Limited",
-    "pdf": "43437bccca01aeae222ec7cc706ba3eaf50be2d7.pdf",
-    "page": 16,
-    "type": "financial_text",
-    "question": "What were ENRG Elements Limited's cash and cash equivalents as at 30 June 2022?",
-    "reference": "A$4,148,992."
+    "id": "Q07",
+    "question": "What operating income, in CAD millions, did Empire Company Limited report for FY2022?",
+    "reference": "CAD 1,363.7 million.",
+    "pdf": "8f5e29eea4f4a3e944707c71148439ca1fd4b2d8.pdf",
+    "page": 2
   },
   {
-    "id": "E03",
-    "company": "ENRG Elements Limited",
-    "pdf": "43437bccca01aeae222ec7cc706ba3eaf50be2d7.pdf",
-    "page": 11,
-    "type": "financial_table",
-    "question": "What was the Takardeit deposit's JORC 2012 Inferred Mineral Resource in contained uranium?",
-    "reference": "10.7 million pounds of contained eU3O8, based on 16.5 million tonnes at a grade of 295 ppm eU3O8."
+    "id": "Q08",
+    "question": "Which wholly owned subsidiary carries out Empire Company Limited's Food Retailing segment?",
+    "reference": "Sobeys Inc.",
+    "pdf": "8f5e29eea4f4a3e944707c71148439ca1fd4b2d8.pdf",
+    "page": 13
   },
   {
-    "id": "E04",
-    "company": "ENRG Elements Limited",
-    "pdf": "43437bccca01aeae222ec7cc706ba3eaf50be2d7.pdf",
-    "page": 10,
-    "type": "financial_text",
-    "question": "How much did ENRG Elements Limited raise through its June 2022 share placement before costs?",
-    "reference": "A$3.0 million before costs."
+    "id": "Q09",
+    "question": "How much in sales did Empire Company Limited report for FY2022, in CAD millions?",
+    "reference": "CAD 30,162.4 million.",
+    "pdf": "8f5e29eea4f4a3e944707c71148439ca1fd4b2d8.pdf",
+    "page": 2
   },
   {
-    "id": "E05",
-    "company": "ENRG Elements Limited",
-    "pdf": "43437bccca01aeae222ec7cc706ba3eaf50be2d7.pdf",
-    "page": 8,
-    "type": "factual_text",
-    "question": "In which country is ENRG Elements Limited's Agadez Uranium Project located?",
-    "reference": "Niger."
+    "id": "Q10",
+    "question": "How much did Yellow Pages Limited voluntarily contribute to its defined benefit pension plan in 2022?",
+    "reference": "CAD 24.0 million in voluntary contributions to the wind-up deficit, in addition to CAD 4.0 million in separately announced voluntary incremental payments.",
+    "pdf": "9d7a72445aba6860402c3acce75af02dc045f74d.pdf",
+    "page": 3
   },
   {
-    "id": "H01",
-    "company": "Holley Inc.",
-    "pdf": "194000c9109c6fa628f1fed33b44ae4c2b8365f4.pdf",
-    "page": 7,
-    "type": "factual_text",
-    "question": "What percentage of Holley Inc.'s total sales in 2022 came from its top seven brands?",
-    "reference": "68% of Holley's total sales in 2022."
+    "id": "Q11",
+    "question": "What quarterly cash dividend per common share did Yellow Pages Limited pay in 2022?",
+    "reference": "CAD 0.15 per common share per quarter.",
+    "pdf": "9d7a72445aba6860402c3acce75af02dc045f74d.pdf",
+    "page": 3
   },
   {
-    "id": "H02",
-    "company": "Holley Inc.",
-    "pdf": "194000c9109c6fa628f1fed33b44ae4c2b8365f4.pdf",
-    "page": 7,
-    "type": "factual_text",
-    "question": "What percentage of Holley Inc.'s 2022 sales did the Holley EFI brand represent?",
-    "reference": "14% of Holley's total sales in 2022."
+    "id": "Q12",
+    "question": "How many stores nationally did Mosaic Brands report in its FY2022 annual report?",
+    "reference": "952 stores.",
+    "pdf": "12bff07b957b1c8f8cad9d917ca18005720cce9b.pdf",
+    "page": 6
   },
   {
-    "id": "H03",
-    "company": "Holley Inc.",
-    "pdf": "194000c9109c6fa628f1fed33b44ae4c2b8365f4.pdf",
-    "page": 10,
-    "type": "factual_text",
-    "question": "How many full-time employees did Holley Inc. have as of December 31, 2022?",
-    "reference": "1,622 full-time employees."
+    "id": "Q13",
+    "question": "How many new mega-stores did Mosaic Brands say it opened during FY2022?",
+    "reference": "Three mega-stores.",
+    "pdf": "12bff07b957b1c8f8cad9d917ca18005720cce9b.pdf",
+    "page": 8
   },
   {
-    "id": "H04",
-    "company": "Holley Inc.",
-    "pdf": "194000c9109c6fa628f1fed33b44ae4c2b8365f4.pdf",
-    "page": 8,
-    "type": "financial_text",
-    "question": "Approximately how much did Holley Inc. spend on marketing and advertising in 2022?",
-    "reference": "Approximately US$11.6 million."
+    "id": "Q14",
+    "question": "What share of Mosaic Brands' revenue came from digital channels in FY2022?",
+    "reference": "36% of revenue.",
+    "pdf": "12bff07b957b1c8f8cad9d917ca18005720cce9b.pdf",
+    "page": 8
   },
   {
-    "id": "H05",
-    "company": "Holley Inc.",
-    "pdf": "194000c9109c6fa628f1fed33b44ae4c2b8365f4.pdf",
-    "page": 8,
-    "type": "factual_text",
-    "question": "How many annual self-funding events did Holley Inc. report hosting?",
-    "reference": "Seven annual self-funding events."
+    "id": "Q15",
+    "question": "What committed occupancy rate did Crombie REIT report at December 31, 2022?",
+    "reference": "96.9%.",
+    "pdf": "14fa568899745270c4ff2c10073f97f2c2e7764b.pdf",
+    "page": 3
   },
   {
     "id": "Q16",
-    "question": "What was Yellow Pages Limited's total revenue in 2022?",
-    "reference": "CAD 268.3 million",
-    "company": [
-      "Yellow Pages Limited"
-    ],
-    "source_pdf_pages": [
-      8
-    ]
+    "question": "How many residential rental units does Crombie REIT's Le Duke development contain?",
+    "reference": "387 residential rental units.",
+    "pdf": "14fa568899745270c4ff2c10073f97f2c2e7764b.pdf",
+    "page": 2
   },
   {
     "id": "Q17",
-    "question": "What was Yellow Pages Limited's digital revenue in 2022?",
-    "reference": "CAD 209.1 million",
-    "company": [
-      "Yellow Pages Limited"
-    ],
-    "source_pdf_pages": [
-      8
-    ]
+    "question": "What ownership percentage in Crombie REIT did Empire hold, according to the 2022 report?",
+    "reference": "41.5%.",
+    "pdf": "14fa568899745270c4ff2c10073f97f2c2e7764b.pdf",
+    "page": 3
   },
   {
     "id": "Q18",
-    "question": "What was Yellow Pages Limited's Adjusted EBITDA margin in 2022?",
-    "reference": "36.0%",
-    "company": [
-      "Yellow Pages Limited"
-    ],
-    "source_pdf_pages": [
-      3,
-      8
-    ]
+    "question": "How many stores did Weis Markets operate in Pennsylvania at the end of 2022?",
+    "reference": "118 stores.",
+    "pdf": "31a60b930e0f1034afff6e2d1e406e7d9141b2a1.pdf",
+    "page": 3
   },
   {
     "id": "Q19",
-    "question": "By what percentage did Yellow Pages Limited's total revenue decline in 2022?",
-    "reference": "6.7%",
-    "company": [
-      "Yellow Pages Limited"
-    ],
-    "source_pdf_pages": [
-      8
-    ]
+    "question": "How many Weis Markets stores were in the over-55,000-square-foot category at year-end 2022?",
+    "reference": "64 stores.",
+    "pdf": "31a60b930e0f1034afff6e2d1e406e7d9141b2a1.pdf",
+    "page": 4
   },
   {
     "id": "Q20",
-    "question": "How many customers did Yellow Pages Limited have at the end of 2022?",
-    "reference": "92,100",
-    "company": [
-      "Yellow Pages Limited"
-    ],
-    "source_pdf_pages": [
-      8
-    ]
+    "question": "How much of IAA's net debt did Ritchie Bros. expect to repay as part of the proposed acquisition?",
+    "reference": "Approximately USD 1.2 billion.",
+    "pdf": "78c71282723c2d66216cbba13183d19349d302b8.pdf",
+    "page": 7
   },
   {
     "id": "Q21",
-    "question": "How many employees did Yellow Pages Limited report at December 31, 2022?",
-    "reference": "629",
-    "company": [
-      "Yellow Pages Limited"
-    ],
-    "source_pdf_pages": [
-      8
-    ]
+    "question": "Approximately how many part-time employees did Ritchie Bros. report at December 31, 2022?",
+    "reference": "Approximately 1,400 part-time employees.",
+    "pdf": "78c71282723c2d66216cbba13183d19349d302b8.pdf",
+    "page": 14
   },
   {
     "id": "Q22",
-    "question": "How much cash did Yellow Pages Limited hold at the end of 2022?",
-    "reference": "Approximately CAD 43.9 million",
-    "company": [
-      "Yellow Pages Limited"
-    ],
-    "source_pdf_pages": [
-      3
-    ]
+    "question": "What rounded FY2022 revenue figure did Microsoft give in its shareholder letter?",
+    "reference": "USD 198 billion.",
+    "pdf": "91caa5884d3fbc344a05ac2f1d113a5d8725e4cb.pdf",
+    "page": 3
   },
   {
     "id": "Q23",
-    "question": "How much did Yellow Pages Limited distribute to shareholders through its 2022 share repurchase under the statutory plan of arrangement?",
-    "reference": "CAD 100 million",
-    "company": [
-      "Yellow Pages Limited"
-    ],
-    "source_pdf_pages": [
-      3
-    ]
+    "question": "How much authorization remained under Microsoft's September 2021 share repurchase program as of June 30, 2022?",
+    "reference": "USD 40.7 billion.",
+    "pdf": "91caa5884d3fbc344a05ac2f1d113a5d8725e4cb.pdf",
+    "page": 10
   },
   {
     "id": "Q24",
-    "question": "How many common shares did Yellow Pages Limited purchase under its Normal Course Issuer Bid in 2022?",
-    "reference": "871,135",
-    "company": [
-      "Yellow Pages Limited"
-    ],
-    "source_pdf_pages": [
-      3
-    ]
+    "question": "How many hours did Microsoft employees volunteer in 2022, according to its shareholder letter?",
+    "reference": "More than 720,000 hours.",
+    "pdf": "91caa5884d3fbc344a05ac2f1d113a5d8725e4cb.pdf",
+    "page": 9
   },
   {
     "id": "Q25",
-    "question": "What were Mercia Asset Management PLC's net assets in 2022?",
-    "reference": "GBP 200.6 million",
-    "company": [
-      "Mercia Asset Management PLC"
-    ],
-    "source_pdf_pages": [
-      3
-    ]
+    "question": "How much annual recurring revenue did Rapid7 report at the end of 2022?",
+    "reference": "Approximately USD 714 million.",
+    "pdf": "99cd0edaf5bfb233e5f46ee55af837de0b725274.pdf",
+    "page": 2
   },
   {
     "id": "Q26",
-    "question": "What was Mercia's net asset value per share in 2022?",
-    "reference": "45.6 pence",
-    "company": [
-      "Mercia Asset Management PLC"
-    ],
-    "source_pdf_pages": [
-      3
-    ]
+    "question": "What were the names of the two core consolidation offerings that Rapid7 said it introduced in 2022?",
+    "reference": "Cloud Risk Complete and Threat Complete.",
+    "pdf": "99cd0edaf5bfb233e5f46ee55af837de0b725274.pdf",
+    "page": 2
   },
   {
     "id": "Q27",
-    "question": "What was Mercia's revenue excluding performance fees in 2022?",
-    "reference": "GBP 20.6 million",
-    "company": [
-      "Mercia Asset Management PLC"
-    ],
-    "source_pdf_pages": [
-      3
-    ]
+    "question": "What copper-silver project did ENRG Elements advance in Botswana during FY2022?",
+    "reference": "The Ghanzi West Copper-Silver Project.",
+    "pdf": "43437bccca01aeae222ec7cc706ba3eaf50be2d7.pdf",
+    "page": 4
   },
   {
     "id": "Q28",
-    "question": "What was Mercia's adjusted operating profit excluding performance fees in 2022?",
-    "reference": "GBP 8.4 million",
-    "company": [
-      "Mercia Asset Management PLC"
-    ],
-    "source_pdf_pages": [
-      3
-    ]
+    "question": "What initial participating interest would ENRG Elements receive in the Horseshoe West joint venture upon completing the stage-one earn-in?",
+    "reference": "51%.",
+    "pdf": "43437bccca01aeae222ec7cc706ba3eaf50be2d7.pdf",
+    "page": 9
   },
   {
     "id": "Q29",
-    "question": "What was Mercia's profit before taxation in 2022?",
-    "reference": "GBP 27.4 million",
-    "company": [
-      "Mercia Asset Management PLC"
-    ],
-    "source_pdf_pages": [
-      3
-    ]
+    "question": "What average annual research and development spending since 2017 did Holley disclose in its 2022 report?",
+    "reference": "USD 20.5 million per year on average.",
+    "pdf": "194000c9109c6fa628f1fed33b44ae4c2b8365f4.pdf",
+    "page": 8
   },
   {
     "id": "Q30",
-    "question": "What were Mercia's approximate assets under management in 2022?",
-    "reference": "GBP 959 million",
-    "company": [
-      "Mercia Asset Management PLC"
-    ],
-    "source_pdf_pages": [
-      3
-    ]
+    "question": "How many temporary employees did Holley have at December 31, 2022?",
+    "reference": "100 temporary employees.",
+    "pdf": "194000c9109c6fa628f1fed33b44ae4c2b8365f4.pdf",
+    "page": 10
   },
   {
     "id": "Q31",
-    "question": "How much cash, including short-term liquidity investments, did Mercia report in 2022?",
-    "reference": "GBP 61.3 million",
-    "company": [
-      "Mercia Asset Management PLC"
-    ],
-    "source_pdf_pages": [
-      3
-    ]
+    "question": "What cash dividend per share did Compagnie Financière Tradition propose for shareholder approval in its 2022 annual report?",
+    "reference": "CHF 5.50 per share.",
+    "pdf": "2779336b845a41544348abb7b3e6e5bd2ff893a2.pdf",
+    "page": 4
   },
   {
     "id": "Q32",
-    "question": "How much did Mercia receive in total proceeds from the sale of Faradion Ltd?",
-    "reference": "GBP 19.4 million",
-    "company": [
-      "Mercia Asset Management PLC"
-    ],
-    "source_pdf_pages": [
-      3
-    ]
+    "question": "What return on equity did Compagnie Financière Tradition report for 2022?",
+    "reference": "22%.",
+    "pdf": "2779336b845a41544348abb7b3e6e5bd2ff893a2.pdf",
+    "page": 6
   },
   {
     "id": "Q33",
-    "question": "What was Mercia's proposed final dividend per share for the 2022 financial year?",
-    "reference": "0.5 pence",
-    "company": [
-      "Mercia Asset Management PLC"
-    ],
-    "source_pdf_pages": [
-      3,
-      5
-    ]
+    "question": "In which country is Armadale Capital's Mahenge Liandu Graphite Project located?",
+    "reference": "Tanzania.",
+    "pdf": "a85dba6c75031912d56a811637f803ba4ddeb257.pdf",
+    "page": 4
   },
   {
     "id": "Q34",
-    "question": "What were CrossFirst Bankshares' total assets at the end of 2022?",
-    "reference": "Approximately USD 6.6 billion",
-    "company": [
-      "CrossFirst Bankshares, Inc."
-    ],
-    "source_pdf_pages": [
-      2
-    ]
+    "question": "What loss after tax did Armadale Capital report for the year ended December 31, 2022?",
+    "reference": "GBP 0.206 million (GBP 206,000) loss after tax.",
+    "pdf": "a85dba6c75031912d56a811637f803ba4ddeb257.pdf",
+    "page": 9
   },
   {
     "id": "Q35",
-    "question": "What was CrossFirst's adjusted return on common equity in 2022?",
-    "reference": "11.11%",
-    "company": [
-      "CrossFirst Bankshares, Inc."
-    ],
-    "source_pdf_pages": [
-      2
-    ]
+    "question": "Approximately how much did Mercia invest across its managed funds and balance sheet in FY2022?",
+    "reference": "Approximately GBP 124 million.",
+    "pdf": "ac9aa244462c80705c3ff046542c02c459989742.pdf",
+    "page": 9
   },
   {
     "id": "Q36",
-    "question": "How much did CrossFirst's loans grow in dollar terms during 2022?",
-    "reference": "USD 1.1 billion",
-    "company": [
-      "CrossFirst Bankshares, Inc."
-    ],
-    "source_pdf_pages": [
-      2
-    ]
+    "question": "How much did the fair value of Mercia's direct investment portfolio increase in FY2022?",
+    "reference": "GBP 11.4 million.",
+    "pdf": "ac9aa244462c80705c3ff046542c02c459989742.pdf",
+    "page": 9
   },
   {
     "id": "Q37",
-    "question": "How much did CrossFirst's deposits grow in dollar terms during 2022?",
-    "reference": "USD 968 million",
-    "company": [
-      "CrossFirst Bankshares, Inc."
-    ],
-    "source_pdf_pages": [
-      2
-    ]
+    "question": "What tonnage did Arcadia Minerals disclose for the revised JORC Mineral Resource at its Swanson Tantalum Project?",
+    "reference": "2.59 million tonnes, indicated and inferred combined.",
+    "pdf": "b33bd2220c0fc0939ef08b1bdd8d2ebea158aa59.pdf",
+    "page": 9
   },
   {
     "id": "Q38",
-    "question": "What was CrossFirst's adjusted net income in 2022?",
-    "reference": "USD 68.6 million",
-    "company": [
-      "CrossFirst Bankshares, Inc."
-    ],
-    "source_pdf_pages": [
-      2
-    ]
+    "question": "How much cash and cash equivalents did Arcadia Minerals report at June 30, 2022?",
+    "reference": "AUD 2,840,406.",
+    "pdf": "b33bd2220c0fc0939ef08b1bdd8d2ebea158aa59.pdf",
+    "page": 14
   },
   {
     "id": "Q39",
-    "question": "What was CrossFirst's adjusted diluted earnings per share in 2022?",
-    "reference": "USD 1.37",
-    "company": [
-      "CrossFirst Bankshares, Inc."
-    ],
-    "source_pdf_pages": [
-      2,
-      3
-    ]
+    "question": "What FY2022 revenue did Kelly Partners Group Holdings report?",
+    "reference": "AUD 64,862,110.",
+    "pdf": "c8af22dbedd95ee719273792e5964ab8bbba17b2.pdf",
+    "page": 10
   },
   {
     "id": "Q40",
-    "question": "What was CrossFirst's non-performing assets to total assets ratio at year-end 2022?",
-    "reference": "0.20%",
-    "company": [
-      "CrossFirst Bankshares, Inc."
-    ],
-    "source_pdf_pages": [
-      2
-    ]
+    "question": "How many offices did Kelly Partners Group Holdings operate at June 30, 2022?",
+    "reference": "19 offices.",
+    "pdf": "c8af22dbedd95ee719273792e5964ab8bbba17b2.pdf",
+    "page": 10
   },
   {
     "id": "Q41",
-    "question": "Which bank did CrossFirst acquire in November 2022?",
-    "reference": "Farmers & Stockmens Bank (Central)",
-    "company": [
-      "CrossFirst Bankshares, Inc."
-    ],
-    "source_pdf_pages": [
-      2
-    ]
+    "question": "What was the FY2022 statutory net profit attributable to members of the parent entity at Kelly Partners Group Holdings?",
+    "reference": "AUD 5,565,475.",
+    "pdf": "c8af22dbedd95ee719273792e5964ab8bbba17b2.pdf",
+    "page": 7
   },
   {
     "id": "Q42",
-    "question": "Which two US states did CrossFirst enter through its acquisition of Central?",
-    "reference": "Colorado and New Mexico",
-    "company": [
-      "CrossFirst Bankshares, Inc."
-    ],
-    "source_pdf_pages": [
-      3
-    ]
+    "question": "What percentage interest in KPLP did KP Tissue hold at December 31, 2022?",
+    "reference": "13.9%.",
+    "pdf": "d14ae2b6284e48b5c1e6659a0a5863d84697b3b9.pdf",
+    "page": 2
   },
   {
     "id": "Q43",
-    "question": "What were Yellow Pages Limited's and Mercia Asset Management PLC's reported 2022 revenues, in their respective currencies?",
-    "reference": "Yellow Pages: CAD 268.3 million; Mercia: GBP 20.6 million (excluding performance fees)",
-    "company": [
-      "Yellow Pages Limited",
-      "Mercia Asset Management PLC"
-    ],
-    "source_pdf_pages": {
-      "Yellow Pages Limited": [
-        8
-      ],
-      "Mercia Asset Management PLC": [
-        3
-      ]
-    }
+    "question": "What equity loss did KP Tissue report for 2022?",
+    "reference": "CAD 13.3 million equity loss.",
+    "pdf": "d14ae2b6284e48b5c1e6659a0a5863d84697b3b9.pdf",
+    "page": 4
   },
   {
     "id": "Q44",
-    "question": "What were Mercia Asset Management PLC's 2022 net assets and CrossFirst Bankshares' 2022 total assets?",
-    "reference": "Mercia: GBP 200.6 million; CrossFirst: approximately USD 6.6 billion",
-    "company": [
-      "Mercia Asset Management PLC",
-      "CrossFirst Bankshares, Inc."
-    ],
-    "source_pdf_pages": {
-      "Mercia Asset Management PLC": [
-        3
-      ],
-      "CrossFirst Bankshares, Inc.": [
-        2
-      ]
-    }
+    "question": "How much collaboration revenue did Verrica Pharmaceuticals recognize from the milestone triggered by Torii dosing the first patient in its Japan Phase 3 trial in 2022?",
+    "reference": "USD 8.0 million.",
+    "pdf": "e1edf72618e9d6ae2e72bb3ac7a9ddc15240e4ef.pdf",
+    "page": 8
   },
   {
     "id": "Q45",
-    "question": "How did Yellow Pages Limited's 2022 employee headcount compare with Holley Inc.'s full-time employee count at year-end 2022?",
-    "reference": "Yellow Pages: 629; Holley: 1,622",
-    "company": [
-      "Yellow Pages Limited",
-      "Holley Inc."
-    ],
-    "source_pdf_pages": {
-      "Yellow Pages Limited": [
-        8
-      ],
-      "Holley Inc.": [
-        10
-      ]
-    }
+    "question": "How many people in the United States did Verrica Pharmaceuticals estimate had molluscum in its 2022 report?",
+    "reference": "Approximately 6 million people.",
+    "pdf": "e1edf72618e9d6ae2e72bb3ac7a9ddc15240e4ef.pdf",
+    "page": 5
+  },
+  {
+    "id": "Q46",
+    "question": "How many full-time equivalent employees did CrossFirst Bankshares report as of December 31, 2022?",
+    "reference": "465 full-time equivalent employees.",
+    "pdf": "e2b19d2cc2ccab2fd9022326b56b38fb0e772e73.pdf",
+    "page": 12
+  },
+  {
+    "id": "Q47",
+    "question": "What operating revenue did CrossFirst Bankshares report for 2022 in its shareholder letter?",
+    "reference": "USD 211 million.",
+    "pdf": "e2b19d2cc2ccab2fd9022326b56b38fb0e772e73.pdf",
+    "page": 3
+  },
+  {
+    "id": "Q48",
+    "question": "What net profit after tax did Suncorp Group report for FY2022?",
+    "reference": "AUD 681 million.",
+    "pdf": "e6ce8ed579e95d2cfeabbbed872beb0c3f8396d7.pdf",
+    "page": 8
+  },
+  {
+    "id": "Q49",
+    "question": "What was Suncorp Group's total ordinary dividend per share for FY2022?",
+    "reference": "AUD 0.40 per share.",
+    "pdf": "e6ce8ed579e95d2cfeabbbed872beb0c3f8396d7.pdf",
+    "page": 5
+  },
+  {
+    "id": "Q50",
+    "question": "What were Duni Group's 2022 net sales in SEK millions?",
+    "reference": "SEK 6,976 million.",
+    "pdf": "e7a45fed0d7ebfd13a524e7fcc443318bac654e2.pdf",
+    "page": 4
+  },
+  {
+    "id": "Q51",
+    "question": "What dividend per share did Duni Group propose for 2022?",
+    "reference": "SEK 3.00 per share.",
+    "pdf": "e7a45fed0d7ebfd13a524e7fcc443318bac654e2.pdf",
+    "page": 4
+  },
+  {
+    "id": "Q52",
+    "question": "How much in federal net operating loss carryforwards did Trinity Place Holdings have at December 31, 2022?",
+    "reference": "Approximately USD 275.8 million.",
+    "pdf": "e229fc9f5c694e93b02ac312c231607a04e3e528.pdf",
+    "page": 3
+  },
+  {
+    "id": "Q53",
+    "question": "How much restricted cash did Trinity Place Holdings report at December 31, 2022?",
+    "reference": "Approximately USD 20.5 million.",
+    "pdf": "e229fc9f5c694e93b02ac312c231607a04e3e528.pdf",
+    "page": 3
+  },
+  {
+    "id": "Q54",
+    "question": "What gross return did Benjamin Hornigold report for its investment portfolio before dividends and franking in FY2022?",
+    "reference": "−5.97%.",
+    "pdf": "e2850fff8d9dee77f3a6520d0b1aba46adddc2c0.pdf",
+    "page": 3
+  },
+  {
+    "id": "Q55",
+    "question": "What total loss did Benjamin Hornigold report for FY2022?",
+    "reference": "AUD 1,239,019 loss after tax.",
+    "pdf": "e2850fff8d9dee77f3a6520d0b1aba46adddc2c0.pdf",
+    "page": 7
+  },
+  {
+    "id": "Q56",
+    "question": "Approximately how many employees did Ziff Davis have at December 31, 2022?",
+    "reference": "Approximately 4,400 employees.",
+    "pdf": "ecabab4934d4b80570c4bb3b8e35b7476694b3fb.pdf",
+    "page": 10
+  },
+  {
+    "id": "Q57",
+    "question": "How many hours of fully paid Volunteer Time Off did Ziff Davis offer employees annually, according to its 2022 report?",
+    "reference": "16 hours per year.",
+    "pdf": "ecabab4934d4b80570c4bb3b8e35b7476694b3fb.pdf",
+    "page": 11
+  },
+  {
+    "id": "Q58",
+    "question": "How much did Jefferies Financial Group distribute in dividends in 2022, according to its shareholder letter?",
+    "reference": "USD 280.1 million.",
+    "pdf": "f7324f3868005b3aae6aafd30441c9bb6c8823e8.pdf",
+    "page": 4
+  },
+  {
+    "id": "Q59",
+    "question": "How many shares did Jefferies Financial Group repurchase in 2022?",
+    "reference": "25.6 million shares.",
+    "pdf": "f7324f3868005b3aae6aafd30441c9bb6c8823e8.pdf",
+    "page": 4
+  },
+  {
+    "id": "Q60",
+    "question": "What return on adjusted tangible equity did Jefferies Financial Group report for 2022?",
+    "reference": "10.3%.",
+    "pdf": "f7324f3868005b3aae6aafd30441c9bb6c8823e8.pdf",
+    "page": 3
   }
 ]

@@ -13,7 +13,7 @@ FAISS_DIR = DATA_DIR / "databases_qwen" / "vector_dbs"
 FAISS_DIR.mkdir(parents=True, exist_ok=True)
 
 
-def build_databases():
+def build_databases(*,force: bool = False):
     # 1. Check JSON files
     json_files = list(JSON_DIR.glob("*.json"))
 
@@ -24,12 +24,10 @@ def build_databases():
     print("Qwen model loaded.", flush=True)
 
     # 3. Build indexes
+    indexed_sha1s = []
     for json_path in json_files:
         file_sha1 = json_path.stem
         faiss_path = FAISS_DIR / f"{file_sha1}.faiss"
-
-        # if faiss_path.exists():
-        #     continue
 
         with open(json_path, encoding="utf-8") as f:
             document = json.load(f)
@@ -39,12 +37,16 @@ def build_databases():
             for chunk in document["content"]["chunks"]]
         chunk_texts = [chunk.text for chunk in chunks]
 
-        print(
-            f"Embedding {file_sha1}: {len(chunk_texts)} chunks",
-            flush=True
-        )
+        if faiss_path.exists() and not force:
+            index = faiss.read_index(str(faiss_path))
+            if index.ntotal == len(chunk_texts):
+                print(f"Skipping {file_sha1}: index already exists")
+                continue
+
+        print(f"Embedding {file_sha1}: {len(chunk_texts)} chunks",flush=True)
 
         index = None
+
         for start in range(0, len(chunk_texts), 20):
             chunk_text = chunk_texts[start: start + 20]
             print(f"Embedding chunks {start} to {start + 19}", flush=True)
@@ -67,6 +69,8 @@ def build_databases():
 
         faiss.write_index(index, str(faiss_path))
         print("Saved:", faiss_path, flush=True)
+        indexed_sha1s.append(file_sha1)
+    return indexed_sha1s
 
 if __name__ == "__main__":
     build_databases()

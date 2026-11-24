@@ -51,40 +51,27 @@ def query_rewritting_node(state: RAGState):
 
 # 2. Retrieval Node
 def retrieval_node(state: RAGState):
-    if state["company_query_list"]: # if companies are found, proceed to retrieve relevant chunks
-        selected_chunks = retrieve(
-            query=state["rewritten_query"],
-            company_query_list=state["company_query_list"],
-            databases=databases,
-            top_k=5
-        )
-    else: # if no companies are found, return an empty dictionary for selected_chunks
-        selected_chunks = {}
-
     return {
-        "selected_chunks": selected_chunks
+        "selected_chunks": retrieve(
+                    query=state["rewritten_query"],
+                    company_query_list=state["company_query_list"],
+                    databases=databases,
+                    top_k=5
+                )
+
     }
 
 
 # 3. Generation Node
 def generation_node(state: RAGState):
-    question = state["question"]
     selected_chunks = state["selected_chunks"]
-
-    if not state["company_query_list"]:  # Check if company_query_list is empty
-        return {
-            "final_answer": None,
-            "status": "CompanyNotFound",
-            "message": "No matching company was identified."
-        }
 
     if not any(selected_chunks.values()):  # Check if all values in selected_chunks are empty
         return {
             "final_answer": None,
             "status": "NoRelevantChunks",
-            "message": "No relevant chunks were found for the identified companies."
+            "message": "No relevant chunks were found."
         }
-
 
     # Call DeepSeek
     response = llm.chat.completions.create(
@@ -96,7 +83,7 @@ def generation_node(state: RAGState):
             },
             {
                 "role": "user",
-                "content": build_user_question(question, selected_chunks)
+                "content": build_user_question(state["question"], selected_chunks)
             }
         ],
         temperature=0
@@ -118,7 +105,6 @@ def generation_node(state: RAGState):
         "final_answer": final_answer
     }
 
-
 # 4. Build LangGraph
 # ——————————————————————————————————————————————————————————————
 builder = StateGraph(RAGState)
@@ -137,8 +123,32 @@ app = builder.compile()
 
 # ————————————————————————————————————————————————————————————————
 def run_rag(question):
+    companies = identify_companies(question, company_mapping)
+
+    if not companies:
+        return RAGResponse(
+            status="CompanyNotFound",
+            rewritten_query=None,
+            message="No matching company was identified.",
+        )
+
+    missing = [company for company in companies if company["sha1"] not in databases ]
+
+    if missing:
+        names = ", ".join(
+            f"{company['company_name']} ({company['sha1']})"
+            for company in missing
+        )
+        return RAGResponse(
+            status="MissingIndex",
+            rewritten_query=None,
+            company_query_list=companies,
+            message=f"No report index loaded for: {names}.",
+        )
+    
     result = app.invoke({
-        "question": question
+        "question": question,
+        "company_query_list": companies
     })
 
     return RAGResponse(
