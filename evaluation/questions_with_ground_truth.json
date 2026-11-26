@@ -1,0 +1,154 @@
+[
+  {
+    "id": "Q001",
+    "question": "For Ziff Davis, Inc., what was the value of Cloud storage capacity (TB) at the end of the period listed in annual report? If data is not available, return 'N/A'.",
+    "reference": "N/A",
+    "pdf": "ecabab4934d4b80570c4bb3b8e35b7476694b3fb.pdf",
+    "page": null,
+    "source_pdf_pages": []
+  },
+  {
+    "id": "Q013",
+    "question": "What was the Gross margin (%) for Armadale Capital Plc according to the annual report (within the last period or at the end of the last period)? If data is not available, return 'N/A'.",
+    "reference": "N/A",
+    "pdf": "a85dba6c75031912d56a811637f803ba4ddeb257.pdf",
+    "page": null,
+    "source_pdf_pages": []
+  },
+  {
+    "id": "Q017",
+    "question": "Did Bionano Genomics, Inc. mention any mergers or acquisitions in the annual report? If there is no mention, return False.",
+    "reference": "true",
+    "pdf": "5a24fa827d172a7669eca206b2a5f47c2b19b48d.pdf",
+    "page": 67,
+    "source_pdf_pages": [
+      67,
+      111,
+      113
+    ]
+  },
+  {
+    "id": "Q041",
+    "question": "What is the total number of employees let go by KP Tissue Inc. according to the annual report? If data is not available, return 'N/A'.",
+    "reference": "N/A",
+    "pdf": "d14ae2b6284e48b5c1e6659a0a5863d84697b3b9.pdf",
+    "page": null,
+    "source_pdf_pages": []
+  },
+  {
+    "id": "Q044",
+    "question": "What was the Dividend per share (in USD) for Ritchie Bros. Auctioneers Incorporated according to the annual report (within the last period or at the end of the last period)? If data is not available, return 'N/A'.",
+    "reference": "0.27",
+    "pdf": "78c71282723c2d66216cbba13183d19349d302b8.pdf",
+    "page": 38,
+    "source_pdf_pages": [
+      38,
+      57,
+      117
+    ]
+  },
+  {
+    "id": "Q052",
+    "question": "Did Ritchie Bros. Auctioneers Incorporated mention any ongoing litigation or regulatory inquiries? If there is no mention, return False.",
+    "reference": "false",
+    "pdf": "78c71282723c2d66216cbba13183d19349d302b8.pdf",
+    "page": 37,
+    "source_pdf_pages": [
+      37,
+      126
+    ]
+  },
+  {
+    "id": "Q066",
+    "question": "Which leadership positions changed at Kelly Partners Group Holdings Limited in the reporting period? If data is not available, return 'N/A'. Give me the title of the position.",
+    "reference": "[\"Non-Executive Independent Director\"]",
+    "pdf": "c8af22dbedd95ee719273792e5964ab8bbba17b2.pdf",
+    "page": 14,
+    "source_pdf_pages": [
+      14,
+      17,
+      22
+    ]
+  },
+  {
+    "id": "Q067",
+    "question": "Did Trinity Place Holdings Inc. mention any mergers or acquisitions in the annual report? If there is no mention, return False.",
+    "reference": "true",
+    "pdf": "e229fc9f5c694e93b02ac312c231607a04e3e528.pdf",
+    "page": 41,
+    "source_pdf_pages": [
+      41,
+      44
+    ]
+  },
+  {
+    "id": "Q078",
+    "question": "Did Empire Company Limited announce any changes to its dividend policy in the annual report? If there is no mention, return False.",
+    "reference": "false",
+    "pdf": "8f5e29eea4f4a3e944707c71148439ca1fd4b2d8.pdf",
+    "page": 2,
+    "source_pdf_pages": [
+      2,
+      7,
+      18,
+      20
+    ]
+  },
+  {
+    "id": "Q079",
+    "question": "Which leadership positions changed at Duni Group in the reporting period? If data is not available, return 'N/A'. Give me the title of the position.",
+    "reference": "[\"Executive Vice President Commercial\", \"Executive Vice President, BioPak business area\", \"Executive Vice President Strategic Development, IT and Communication\"]",
+    "pdf": "e7a45fed0d7ebfd13a524e7fcc443318bac654e2.pdf",
+    "page": 78,
+    "source_pdf_pages": [
+      78,
+      84
+    ]
+  },
+  {
+    "id": "Q085",
+    "question": "What was the value of E-commerce active customer accounts of Mosaic Brands Limited at the end of the period listed in annual report? If data is not available, return 'N/A'.",
+    "reference": "N/A",
+    "pdf": "12bff07b957b1c8f8cad9d917ca18005720cce9b.pdf",
+    "page": null,
+    "source_pdf_pages": []
+  },
+  {
+    "id": "Q090",
+    "question": "Which leadership positions changed at Crombie REIT in the reporting period? If data is not available, return 'N/A'. Give me the title of the position.",
+    "reference": "[\"President & Chief Executive Officer\"]",
+    "pdf": "14fa568899745270c4ff2c10073f97f2c2e7764b.pdf",
+    "page": 4,
+    "source_pdf_pages": [
+      4,
+      6
+    ]
+  },
+  {
+    "id": "Q091",
+    "question": "Did Mosaic Brands Limited mention any mergers or acquisitions in the annual report? If there is no mention, return False.",
+    "reference": "true",
+    "pdf": "12bff07b957b1c8f8cad9d917ca18005720cce9b.pdf",
+    "page": 8,
+    "source_pdf_pages": [
+      8,
+      40
+    ]
+  },
+  {
+    "id": "Q093",
+    "question": "What was the value of Number of active software licenses of Rapid7 at the end of the period listed in annual report? If data is not available, return 'N/A'.",
+    "reference": "N/A",
+    "pdf": "99cd0edaf5bfb233e5f46ee55af837de0b725274.pdf",
+    "page": null,
+    "source_pdf_pages": []
+  },
+  {
+    "id": "Q100",
+    "question": "What was the Gross margin (%) for Ritchie Bros. Auctioneers Incorporated according to the annual report (within the last period or at the end of the last period)? If data is not available, return 'N/A'.",
+    "reference": "N/A",
+    "pdf": "78c71282723c2d66216cbba13183d19349d302b8.pdf",
+    "page": null,
+    "source_pdf_pages": []
+  }
+]
