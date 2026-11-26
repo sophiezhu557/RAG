@@ -1,20 +1,12 @@
 import logging
 from openai import OpenAI, APIError
+from schemas import TokenUsage
 
 logger = logging.getLogger(__name__)
 
 REWRITE_PROMPT = """
 You are viewing a financial report, and your task is to transform a natural language 
 question into one concise search query suitable for downstream semantic retrieval.
-
-example:
-question: What's Apple's total revenue in 2022?
-Identified companies: ["Apple"]
-query: total revenue in 2022.
-
-question: What was Compagnie Financière Tradition's adjusted consolidated revenue in 2022?
-Identified companies: ["Tradition"]
-query: adjusted consolidated revenue in 2022.
 
 Rules:
 1. Remove any company full names that are provided in Identified companies name list.
@@ -24,9 +16,28 @@ Rules:
    gross vs net, reported vs adjusted, and before vs after costs.
 5. Keep useful financial abbreviations and their meanings.
 6. Remove conversational wording and unnecessary phrases.
-7. Do not answer the question.
-8. Do not invent information or add unsupported assumptions.
-9. Return only ONE rewritten query as plain text.
+7. Remove generic source phrases such as "in the annual report" or
+   "according to the annual report" when retrieval is already scoped
+   to the identified company's report. Keep specific dates, fiscal
+   years, reporting periods, and named sections that narrow the search.
+8. Do not answer the question.
+9. Do not invent information or add unsupported assumptions.
+10. Return only ONE rewritten query as plain text.
+
+
+Example:
+question: Did Mosaic Brands Limited mention any mergers or acquisitions
+in the annual report? 
+identified companies: ["Mosaic Brands Limited"]
+query: mergers or acquisitions
+
+question: What's Apple's total revenue in 2022?
+Identified companies: ["Apple"]
+query: total revenue in 2022
+
+question: What was Compagnie Financière Tradition's adjusted consolidated revenue in 2022?
+Identified companies: ["Tradition"]
+query: adjusted consolidated revenue in 2022
 """
 
 def rewrite_query(
@@ -59,17 +70,16 @@ def rewrite_query(
             max_tokens=120
         )
 
+        usage = TokenUsage.from_api(response.usage)
         rewritten_query = response.choices[0].message.content
 
         if not rewritten_query or not rewritten_query.strip():
             logger.warning("Empty rewritten query. Using original.")
-            return question
+            return question, usage
 
-        return rewritten_query.strip()
+        return rewritten_query.strip(), usage
 
-    else:
-        print("No company names identified.")
-        return question
+    return question, TokenUsage()
 
 
 

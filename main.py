@@ -7,7 +7,7 @@ from openai import OpenAI
 from langgraph.graph import StateGraph, START, END
 from company_router import load_company_mapping, identify_companies
 from retrival import load_databases, retrieve
-from schemas import RAGResponse
+from schemas import RAGResponse, TokenUsage
 from prompts import SYSTEM_prompt, build_user_question
 from query_rewrite import rewrite_query
 
@@ -32,6 +32,8 @@ class RAGState(TypedDict, total=False):
     final_answer: str
     status: str
     message: str | None
+    rewrite_usage: TokenUsage
+    generation_usage: TokenUsage
 
 
 def query_rewritting_node(state: RAGState):
@@ -41,11 +43,12 @@ def query_rewritting_node(state: RAGState):
             company_mapping
         )
     
-    rewritten_query = rewrite_query(question, company_query_list, llm)
+    rewritten_query, usage = rewrite_query(question, company_query_list, llm)
     
     return {
         "company_query_list": company_query_list,
-        "rewritten_query": rewritten_query
+        "rewritten_query": rewritten_query,
+        "rewrite_usage": usage   
     }
 
 
@@ -90,19 +93,22 @@ def generation_node(state: RAGState):
     )
 
     final_answer = response.choices[0].message.content
+    usage = TokenUsage.from_api(response.usage)
     if (final_answer is None 
         or final_answer.strip().lower() in {"none", "not found", ""}
         ):
         return {
             "status": "NoAnswerFound",
             "message": "Answer not found in retrieved context.",
-            "final_answer": None
+            "final_answer": None,
+            "generation_usage": usage
         }
 
     return {
         "status": "Success",
         "message": None,
-        "final_answer": final_answer
+        "final_answer": final_answer,
+        "generation_usage": usage
     }
 
 # 4. Build LangGraph
@@ -171,7 +177,9 @@ def run_rag(question):
         company_query_list=companies,
         selected_chunks=result.get("selected_chunks", {}),
         status=result["status"],
-        message=message
+        message=message,
+        rewrite_usage=result.get("rewrite_usage", TokenUsage()),
+        generation_usage=result.get("generation_usage", TokenUsage()),
     )
 
 
