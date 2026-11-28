@@ -26,8 +26,7 @@ Rules:
 
 
 Example:
-question: Did Mosaic Brands Limited mention any mergers or acquisitions
-in the annual report? 
+question: Did Mosaic Brands Limited mention any mergers or acquisitions in the annual report? 
 identified companies: ["Mosaic Brands Limited"]
 query: mergers or acquisitions
 

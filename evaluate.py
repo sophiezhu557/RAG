@@ -2,6 +2,7 @@ import json
 import os
 from pathlib import Path
 import pandas as pd
+import time 
 from ragas import EvaluationDataset, evaluate
 from ragas.metrics import FactualCorrectness, Faithfulness, LLMContextRecall, LLMContextPrecisionWithReference
 from ragas.llms import LangchainLLMWrapper
@@ -10,11 +11,11 @@ from main import databases, run_rag
 
 
 EVAL_DIR = Path(__file__).resolve().parent / "evaluation"
-# QUESTION_FILE = EVAL_DIR / "test_questions.json"
-QUESTION_FILE = EVAL_DIR / "questions_with_ground_truth.json"
+QUESTION_FILE = EVAL_DIR / "test_questions.json"
+# QUESTION_FILE = EVAL_DIR / "questions_with_ground_truth.json"
 results_dir = EVAL_DIR / "results"
 results_dir.mkdir(exist_ok=True)
-results_path = results_dir / "ragas_results_with_ground_truth.csv"
+results_path = results_dir / "ragas_results.csv"
 retrieved_chunks_path = results_dir / "retrieved_chunks.csv"
 
 def add_tokens(first, second):
@@ -30,6 +31,8 @@ if __name__ == "__main__":
     scored_ids = []
 
     for question_id, item in enumerate(questions, start=1):
+        start_time = time.perf_counter()
+
         question = item["question"]
         expected_pdf = item["pdf"]
         expected_sha1 = Path(expected_pdf).stem
@@ -51,6 +54,7 @@ if __name__ == "__main__":
             "rag_input_tokens": 0,
             "rag_output_tokens": 0,
             "rag_total_tokens": 0,
+            "inference_latency": 0
         }
         runs.append(row)
 
@@ -60,6 +64,8 @@ if __name__ == "__main__":
             continue
 
         completion = run_rag(question)
+
+        inference_latency = time.perf_counter() - start_time
         rewrite_usage = completion.rewrite_usage
         generation_usage = completion.generation_usage
         matched_sha1s = {entry["sha1"] for entry in completion.company_query_list}
@@ -85,6 +91,7 @@ if __name__ == "__main__":
             rag_total_tokens=add_tokens(
                 rewrite_usage.total_tokens, generation_usage.total_tokens
             ),
+            inference_latency = round(inference_latency, 3),
         )
         print(f"[{question_id}/{len(questions)}] {completion.status}", flush=True)
 
